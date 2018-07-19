@@ -1,6 +1,6 @@
 {
   "name": "dycountryjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Dictionary to get country info.",
   "main": "index.html",
   "scripts": {
