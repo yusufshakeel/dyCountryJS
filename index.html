@@ -407,6 +407,32 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- phoneCode() ends here-->
 
+            <hr>
+
+            <!-- currencies() -->
+            <a name="currencies"></a>
+            <h4><a href="#currencies"><code>currencies()</code></a> returns the country currencies</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country currencies.</p>
+
+            <pre><code>obj.currencies('IN');</code></pre>
+
+            <pre><code>obj.currencies('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-currencies"
+                   aria-expanded="false"
+                   aria-controls="collapse-currencies">Output</a>
+            </div>
+            <div class="collapse" id="collapse-currencies">
+                <pre><code id="currencies-output"></code></pre>
+            </div>
+            <!-- currencies() ends here-->
+
 
         </div>
 
@@ -524,6 +550,11 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('phoneCode-output')
         .innerHTML = JSON.stringify(dyCountryObj.phoneCode('IN'), null, 2);
+
+    // currencies()
+    document
+        .getElementById('currencies-output')
+        .innerHTML = JSON.stringify(dyCountryObj.currencies('IN'), null, 2);
 
 </script>
 </body>

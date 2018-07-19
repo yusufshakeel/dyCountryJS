@@ -208,4 +208,20 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData[0], '91');
     });
 
+    /**
+     * get currencies() of a country using iso-alpha-2 code
+     */
+    it('should fetch country currencies by iso-alpha-2 code', () => {
+        let countryData = obj.currencies('IN');
+        assert.equal(countryData[0], 'INR');
+    });
+
+    /**
+     * get currencies() of a country using iso-alpha-3 code
+     */
+    it('should fetch country currencies by iso-alpha-3 code', () => {
+        let countryData = obj.currencies('IND');
+        assert.equal(countryData[0], 'INR');
+    });
+
 });
