@@ -5719,4 +5719,35 @@ class dyCountry {
         return result;
     }
 
+    /**
+     * This will return timezone data based on country
+     * iso-alpha-2 and iso-alpha-3 code
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @returns {*}
+     */
+    timezone(code) {
+        let result;
+
+        if (code.length === 2) {
+            result = this._data[code]['timezone'];
+        } else if (code.length === 3) {
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['timezone'];
+        } else {
+            return {error: 'Invalid code'};
+        }
+
+        let key = 'capital';
+
+        if (typeof key !== 'undefined') {
+            result = result[key];
+        }
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        }
+
+        return result;
+    }
+
 }

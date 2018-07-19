@@ -329,6 +329,32 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- tld() ends here-->
 
+            <hr>
+
+            <!-- timezone() -->
+            <a name="timezone"></a>
+            <h4><a href="#timezone"><code>timezone()</code></a> returns the country timezone for capital</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country timezone.</p>
+
+            <pre><code>obj.timezone('IN');</code></pre>
+
+            <pre><code>obj.timezone('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-timezone"
+                   aria-expanded="false"
+                   aria-controls="collapse-timezone">Output</a>
+            </div>
+            <div class="collapse" id="collapse-timezone">
+                <pre><code id="timezone-output"></code></pre>
+            </div>
+            <!-- timezone() ends here-->
+
 
         </div>
 
@@ -431,6 +457,11 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('tld-output')
         .innerHTML = JSON.stringify(dyCountryObj.tld('IN'), null, 2);
+
+    // timezone()
+    document
+        .getElementById('timezone-output')
+        .innerHTML = JSON.stringify(dyCountryObj.timezone('IN'), null, 2);
 
 </script>
 </body>

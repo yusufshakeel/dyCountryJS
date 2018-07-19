@@ -160,4 +160,20 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData, 'in');
     });
 
+    /**
+     * get timezone() of a country using iso-alpha-2 code
+     */
+    it('should fetch country timezone by iso-alpha-2 code', () => {
+        let countryData = obj.timezone('IN');
+        assert.equal(countryData, 'Asia/Kolkata');
+    });
+
+    /**
+     * get timezone() of a country using iso-alpha-3 code
+     */
+    it('should fetch country timezone by iso-alpha-3 code', () => {
+        let countryData = obj.timezone('IND');
+        assert.equal(countryData, 'Asia/Kolkata');
+    });
+
 });
