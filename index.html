@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dyCountryJS - Yusuf Shakeel</title>
+
+    <!-- twitter bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- dyScrollUpJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dyscrollupjs@1.1.4/css/dyscrollup.min.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center">
+                <h1>dyCountryJS</h1>
+                <p>Dictionary to get country info.</p>
+
+                <div class="text-center">
+                    <a class="btn btn-default btn-lg"
+                       href='https://github.com/yusufshakeel/dyCountryJS/releases'>Download</a>
+                    <a class="btn btn-default btn-lg" href='https://github.com/yusufshakeel/dyCountryJS'>GitHub</a>
+                </div>
+
+                <h4>Created by: <a href='https://github.com/yusufshakeel'>Yusuf Shakeel</a></h4>
+
+            </div>
+
+            <div class="text-center">
+                <h3>License</h3>
+                <p>It's free and released under <a
+                        href="https://github.com/yusufshakeel/dyCountryJS/blob/master/LICENSE">MIT
+                    License</a> Copyright (c) 2018 <a href="https://github.com/yusufshakeel">Yusuf Shakeel</a></p>
+            </div>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+
+            <h3 class="text-center">Getting Started</h3>
+
+            <hr>
+
+            <h4>Include the dyCountryJS file</h4>
+
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;dyCountryJS Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- some html goes here --&gt;
+
+&lt;!-- script --&gt;
+&lt;script src=&quot;path/to/dyCountry.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <br>
+
+            <h4>Instantiate an object</h4>
+
+            <p>Now, instantiate an object of the <code>dyCountry</code> class.</p>
+
+            <pre><code>var obj = new dyCountry();</code></pre>
+
+            <hr>
+
+            <h4>Config</h4>
+
+            <p>The constructor takes the following configurations.</p>
+
+            <pre><code>var config = {
+  flagDirPath: 'path/to/dist/flags'
+};
+var obj = new dyCountry(config);</code></pre>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Item</th>
+                        <th>Purpose</th>
+                    </tr>
+                    <tr>
+                        <td><code>fileDirPath</code></td>
+                        <td>
+                            (Optional) This is the complete path of the flag directory without trailing slash.
+                            <br>
+                            Example: https://example.com/path/to/dist/flags
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+
+            <h3 class="text-center">Methods</h3>
+
+            <hr>
+
+            <!-- get() -->
+            <a name="get"></a>
+            <h4><a href="#get"><code>get()</code></a> returns the country detail</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country information.</p>
+
+            <pre><code>obj.get('IN');</code></pre>
+
+            <pre><code>obj.get('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-get"
+                   aria-expanded="false"
+                   aria-controls="collapse-get">Output</a>
+            </div>
+            <div class="collapse" id="collapse-get">
+                <pre><code id="get-output"></code></pre>
+            </div>
+            <!-- get() ends here-->
+
+            <hr>
+
+            <!-- name() -->
+            <a name="name"></a>
+            <h4><a href="#name"><code>name()</code></a> returns the country name</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country name.</p>
+
+            <pre><code>obj.name('IN');</code></pre>
+
+            <pre><code>obj.name('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-name"
+                   aria-expanded="false"
+                   aria-controls="collapse-name">Output</a>
+            </div>
+            <div class="collapse" id="collapse-name">
+                <pre><code id="name-output"></code></pre>
+            </div>
+            <!-- name() ends here-->
+
+            <hr>
+
+            <!-- capital() -->
+            <a name="capital"></a>
+            <h4><a href="#capital"><code>capital()</code></a> returns the country capital</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country capital.</p>
+
+            <pre><code>obj.capital('IN');</code></pre>
+
+            <pre><code>obj.capital('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-capital"
+                   aria-expanded="false"
+                   aria-controls="collapse-capital">Output</a>
+            </div>
+            <div class="collapse" id="collapse-capital">
+                <pre><code id="capital-output"></code></pre>
+            </div>
+            <!-- capital() ends here-->
+
+            <hr>
+
+            <!-- flag() -->
+            <a name="flag"></a>
+            <h4><a href="#flag"><code>flag()</code></a> returns the country flag image path</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country flag image path.</p>
+
+            <pre><code>obj.flag('IN');</code></pre>
+
+            <pre><code>obj.flag('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-flag"
+                   aria-expanded="false"
+                   aria-controls="collapse-flag">Output</a>
+            </div>
+            <div class="collapse" id="collapse-flag">
+                <pre><code id="flag-output"></code></pre>
+                <p>Using the flag path in <code>img</code> HTML element: <img id="flag-output-img"></p>
+            </div>
+            <!-- flag() ends here-->
+
+            <hr>
+
+            <!-- iso() -->
+            <a name="iso"></a>
+            <h4><a href="#iso"><code>iso()</code></a> returns the country iso data</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country iso data.</p>
+
+            <pre><code>obj.iso('IN');</code></pre>
+
+            <pre><code>obj.iso('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-iso"
+                   aria-expanded="false"
+                   aria-controls="collapse-iso">Output</a>
+            </div>
+            <div class="collapse" id="collapse-iso">
+                <pre><code id="iso-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and key to the method and
+                it will return specify country iso data.</p>
+
+            <pre><code>obj.iso('IN', 'alpha3');</code></pre>
+
+            <pre><code>obj.iso('IND', 'alpha3');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-iso-2"
+                   aria-expanded="false"
+                   aria-controls="collapse-iso-2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-iso-2">
+                <pre><code id="iso-2-output"></code></pre>
+            </div>
+            <!-- iso() ends here-->
+
+            <hr>
+
+            <!-- continent() -->
+            <a name="continent"></a>
+            <h4><a href="#continent"><code>continent()</code></a> returns the country continent data</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country continent data.</p>
+
+            <pre><code>obj.continent('IN');</code></pre>
+
+            <pre><code>obj.continent('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-continent"
+                   aria-expanded="false"
+                   aria-controls="collapse-continent">Output</a>
+            </div>
+            <div class="collapse" id="collapse-continent">
+                <pre><code id="continent-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and key to the method and
+                it will return specify country continent data.</p>
+
+            <pre><code>obj.continent('IN', 'name');</code></pre>
+
+            <pre><code>obj.continent('IND', 'name');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-continent-2"
+                   aria-expanded="false"
+                   aria-controls="collapse-continent-2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-continent-2">
+                <pre><code id="continent-2-output"></code></pre>
+            </div>
+            <!-- continent() ends here-->
+
+            <hr>
+
+            <!-- tld() -->
+            <a name="tld"></a>
+            <h4><a href="#tld"><code>tld()</code></a> returns the country top level domain</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country tld.</p>
+
+            <pre><code>obj.tld('IN');</code></pre>
+
+            <pre><code>obj.tld('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-tld"
+                   aria-expanded="false"
+                   aria-controls="collapse-tld">Output</a>
+            </div>
+            <div class="collapse" id="collapse-tld">
+                <pre><code id="tld-output"></code></pre>
+            </div>
+            <!-- tld() ends here-->
+
+            <hr>
+
+            <!-- timezone() -->
+            <a name="timezone"></a>
+            <h4><a href="#timezone"><code>timezone()</code></a> returns the country timezone for capital</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country timezone.</p>
+
+            <pre><code>obj.timezone('IN');</code></pre>
+
+            <pre><code>obj.timezone('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-timezone"
+                   aria-expanded="false"
+                   aria-controls="collapse-timezone">Output</a>
+            </div>
+            <div class="collapse" id="collapse-timezone">
+                <pre><code id="timezone-output"></code></pre>
+            </div>
+            <!-- timezone() ends here-->
+
+            <hr>
+
+            <!-- fipsCode() -->
+            <a name="fipsCode"></a>
+            <h4><a href="#fipsCode"><code>fipsCode()</code></a> returns the country fips code</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country fips code.</p>
+
+            <pre><code>obj.fipsCode('IN');</code></pre>
+
+            <pre><code>obj.fipsCode('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-fipsCode"
+                   aria-expanded="false"
+                   aria-controls="collapse-fipsCode">Output</a>
+            </div>
+            <div class="collapse" id="collapse-fipsCode">
+                <pre><code id="fipsCode-output"></code></pre>
+            </div>
+            <!-- fipsCode() ends here-->
+
+            <hr>
+
+            <!-- phoneCode() -->
+            <a name="phoneCode"></a>
+            <h4><a href="#phoneCode"><code>phoneCode()</code></a> returns the country phone code</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country phone code.</p>
+
+            <pre><code>obj.phoneCode('IN');</code></pre>
+
+            <pre><code>obj.phoneCode('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-phoneCode"
+                   aria-expanded="false"
+                   aria-controls="collapse-phoneCode">Output</a>
+            </div>
+            <div class="collapse" id="collapse-phoneCode">
+                <pre><code id="phoneCode-output"></code></pre>
+            </div>
+            <!-- phoneCode() ends here-->
+
+            <hr>
+
+            <!-- currencies() -->
+            <a name="currencies"></a>
+            <h4><a href="#currencies"><code>currencies()</code></a> returns the country currencies</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country currencies.</p>
+
+            <pre><code>obj.currencies('IN');</code></pre>
+
+            <pre><code>obj.currencies('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-currencies"
+                   aria-expanded="false"
+                   aria-controls="collapse-currencies">Output</a>
+            </div>
+            <div class="collapse" id="collapse-currencies">
+                <pre><code id="currencies-output"></code></pre>
+            </div>
+            <!-- currencies() ends here-->
+
+            <hr>
+
+            <!-- languages() -->
+            <a name="languages"></a>
+            <h4><a href="#languages"><code>languages()</code></a> returns the country languages</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country languages.</p>
+
+            <pre><code>obj.languages('IN');</code></pre>
+
+            <pre><code>obj.languages('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-languages"
+                   aria-expanded="false"
+                   aria-controls="collapse-languages">Output</a>
+            </div>
+            <div class="collapse" id="collapse-languages">
+                <pre><code id="languages-output"></code></pre>
+            </div>
+            <!-- languages() ends here-->
+
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="text-center">
+                <h3>Donate</h3>
+                <p>Feeling generous &hearts; Buy me a cup of tea</p>
+                <p><a href="https://www.paypal.me/yusufshakeel">Donate via PayPal</a></p>
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p>Copyright &copy; Yusuf Shakeel</p>
+                <p>MIT License</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- javascript -->
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+<!-- dyScrollUpJS -->
+<script src="https://cdn.jsdelivr.net/npm/dyscrollupjs@1.1.4/js/dyscrollup.min.js"></script>
+<script>
+    $(function () {
+        dyscrollup.init({
+            showafter: 600,
+            scrolldelay: 500,
+            position: "right",
+            image: "https://cdn.jsdelivr.net/npm/dyscrollupjs@1.1.4/image/32.png",
+            shape: "square",
+            width: 32,
+            height: 32
+        });
+    })
+</script>
+
+<!-- script -->
+<script src="dist/js/dyCountry.min.js"></script>
+
+<script>
+    var config = {
+        flagDirPath: 'dist/flags'
+    };
+    var dyCountryObj = new dyCountry(config);
+
+    // get()
+    document
+        .getElementById('get-output')
+        .innerHTML = JSON.stringify(dyCountryObj.get('IN'), null, 2);
+
+    // name()
+    document
+        .getElementById('name-output')
+        .innerHTML = JSON.stringify(dyCountryObj.name('IN'), null, 2);
+
+    // capital()
+    document
+        .getElementById('capital-output')
+        .innerHTML = JSON.stringify(dyCountryObj.capital('IN'), null, 2);
+
+    // flag()
+    document
+        .getElementById('flag-output')
+        .innerHTML = JSON.stringify(dyCountryObj.flag('IN'), null, 2);
+    document
+        .getElementById('flag-output-img')
+        .setAttribute('src', dyCountryObj.flag('IN'));
+
+    // iso()
+    document
+        .getElementById('iso-output')
+        .innerHTML = JSON.stringify(dyCountryObj.iso('IN'), null, 2);
+    document
+        .getElementById('iso-2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.iso('IN', 'alpha3'), null, 2);
+
+    // continent()
+    document
+        .getElementById('continent-output')
+        .innerHTML = JSON.stringify(dyCountryObj.continent('IN'), null, 2);
+    document
+        .getElementById('continent-2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.continent('IN', 'name'), null, 2);
+
+    // tld()
+    document
+        .getElementById('tld-output')
+        .innerHTML = JSON.stringify(dyCountryObj.tld('IN'), null, 2);
+
+    // timezone()
+    document
+        .getElementById('timezone-output')
+        .innerHTML = JSON.stringify(dyCountryObj.timezone('IN'), null, 2);
+
+    // fipsCode()
+    document
+        .getElementById('fipsCode-output')
+        .innerHTML = JSON.stringify(dyCountryObj.fipsCode('IN'), null, 2);
+
+    // phoneCode()
+    document
+        .getElementById('phoneCode-output')
+        .innerHTML = JSON.stringify(dyCountryObj.phoneCode('IN'), null, 2);
+
+    // currencies()
+    document
+        .getElementById('currencies-output')
+        .innerHTML = JSON.stringify(dyCountryObj.currencies('IN'), null, 2);
+
+    // languages()
+    document
+        .getElementById('languages-output')
+        .innerHTML = JSON.stringify(dyCountryObj.languages('IN'), null, 2);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "7.7.2"
+before_install: npm install -g grunt-cli grunt grunt-babel grunt-contrib-uglify babel-core babel-preset-env mocha chai
+install: npm install
+script:
+  - npm run build
+  - npm run test
