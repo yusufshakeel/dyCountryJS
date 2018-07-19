@@ -144,4 +144,20 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData, 'Asia');
     });
 
+    /**
+     * get tld() of a country using iso-alpha-2 code
+     */
+    it('should fetch country tld by iso-alpha-2 code', () => {
+        let countryData = obj.tld('IN');
+        assert.equal(countryData, 'in');
+    });
+
+    /**
+     * get tld() of a country using iso-alpha-3 code
+     */
+    it('should fetch country tld by iso-alpha-3 code', () => {
+        let countryData = obj.tld('IND');
+        assert.equal(countryData, 'in');
+    });
+
 });

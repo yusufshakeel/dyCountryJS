@@ -303,6 +303,32 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- continent() ends here-->
 
+            <hr>
+
+            <!-- tld() -->
+            <a name="tld"></a>
+            <h4><a href="#tld"><code>tld()</code></a> returns the country top level domain</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country tld.</p>
+
+            <pre><code>obj.tld('IN');</code></pre>
+
+            <pre><code>obj.tld('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-tld"
+                   aria-expanded="false"
+                   aria-controls="collapse-tld">Output</a>
+            </div>
+            <div class="collapse" id="collapse-tld">
+                <pre><code id="tld-output"></code></pre>
+            </div>
+            <!-- tld() ends here-->
+
 
         </div>
 
@@ -400,6 +426,11 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('continent-2-output')
         .innerHTML = JSON.stringify(dyCountryObj.continent('IN', 'name'), null, 2);
+
+    // tld()
+    document
+        .getElementById('tld-output')
+        .innerHTML = JSON.stringify(dyCountryObj.tld('IN'), null, 2);
 
 </script>
 </body>
