@@ -21,7 +21,7 @@ describe('Testing dyCountryJS', () => {
 
     beforeEach(() => {
         obj = new dyCountry({
-            flagDirPath: 'path/to/dist/flags'
+            flagDir: 'path/to/dist/flags'
         });
     });
 

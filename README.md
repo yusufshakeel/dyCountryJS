@@ -5,7 +5,7 @@ Dictionary to get country info.
 ### Status
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yusufshakeel/dyCountryJS)
-[![npm version](https://img.shields.io/badge/npm-0.1.4-blue.svg)](https://www.npmjs.com/package/dycountryjs)
+[![npm version](https://img.shields.io/badge/npm-0.2.1-blue.svg)](https://www.npmjs.com/package/dycountryjs)
 [![Build Status](https://travis-ci.org/yusufshakeel/dyCountryJS.svg?branch=master)](https://travis-ci.org/yusufshakeel/dyCountryJS)
 [![](https://data.jsdelivr.com/v1/package/npm/dycountryjs/badge)](https://www.jsdelivr.com/package/npm/dycountryjs)
 
@@ -23,10 +23,13 @@ Check the `index.html` file of this project.
 
 ### How to use?
 
-1. Create an instance of dyCountry class.
+1. Create an instance of dyCountry class and pass an optional config.
 
 ```
-var obj = new dyCountry();
+var config = {
+  flagDir: 'path/to/dist/flags'
+};
+var obj = new dyCountry(config);
 ```
 
 2. Call method like ```get``` to fetch data of a country based on ISO-Alpha-2 or ISO-Alpha-3 code.
