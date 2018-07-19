@@ -13,7 +13,7 @@ Dictionary to get country info.
 ### Getting Started
 * Download the [latest release](https://github.com/yusufshakeel/dyCountryJS/releases) of the project.
 * Clone the repo: `git clone https://github.com/yusufshakeel/dyCountryJS.git`
-* Install via npm: `npm install --save dyCountryJS`
+* Install via npm: `npm install --save dycountryjs`
 * Use from jsDelivr CDN: `https://www.jsdelivr.com/package/npm/dycountryjs`
 
 
