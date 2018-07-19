@@ -224,4 +224,20 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData[0], 'INR');
     });
 
+    /**
+     * get languages() of a country using iso-alpha-2 code
+     */
+    it('should fetch country languages by iso-alpha-2 code', () => {
+        let countryData = obj.languages('IN');
+        assert.equal(countryData[0], 'en-IN');
+    });
+
+    /**
+     * get languages() of a country using iso-alpha-3 code
+     */
+    it('should fetch country languages by iso-alpha-3 code', () => {
+        let countryData = obj.languages('IND');
+        assert.equal(countryData[0], 'en-IN');
+    });
+
 });
