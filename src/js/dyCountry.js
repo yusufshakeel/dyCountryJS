@@ -5531,6 +5531,39 @@ class dyCountry {
     }
 
     /**
+     * This is a helper function to get the value based on the code and key.
+     *
+     * @param {string} code
+     * @param {string} param
+     * @param {string} key (optional)
+     * @returns {*}
+     * @private
+     */
+    _getDataByParam(code, param, key) {
+
+        let result;
+
+        if (code.length === 2) {
+            result = this._data[code][param];
+        } else if (code.length === 3) {
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]][param];
+        } else {
+            return {error: 'Invalid code'};
+        }
+
+        if (typeof key !== 'undefined') {
+            result = result[key];
+        }
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        }
+
+        return result;
+
+    }
+
+    /**
      * This will return country detail by country
      * iso-alpha-2 and iso-alpha-3 code.
      *
@@ -5555,6 +5588,8 @@ class dyCountry {
         let flag = this.flag(code);
         if (!flag.error) {
             result['flag'] = flag;
+        } else {
+            flag = null;
         }
 
         return result;
@@ -5568,21 +5603,7 @@ class dyCountry {
      * @returns {*}
      */
     name(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['name'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['name'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'name');
     }
 
     /**
@@ -5593,21 +5614,7 @@ class dyCountry {
      * @returns {*}
      */
     capital(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['capital'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['capital'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'capital');
     }
 
     /**
@@ -5619,25 +5626,7 @@ class dyCountry {
      * @returns {*}
      */
     iso(code, key) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['iso'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['iso'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof key !== 'undefined') {
-            result = result[key];
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'iso', key);
     }
 
     /**
@@ -5659,7 +5648,7 @@ class dyCountry {
         }
 
         // construct flag image file path
-        result = this._config.flagDirPath + "/" + result.toLowerCase() + ".png";
+        result = this._config.flagDir + "/" + result.toLowerCase() + ".png";
 
         return result;
     }
@@ -5673,25 +5662,7 @@ class dyCountry {
      * @returns {*}
      */
     continent(code, key) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['continent'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['continent'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof key !== 'undefined') {
-            result = result[key];
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'continent', key);
     }
 
     /**
@@ -5702,21 +5673,7 @@ class dyCountry {
      * @returns {*}
      */
     tld(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['topLevelDomain'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['topLevelDomain'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'topLevelDomain');
     }
 
     /**
@@ -5727,27 +5684,7 @@ class dyCountry {
      * @returns {*}
      */
     timezone(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['timezone'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['timezone'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        let key = 'capital';
-
-        if (typeof key !== 'undefined') {
-            result = result[key];
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'timezone', 'capital');
     }
 
     /**
@@ -5758,21 +5695,7 @@ class dyCountry {
      * @returns {*}
      */
     fipsCode(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['fipsCode'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['fipsCode'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'fipsCode');
     }
 
     /**
@@ -5783,21 +5706,7 @@ class dyCountry {
      * @returns {*}
      */
     phoneCode(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['phoneCode'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['phoneCode'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'phoneCode');
     }
 
     /**
@@ -5808,21 +5717,7 @@ class dyCountry {
      * @returns {*}
      */
     currencies(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['currencies'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['currencies'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'currencies');
     }
 
     /**
@@ -5833,21 +5728,7 @@ class dyCountry {
      * @returns {*}
      */
     languages(code) {
-        let result;
-
-        if (code.length === 2) {
-            result = this._data[code]['languages'];
-        } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['languages'];
-        } else {
-            return {error: 'Invalid code'};
-        }
-
-        if (typeof result === 'undefined') {
-            return {error: 'No match found'};
-        }
-
-        return result;
+        return this._getDataByParam(code, 'languages');
     }
 
 }
