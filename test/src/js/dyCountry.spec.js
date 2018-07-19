@@ -49,6 +49,22 @@ describe('Testing dyCountryJS', () => {
     });
 
     /**
+     * get country() country name using iso-alpha-2 code
+     */
+    it('should fetch country name by iso-alpha-2 code', () => {
+        let countryData = obj.country('IN');
+        assert.equal(countryData, 'India');
+    });
+
+    /**
+     * get country() country name using iso-alpha-23 code
+     */
+    it('should fetch country name by iso-alpha-3 code', () => {
+        let countryData = obj.country('IND');
+        assert.equal(countryData, 'India');
+    });
+
+    /**
      * get capital() of a country using iso-alpha-2 code
      */
     it('should fetch country capital by iso-alpha-2 code', () => {

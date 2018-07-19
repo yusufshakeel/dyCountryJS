@@ -108,7 +108,7 @@ var obj = new dyCountry(config);</code></pre>
 
             <!-- get() -->
             <a name="get"></a>
-            <h4><a href="#get"><code>get()</code></a> country details</h4>
+            <h4><a href="#get"><code>get()</code></a> returns the country detail</h4>
 
             <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
                 it will return the country information.</p>
@@ -132,9 +132,35 @@ var obj = new dyCountry(config);</code></pre>
 
             <hr>
 
+            <!-- country() -->
+            <a name="country"></a>
+            <h4><a href="#country"><code>country()</code></a> returns the country name</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country name.</p>
+
+            <pre><code>obj.country('IN');</code></pre>
+
+            <pre><code>obj.country('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-country"
+                   aria-expanded="false"
+                   aria-controls="collapse-country">Output</a>
+            </div>
+            <div class="collapse" id="collapse-country">
+                <pre><code id="country-output"></code></pre>
+            </div>
+            <!-- country() ends here-->
+
+            <hr>
+
             <!-- capital() -->
             <a name="capital"></a>
-            <h4><a href="#capital"><code>capital()</code></a> country capital</h4>
+            <h4><a href="#capital"><code>capital()</code></a> returns the country capital</h4>
 
             <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
                 it will return the country capital.</p>
@@ -182,6 +208,53 @@ var obj = new dyCountry(config);</code></pre>
                 <p>Using the flag path in <code>img</code> HTML element: <img id="flag-output-img"></p>
             </div>
             <!-- flag() ends here-->
+
+            <hr>
+
+            <!-- iso() -->
+            <a name="iso"></a>
+            <h4><a href="#iso"><code>iso()</code></a> returns the country iso data</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country iso data.</p>
+
+            <pre><code>obj.iso('IN');</code></pre>
+
+            <pre><code>obj.iso('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-iso"
+                   aria-expanded="false"
+                   aria-controls="collapse-iso">Output</a>
+            </div>
+            <div class="collapse" id="collapse-iso">
+                <pre><code id="iso-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and type to the method and
+                it will return specify country iso data.</p>
+
+            <pre><code>obj.iso('IN', 'alpha3');</code></pre>
+
+            <pre><code>obj.iso('IND', 'alpha3');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-iso-2"
+                   aria-expanded="false"
+                   aria-controls="collapse-iso-2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-iso-2">
+                <pre><code id="iso-2-output"></code></pre>
+            </div>
+            <!-- iso() ends here-->
 
 
         </div>
@@ -247,6 +320,11 @@ var obj = new dyCountry(config);</code></pre>
         .getElementById('get-output')
         .innerHTML = JSON.stringify(dyCountryObj.get('IN'), null, 2);
 
+    // country()
+    document
+        .getElementById('country-output')
+        .innerHTML = JSON.stringify(dyCountryObj.country('IN'), null, 2);
+
     // capital()
     document
         .getElementById('capital-output')
@@ -259,6 +337,14 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('flag-output-img')
         .setAttribute('src', dyCountryObj.flag('IN'));
+
+    // iso()
+    document
+        .getElementById('iso-output')
+        .innerHTML = JSON.stringify(dyCountryObj.iso('IN'), null, 2);
+    document
+        .getElementById('iso-2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.iso('IN', 'alpha3'), null, 2);
 </script>
 </body>
 </html>

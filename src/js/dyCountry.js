@@ -5556,6 +5556,31 @@ class dyCountry {
     }
 
     /**
+     * This will return the name of the country
+     * iso-alpha-2 and iso-alpha-3 code.
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @returns {*}
+     */
+    country(code) {
+        let result;
+
+        if (code.length === 2) {
+            result = this._data[code]['country'];
+        } else if (code.length === 3) {
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['country'];
+        } else {
+            return {error: 'Invalid code'};
+        }
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        }
+
+        return result;
+    }
+
+    /**
      * This will return the capital of the country
      * iso-alpha-2 and iso-alpha-3 code.
      *
