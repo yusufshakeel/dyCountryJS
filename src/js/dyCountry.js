@@ -28,8 +28,7 @@ class dyCountry {
                 "name": "Afghanistan",
                 "capital": "Kabul",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "AF",
@@ -49,8 +48,7 @@ class dyCountry {
                 "name": "Aland",
                 "capital": "Mariehamn",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "AX",
@@ -70,8 +68,7 @@ class dyCountry {
                 "name": "Albania",
                 "capital": "Tirana",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "AL",
@@ -91,8 +88,7 @@ class dyCountry {
                 "name": "Algeria",
                 "capital": "Algiers",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "DZ",
@@ -112,8 +108,7 @@ class dyCountry {
                 "name": "American Samoa",
                 "capital": "Pago Pago",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "AS",
@@ -133,8 +128,7 @@ class dyCountry {
                 "name": "Andorra",
                 "capital": "Andorra la Vella",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "AD",
@@ -154,8 +148,7 @@ class dyCountry {
                 "name": "Angola",
                 "capital": "Luanda",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "AO",
@@ -175,8 +168,7 @@ class dyCountry {
                 "name": "Anguilla",
                 "capital": "The Valley",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "AI",
@@ -196,8 +188,7 @@ class dyCountry {
                 "name": "Antarctica",
                 "capital": "",
                 "continent": {
-                    "code": "AN",
-                    "name": "Antarctica"
+                    "code": "AN"
                 },
                 "iso": {
                     "alpha2": "AQ",
@@ -217,8 +208,7 @@ class dyCountry {
                 "name": "Antigua and Barbuda",
                 "capital": "St. John's",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "AG",
@@ -238,8 +228,7 @@ class dyCountry {
                 "name": "Argentina",
                 "capital": "Buenos Aires",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "AR",
@@ -259,8 +248,7 @@ class dyCountry {
                 "name": "Armenia",
                 "capital": "Yerevan",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "AM",
@@ -280,8 +268,7 @@ class dyCountry {
                 "name": "Aruba",
                 "capital": "Oranjestad",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "AW",
@@ -301,8 +288,7 @@ class dyCountry {
                 "name": "Australia",
                 "capital": "Canberra",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "AU",
@@ -322,8 +308,7 @@ class dyCountry {
                 "name": "Austria",
                 "capital": "Vienna",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "AT",
@@ -343,8 +328,7 @@ class dyCountry {
                 "name": "Azerbaijan",
                 "capital": "Baku",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "AZ",
@@ -364,8 +348,7 @@ class dyCountry {
                 "name": "Bahamas",
                 "capital": "Nassau",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "BS",
@@ -385,8 +368,7 @@ class dyCountry {
                 "name": "Bahrain",
                 "capital": "Manama",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "BH",
@@ -406,8 +388,7 @@ class dyCountry {
                 "name": "Bangladesh",
                 "capital": "Dhaka",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "BD",
@@ -427,8 +408,7 @@ class dyCountry {
                 "name": "Barbados",
                 "capital": "Bridgetown",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "BB",
@@ -448,8 +428,7 @@ class dyCountry {
                 "name": "Belarus",
                 "capital": "Minsk",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "BY",
@@ -469,8 +448,7 @@ class dyCountry {
                 "name": "Belgium",
                 "capital": "Brussels",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "BE",
@@ -490,8 +468,7 @@ class dyCountry {
                 "name": "Belize",
                 "capital": "Belmopan",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "BZ",
@@ -511,8 +488,7 @@ class dyCountry {
                 "name": "Benin",
                 "capital": "Porto-Novo",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "BJ",
@@ -532,8 +508,7 @@ class dyCountry {
                 "name": "Bermuda",
                 "capital": "Hamilton",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "BM",
@@ -553,8 +528,7 @@ class dyCountry {
                 "name": "Bhutan",
                 "capital": "Thimphu",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "BT",
@@ -574,8 +548,7 @@ class dyCountry {
                 "name": "Bolivia",
                 "capital": "Sucre",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "BO",
@@ -595,8 +568,7 @@ class dyCountry {
                 "name": "Bonaire",
                 "capital": "",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "BQ",
@@ -616,8 +588,7 @@ class dyCountry {
                 "name": "Bosnia and Herzegovina",
                 "capital": "Sarajevo",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "BA",
@@ -637,8 +608,7 @@ class dyCountry {
                 "name": "Botswana",
                 "capital": "Gaborone",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "BW",
@@ -658,8 +628,7 @@ class dyCountry {
                 "name": "Bouvet Island",
                 "capital": "",
                 "continent": {
-                    "code": "AN",
-                    "name": "Antarctica"
+                    "code": "AN"
                 },
                 "iso": {
                     "alpha2": "BV",
@@ -679,8 +648,7 @@ class dyCountry {
                 "name": "Brazil",
                 "capital": "Brasilia",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "BR",
@@ -700,8 +668,7 @@ class dyCountry {
                 "name": "British Indian Ocean Territory",
                 "capital": "Diego Garcia",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "IO",
@@ -721,8 +688,7 @@ class dyCountry {
                 "name": "British Virgin Islands",
                 "capital": "Road Town",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "VG",
@@ -742,8 +708,7 @@ class dyCountry {
                 "name": "Brunei",
                 "capital": "Bandar Seri Begawan",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "BN",
@@ -763,8 +728,7 @@ class dyCountry {
                 "name": "Bulgaria",
                 "capital": "Sofia",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "BG",
@@ -784,8 +748,7 @@ class dyCountry {
                 "name": "Burkina Faso",
                 "capital": "Ouagadougou",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "BF",
@@ -805,8 +768,7 @@ class dyCountry {
                 "name": "Burundi",
                 "capital": "Bujumbura",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "BI",
@@ -826,8 +788,7 @@ class dyCountry {
                 "name": "Cambodia",
                 "capital": "Phnom Penh",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "KH",
@@ -847,8 +808,7 @@ class dyCountry {
                 "name": "Cameroon",
                 "capital": "Yaounde",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "CM",
@@ -868,8 +828,7 @@ class dyCountry {
                 "name": "Canada",
                 "capital": "Ottawa",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "CA",
@@ -889,8 +848,7 @@ class dyCountry {
                 "name": "Cape Verde",
                 "capital": "Praia",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "CV",
@@ -910,8 +868,7 @@ class dyCountry {
                 "name": "Cayman Islands",
                 "capital": "George Town",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "KY",
@@ -931,8 +888,7 @@ class dyCountry {
                 "name": "Central African Republic",
                 "capital": "Bangui",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "CF",
@@ -952,8 +908,7 @@ class dyCountry {
                 "name": "Chad",
                 "capital": "N'Djamena",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "TD",
@@ -973,8 +928,7 @@ class dyCountry {
                 "name": "Chile",
                 "capital": "Santiago",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "CL",
@@ -994,8 +948,7 @@ class dyCountry {
                 "name": "China",
                 "capital": "Beijing",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "CN",
@@ -1015,8 +968,7 @@ class dyCountry {
                 "name": "Christmas Island",
                 "capital": "Flying Fish Cove",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "CX",
@@ -1036,8 +988,7 @@ class dyCountry {
                 "name": "Cocos [Keeling] Islands",
                 "capital": "West Island",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "CC",
@@ -1057,8 +1008,7 @@ class dyCountry {
                 "name": "Colombia",
                 "capital": "Bogota",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "CO",
@@ -1078,8 +1028,7 @@ class dyCountry {
                 "name": "Comoros",
                 "capital": "Moroni",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "KM",
@@ -1099,8 +1048,7 @@ class dyCountry {
                 "name": "Cook Islands",
                 "capital": "Avarua",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "CK",
@@ -1120,8 +1068,7 @@ class dyCountry {
                 "name": "Costa Rica",
                 "capital": "San Jose",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "CR",
@@ -1141,8 +1088,7 @@ class dyCountry {
                 "name": "Croatia",
                 "capital": "Zagreb",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "HR",
@@ -1162,8 +1108,7 @@ class dyCountry {
                 "name": "Cuba",
                 "capital": "Havana",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "CU",
@@ -1183,8 +1128,7 @@ class dyCountry {
                 "name": "Curacao",
                 "capital": " Willemstad",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "CW",
@@ -1204,8 +1148,7 @@ class dyCountry {
                 "name": "Cyprus",
                 "capital": "Nicosia",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "CY",
@@ -1225,8 +1168,7 @@ class dyCountry {
                 "name": "Czech Republic",
                 "capital": "Prague",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "CZ",
@@ -1246,8 +1188,7 @@ class dyCountry {
                 "name": "Democratic Republic of the Congo",
                 "capital": "Kinshasa",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "CD",
@@ -1267,8 +1208,7 @@ class dyCountry {
                 "name": "Denmark",
                 "capital": "Copenhagen",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "DK",
@@ -1288,8 +1228,7 @@ class dyCountry {
                 "name": "Djibouti",
                 "capital": "Djibouti",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "DJ",
@@ -1309,8 +1248,7 @@ class dyCountry {
                 "name": "Dominica",
                 "capital": "Roseau",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "DM",
@@ -1330,8 +1268,7 @@ class dyCountry {
                 "name": "Dominican Republic",
                 "capital": "Santo Domingo",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "DO",
@@ -1351,8 +1288,7 @@ class dyCountry {
                 "name": "East Timor",
                 "capital": "Dili",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "TL",
@@ -1372,8 +1308,7 @@ class dyCountry {
                 "name": "Ecuador",
                 "capital": "Quito",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "EC",
@@ -1393,8 +1328,7 @@ class dyCountry {
                 "name": "Egypt",
                 "capital": "Cairo",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "EG",
@@ -1414,8 +1348,7 @@ class dyCountry {
                 "name": "El Salvador",
                 "capital": "San Salvador",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "SV",
@@ -1435,8 +1368,7 @@ class dyCountry {
                 "name": "Equatorial Guinea",
                 "capital": "Malabo",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "GQ",
@@ -1456,8 +1388,7 @@ class dyCountry {
                 "name": "Eritrea",
                 "capital": "Asmara",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ER",
@@ -1477,8 +1408,7 @@ class dyCountry {
                 "name": "Estonia",
                 "capital": "Tallinn",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "EE",
@@ -1498,8 +1428,7 @@ class dyCountry {
                 "name": "Ethiopia",
                 "capital": "Addis Ababa",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ET",
@@ -1519,8 +1448,7 @@ class dyCountry {
                 "name": "Falkland Islands",
                 "capital": "Stanley",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "FK",
@@ -1540,8 +1468,7 @@ class dyCountry {
                 "name": "Faroe Islands",
                 "capital": "Torshavn",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "FO",
@@ -1561,8 +1488,7 @@ class dyCountry {
                 "name": "Fiji",
                 "capital": "Suva",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "FJ",
@@ -1582,8 +1508,7 @@ class dyCountry {
                 "name": "Finland",
                 "capital": "Helsinki",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "FI",
@@ -1603,8 +1528,7 @@ class dyCountry {
                 "name": "France",
                 "capital": "Paris",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "FR",
@@ -1624,8 +1548,7 @@ class dyCountry {
                 "name": "French Guiana",
                 "capital": "Cayenne",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "GF",
@@ -1645,8 +1568,7 @@ class dyCountry {
                 "name": "French Polynesia",
                 "capital": "Papeete",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "PF",
@@ -1666,8 +1588,7 @@ class dyCountry {
                 "name": "French Southern Territories",
                 "capital": "Port-aux-Francais",
                 "continent": {
-                    "code": "AN",
-                    "name": "Antarctica"
+                    "code": "AN"
                 },
                 "iso": {
                     "alpha2": "TF",
@@ -1687,8 +1608,7 @@ class dyCountry {
                 "name": "Gabon",
                 "capital": "Libreville",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "GA",
@@ -1708,8 +1628,7 @@ class dyCountry {
                 "name": "Gambia",
                 "capital": "Banjul",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "GM",
@@ -1729,8 +1648,7 @@ class dyCountry {
                 "name": "Georgia",
                 "capital": "Tbilisi",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "GE",
@@ -1750,8 +1668,7 @@ class dyCountry {
                 "name": "Germany",
                 "capital": "Berlin",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "DE",
@@ -1771,8 +1688,7 @@ class dyCountry {
                 "name": "Ghana",
                 "capital": "Accra",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "GH",
@@ -1792,8 +1708,7 @@ class dyCountry {
                 "name": "Gibraltar",
                 "capital": "Gibraltar",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "GI",
@@ -1813,8 +1728,7 @@ class dyCountry {
                 "name": "Greece",
                 "capital": "Athens",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "GR",
@@ -1834,8 +1748,7 @@ class dyCountry {
                 "name": "Greenland",
                 "capital": "Nuuk",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "GL",
@@ -1855,8 +1768,7 @@ class dyCountry {
                 "name": "Grenada",
                 "capital": "St. George's",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "GD",
@@ -1876,8 +1788,7 @@ class dyCountry {
                 "name": "Guadeloupe",
                 "capital": "Basse-Terre",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "GP",
@@ -1897,8 +1808,7 @@ class dyCountry {
                 "name": "Guam",
                 "capital": "Hagatna",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "GU",
@@ -1918,8 +1828,7 @@ class dyCountry {
                 "name": "Guatemala",
                 "capital": "Guatemala City",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "GT",
@@ -1939,8 +1848,7 @@ class dyCountry {
                 "name": "Guernsey",
                 "capital": "St Peter Port",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "GG",
@@ -1960,8 +1868,7 @@ class dyCountry {
                 "name": "Guinea",
                 "capital": "Conakry",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "GN",
@@ -1981,8 +1888,7 @@ class dyCountry {
                 "name": "Guinea-Bissau",
                 "capital": "Bissau",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "GW",
@@ -2002,8 +1908,7 @@ class dyCountry {
                 "name": "Guyana",
                 "capital": "Georgetown",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "GY",
@@ -2023,8 +1928,7 @@ class dyCountry {
                 "name": "Haiti",
                 "capital": "Port-au-Prince",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "HT",
@@ -2044,8 +1948,7 @@ class dyCountry {
                 "name": "Heard Island and McDonald Islands",
                 "capital": "",
                 "continent": {
-                    "code": "AN",
-                    "name": "Antarctica"
+                    "code": "AN"
                 },
                 "iso": {
                     "alpha2": "HM",
@@ -2065,8 +1968,7 @@ class dyCountry {
                 "name": "Honduras",
                 "capital": "Tegucigalpa",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "HN",
@@ -2086,8 +1988,7 @@ class dyCountry {
                 "name": "Hong Kong",
                 "capital": "Hong Kong",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "HK",
@@ -2107,8 +2008,7 @@ class dyCountry {
                 "name": "Hungary",
                 "capital": "Budapest",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "HU",
@@ -2128,8 +2028,7 @@ class dyCountry {
                 "name": "Iceland",
                 "capital": "Reykjavik",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "IS",
@@ -2149,8 +2048,7 @@ class dyCountry {
                 "name": "India",
                 "capital": "New Delhi",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "IN",
@@ -2170,8 +2068,7 @@ class dyCountry {
                 "name": "Indonesia",
                 "capital": "Jakarta",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "ID",
@@ -2191,8 +2088,7 @@ class dyCountry {
                 "name": "Iran",
                 "capital": "Tehran",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "IR",
@@ -2212,8 +2108,7 @@ class dyCountry {
                 "name": "Iraq",
                 "capital": "Baghdad",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "IQ",
@@ -2233,8 +2128,7 @@ class dyCountry {
                 "name": "Ireland",
                 "capital": "Dublin",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "IE",
@@ -2254,8 +2148,7 @@ class dyCountry {
                 "name": "Isle of Man",
                 "capital": "Douglas, Isle of Man",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "IM",
@@ -2275,8 +2168,7 @@ class dyCountry {
                 "name": "Israel",
                 "capital": "Jerusalem",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "IL",
@@ -2296,8 +2188,7 @@ class dyCountry {
                 "name": "Italy",
                 "capital": "Rome",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "IT",
@@ -2317,8 +2208,7 @@ class dyCountry {
                 "name": "Ivory Coast",
                 "capital": "Yamoussoukro",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "CI",
@@ -2338,8 +2228,7 @@ class dyCountry {
                 "name": "Jamaica",
                 "capital": "Kingston",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "JM",
@@ -2359,8 +2248,7 @@ class dyCountry {
                 "name": "Japan",
                 "capital": "Tokyo",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "JP",
@@ -2380,8 +2268,7 @@ class dyCountry {
                 "name": "Jersey",
                 "capital": "Saint Helier",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "JE",
@@ -2401,8 +2288,7 @@ class dyCountry {
                 "name": "Jordan",
                 "capital": "Amman",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "JO",
@@ -2422,8 +2308,7 @@ class dyCountry {
                 "name": "Kazakhstan",
                 "capital": "Astana",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "KZ",
@@ -2443,8 +2328,7 @@ class dyCountry {
                 "name": "Kenya",
                 "capital": "Nairobi",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "KE",
@@ -2464,8 +2348,7 @@ class dyCountry {
                 "name": "Kiribati",
                 "capital": "Tarawa",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "KI",
@@ -2485,8 +2368,7 @@ class dyCountry {
                 "name": "Kosovo",
                 "capital": "Pristina",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "XK",
@@ -2506,8 +2388,7 @@ class dyCountry {
                 "name": "Kuwait",
                 "capital": "Kuwait City",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "KW",
@@ -2527,8 +2408,7 @@ class dyCountry {
                 "name": "Kyrgyzstan",
                 "capital": "Bishkek",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "KG",
@@ -2548,8 +2428,7 @@ class dyCountry {
                 "name": "Laos",
                 "capital": "Vientiane",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "LA",
@@ -2569,8 +2448,7 @@ class dyCountry {
                 "name": "Latvia",
                 "capital": "Riga",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "LV",
@@ -2590,8 +2468,7 @@ class dyCountry {
                 "name": "Lebanon",
                 "capital": "Beirut",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "LB",
@@ -2611,8 +2488,7 @@ class dyCountry {
                 "name": "Lesotho",
                 "capital": "Maseru",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "LS",
@@ -2632,8 +2508,7 @@ class dyCountry {
                 "name": "Liberia",
                 "capital": "Monrovia",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "LR",
@@ -2653,8 +2528,7 @@ class dyCountry {
                 "name": "Libya",
                 "capital": "Tripolis",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "LY",
@@ -2674,8 +2548,7 @@ class dyCountry {
                 "name": "Liechtenstein",
                 "capital": "Vaduz",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "LI",
@@ -2695,8 +2568,7 @@ class dyCountry {
                 "name": "Lithuania",
                 "capital": "Vilnius",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "LT",
@@ -2716,8 +2588,7 @@ class dyCountry {
                 "name": "Luxembourg",
                 "capital": "Luxembourg",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "LU",
@@ -2737,8 +2608,7 @@ class dyCountry {
                 "name": "Macao",
                 "capital": "Macao",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "MO",
@@ -2758,8 +2628,7 @@ class dyCountry {
                 "name": "Macedonia",
                 "capital": "Skopje",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "MK",
@@ -2779,8 +2648,7 @@ class dyCountry {
                 "name": "Madagascar",
                 "capital": "Antananarivo",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "MG",
@@ -2800,8 +2668,7 @@ class dyCountry {
                 "name": "Malawi",
                 "capital": "Lilongwe",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "MW",
@@ -2821,8 +2688,7 @@ class dyCountry {
                 "name": "Malaysia",
                 "capital": "Kuala Lumpur",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "MY",
@@ -2842,8 +2708,7 @@ class dyCountry {
                 "name": "Maldives",
                 "capital": "Male",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "MV",
@@ -2863,8 +2728,7 @@ class dyCountry {
                 "name": "Mali",
                 "capital": "Bamako",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ML",
@@ -2884,8 +2748,7 @@ class dyCountry {
                 "name": "Malta",
                 "capital": "Valletta",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "MT",
@@ -2905,8 +2768,7 @@ class dyCountry {
                 "name": "Marshall Islands",
                 "capital": "Majuro",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "MH",
@@ -2926,8 +2788,7 @@ class dyCountry {
                 "name": "Martinique",
                 "capital": "Fort-de-France",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "MQ",
@@ -2947,8 +2808,7 @@ class dyCountry {
                 "name": "Mauritania",
                 "capital": "Nouakchott",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "MR",
@@ -2968,8 +2828,7 @@ class dyCountry {
                 "name": "Mauritius",
                 "capital": "Port Louis",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "MU",
@@ -2989,8 +2848,7 @@ class dyCountry {
                 "name": "Mayotte",
                 "capital": "Mamoudzou",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "YT",
@@ -3010,8 +2868,7 @@ class dyCountry {
                 "name": "Mexico",
                 "capital": "Mexico City",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "MX",
@@ -3031,8 +2888,7 @@ class dyCountry {
                 "name": "Micronesia",
                 "capital": "Palikir",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "FM",
@@ -3052,8 +2908,7 @@ class dyCountry {
                 "name": "Moldova",
                 "capital": "Chisinau",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "MD",
@@ -3073,8 +2928,7 @@ class dyCountry {
                 "name": "Monaco",
                 "capital": "Monaco",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "MC",
@@ -3094,8 +2948,7 @@ class dyCountry {
                 "name": "Mongolia",
                 "capital": "Ulan Bator",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "MN",
@@ -3115,8 +2968,7 @@ class dyCountry {
                 "name": "Montenegro",
                 "capital": "Podgorica",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "ME",
@@ -3136,8 +2988,7 @@ class dyCountry {
                 "name": "Montserrat",
                 "capital": "Plymouth",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "MS",
@@ -3157,8 +3008,7 @@ class dyCountry {
                 "name": "Morocco",
                 "capital": "Rabat",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "MA",
@@ -3178,8 +3028,7 @@ class dyCountry {
                 "name": "Mozambique",
                 "capital": "Maputo",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "MZ",
@@ -3199,8 +3048,7 @@ class dyCountry {
                 "name": "Myanmar [Burma]",
                 "capital": "Nay Pyi Taw",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "MM",
@@ -3220,8 +3068,7 @@ class dyCountry {
                 "name": "Namibia",
                 "capital": "Windhoek",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "NA",
@@ -3241,8 +3088,7 @@ class dyCountry {
                 "name": "Nauru",
                 "capital": "Yaren",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "NR",
@@ -3262,8 +3108,7 @@ class dyCountry {
                 "name": "Nepal",
                 "capital": "Kathmandu",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "NP",
@@ -3283,8 +3128,7 @@ class dyCountry {
                 "name": "Netherlands",
                 "capital": "Amsterdam",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "NL",
@@ -3304,8 +3148,7 @@ class dyCountry {
                 "name": "New Caledonia",
                 "capital": "Noumea",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "NC",
@@ -3325,8 +3168,7 @@ class dyCountry {
                 "name": "New Zealand",
                 "capital": "Wellington",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "NZ",
@@ -3346,8 +3188,7 @@ class dyCountry {
                 "name": "Nicaragua",
                 "capital": "Managua",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "NI",
@@ -3367,8 +3208,7 @@ class dyCountry {
                 "name": "Niger",
                 "capital": "Niamey",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "NE",
@@ -3388,8 +3228,7 @@ class dyCountry {
                 "name": "Nigeria",
                 "capital": "Abuja",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "NG",
@@ -3409,8 +3248,7 @@ class dyCountry {
                 "name": "Niue",
                 "capital": "Alofi",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "NU",
@@ -3430,8 +3268,7 @@ class dyCountry {
                 "name": "Norfolk Island",
                 "capital": "Kingston",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "NF",
@@ -3451,8 +3288,7 @@ class dyCountry {
                 "name": "North Korea",
                 "capital": "Pyongyang",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "KP",
@@ -3472,8 +3308,7 @@ class dyCountry {
                 "name": "Northern Mariana Islands",
                 "capital": "Saipan",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "MP",
@@ -3493,8 +3328,7 @@ class dyCountry {
                 "name": "Norway",
                 "capital": "Oslo",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "NO",
@@ -3514,8 +3348,7 @@ class dyCountry {
                 "name": "Oman",
                 "capital": "Muscat",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "OM",
@@ -3535,8 +3368,7 @@ class dyCountry {
                 "name": "Pakistan",
                 "capital": "Islamabad",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "PK",
@@ -3556,8 +3388,7 @@ class dyCountry {
                 "name": "Palau",
                 "capital": "Melekeok",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "PW",
@@ -3577,8 +3408,7 @@ class dyCountry {
                 "name": "Palestine",
                 "capital": "East Jerusalem",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "PS",
@@ -3598,8 +3428,7 @@ class dyCountry {
                 "name": "Panama",
                 "capital": "Panama City",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "PA",
@@ -3619,8 +3448,7 @@ class dyCountry {
                 "name": "Papua New Guinea",
                 "capital": "Port Moresby",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "PG",
@@ -3640,8 +3468,7 @@ class dyCountry {
                 "name": "Paraguay",
                 "capital": "Asuncion",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "PY",
@@ -3661,8 +3488,7 @@ class dyCountry {
                 "name": "Peru",
                 "capital": "Lima",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "PE",
@@ -3682,8 +3508,7 @@ class dyCountry {
                 "name": "Philippines",
                 "capital": "Manila",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "PH",
@@ -3703,8 +3528,7 @@ class dyCountry {
                 "name": "Pitcairn Islands",
                 "capital": "Adamstown",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "PN",
@@ -3724,8 +3548,7 @@ class dyCountry {
                 "name": "Poland",
                 "capital": "Warsaw",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "PL",
@@ -3745,8 +3568,7 @@ class dyCountry {
                 "name": "Portugal",
                 "capital": "Lisbon",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "PT",
@@ -3766,8 +3588,7 @@ class dyCountry {
                 "name": "Puerto Rico",
                 "capital": "San Juan",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "PR",
@@ -3787,8 +3608,7 @@ class dyCountry {
                 "name": "Qatar",
                 "capital": "Doha",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "QA",
@@ -3808,8 +3628,7 @@ class dyCountry {
                 "name": "Republic of the Congo",
                 "capital": "Brazzaville",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "CG",
@@ -3829,8 +3648,7 @@ class dyCountry {
                 "name": "Réunion",
                 "capital": "Saint-Denis",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "RE",
@@ -3850,8 +3668,7 @@ class dyCountry {
                 "name": "Romania",
                 "capital": "Bucharest",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "RO",
@@ -3871,8 +3688,7 @@ class dyCountry {
                 "name": "Russia",
                 "capital": "Moscow",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "RU",
@@ -3892,8 +3708,7 @@ class dyCountry {
                 "name": "Rwanda",
                 "capital": "Kigali",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "RW",
@@ -3913,8 +3728,7 @@ class dyCountry {
                 "name": "Saint Barthélemy",
                 "capital": "Gustavia",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "BL",
@@ -3934,8 +3748,7 @@ class dyCountry {
                 "name": "Saint Helena",
                 "capital": "Jamestown",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SH",
@@ -3955,8 +3768,7 @@ class dyCountry {
                 "name": "Saint Kitts and Nevis",
                 "capital": "Basseterre",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "KN",
@@ -3976,8 +3788,7 @@ class dyCountry {
                 "name": "Saint Lucia",
                 "capital": "Castries",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "LC",
@@ -3997,8 +3808,7 @@ class dyCountry {
                 "name": "Saint Martin",
                 "capital": "Marigot",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "MF",
@@ -4018,8 +3828,7 @@ class dyCountry {
                 "name": "Saint Pierre and Miquelon",
                 "capital": "Saint-Pierre",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "PM",
@@ -4039,8 +3848,7 @@ class dyCountry {
                 "name": "Saint Vincent and the Grenadines",
                 "capital": "Kingstown",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "VC",
@@ -4060,8 +3868,7 @@ class dyCountry {
                 "name": "Samoa",
                 "capital": "Apia",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "WS",
@@ -4081,8 +3888,7 @@ class dyCountry {
                 "name": "San Marino",
                 "capital": "San Marino",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "SM",
@@ -4102,8 +3908,7 @@ class dyCountry {
                 "name": "São Tomé and Príncipe",
                 "capital": "Sao Tome",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ST",
@@ -4123,8 +3928,7 @@ class dyCountry {
                 "name": "Saudi Arabia",
                 "capital": "Riyadh",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "SA",
@@ -4144,8 +3948,7 @@ class dyCountry {
                 "name": "Senegal",
                 "capital": "Dakar",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SN",
@@ -4165,8 +3968,7 @@ class dyCountry {
                 "name": "Serbia",
                 "capital": "Belgrade",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "RS",
@@ -4186,8 +3988,7 @@ class dyCountry {
                 "name": "Seychelles",
                 "capital": "Victoria",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SC",
@@ -4207,8 +4008,7 @@ class dyCountry {
                 "name": "Sierra Leone",
                 "capital": "Freetown",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SL",
@@ -4228,8 +4028,7 @@ class dyCountry {
                 "name": "Singapore",
                 "capital": "Singapur",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "SG",
@@ -4249,8 +4048,7 @@ class dyCountry {
                 "name": "Sint Maarten",
                 "capital": "Philipsburg",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "SX",
@@ -4270,8 +4068,7 @@ class dyCountry {
                 "name": "Slovakia",
                 "capital": "Bratislava",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "SK",
@@ -4291,8 +4088,7 @@ class dyCountry {
                 "name": "Slovenia",
                 "capital": "Ljubljana",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "SI",
@@ -4312,8 +4108,7 @@ class dyCountry {
                 "name": "Solomon Islands",
                 "capital": "Honiara",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "SB",
@@ -4333,8 +4128,7 @@ class dyCountry {
                 "name": "Somalia",
                 "capital": "Mogadishu",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SO",
@@ -4354,8 +4148,7 @@ class dyCountry {
                 "name": "South Africa",
                 "capital": "Pretoria",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ZA",
@@ -4375,8 +4168,7 @@ class dyCountry {
                 "name": "South Georgia and the South Sandwich Islands",
                 "capital": "Grytviken",
                 "continent": {
-                    "code": "AN",
-                    "name": "Antarctica"
+                    "code": "AN"
                 },
                 "iso": {
                     "alpha2": "GS",
@@ -4396,8 +4188,7 @@ class dyCountry {
                 "name": "South Korea",
                 "capital": "Seoul",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "KR",
@@ -4417,8 +4208,7 @@ class dyCountry {
                 "name": "South Sudan",
                 "capital": "Juba",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SS",
@@ -4438,8 +4228,7 @@ class dyCountry {
                 "name": "Spain",
                 "capital": "Madrid",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "ES",
@@ -4459,8 +4248,7 @@ class dyCountry {
                 "name": "Sri Lanka",
                 "capital": "Colombo",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "LK",
@@ -4480,8 +4268,7 @@ class dyCountry {
                 "name": "Sudan",
                 "capital": "Khartoum",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SD",
@@ -4501,8 +4288,7 @@ class dyCountry {
                 "name": "Suriname",
                 "capital": "Paramaribo",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "SR",
@@ -4522,8 +4308,7 @@ class dyCountry {
                 "name": "Svalbard and Jan Mayen",
                 "capital": "Longyearbyen",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "SJ",
@@ -4543,8 +4328,7 @@ class dyCountry {
                 "name": "Swaziland",
                 "capital": "Mbabane",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "SZ",
@@ -4564,8 +4348,7 @@ class dyCountry {
                 "name": "Sweden",
                 "capital": "Stockholm",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "SE",
@@ -4585,8 +4368,7 @@ class dyCountry {
                 "name": "Switzerland",
                 "capital": "Berne",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "CH",
@@ -4606,8 +4388,7 @@ class dyCountry {
                 "name": "Syria",
                 "capital": "Damascus",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "SY",
@@ -4627,8 +4408,7 @@ class dyCountry {
                 "name": "Taiwan",
                 "capital": "Taipei",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "TW",
@@ -4648,8 +4428,7 @@ class dyCountry {
                 "name": "Tajikistan",
                 "capital": "Dushanbe",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "TJ",
@@ -4669,8 +4448,7 @@ class dyCountry {
                 "name": "Tanzania",
                 "capital": "Dodoma",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "TZ",
@@ -4690,8 +4468,7 @@ class dyCountry {
                 "name": "Thailand",
                 "capital": "Bangkok",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "TH",
@@ -4711,8 +4488,7 @@ class dyCountry {
                 "name": "Togo",
                 "capital": "Lome",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "TG",
@@ -4732,8 +4508,7 @@ class dyCountry {
                 "name": "Tokelau",
                 "capital": "",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "TK",
@@ -4753,8 +4528,7 @@ class dyCountry {
                 "name": "Tonga",
                 "capital": "Nuku'alofa",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "TO",
@@ -4774,8 +4548,7 @@ class dyCountry {
                 "name": "Trinidad and Tobago",
                 "capital": "Port of Spain",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "TT",
@@ -4795,8 +4568,7 @@ class dyCountry {
                 "name": "Tunisia",
                 "capital": "Tunis",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "TN",
@@ -4816,8 +4588,7 @@ class dyCountry {
                 "name": "Turkey",
                 "capital": "Ankara",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "TR",
@@ -4837,8 +4608,7 @@ class dyCountry {
                 "name": "Turkmenistan",
                 "capital": "Ashgabat",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "TM",
@@ -4858,8 +4628,7 @@ class dyCountry {
                 "name": "Turks and Caicos Islands",
                 "capital": "Cockburn Town",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "TC",
@@ -4879,8 +4648,7 @@ class dyCountry {
                 "name": "Tuvalu",
                 "capital": "Funafuti",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "TV",
@@ -4900,8 +4668,7 @@ class dyCountry {
                 "name": "U.S. Minor Outlying Islands",
                 "capital": "",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "UM",
@@ -4921,8 +4688,7 @@ class dyCountry {
                 "name": "U.S. Virgin Islands",
                 "capital": "Charlotte Amalie",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "VI",
@@ -4942,8 +4708,7 @@ class dyCountry {
                 "name": "Uganda",
                 "capital": "Kampala",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "UG",
@@ -4963,8 +4728,7 @@ class dyCountry {
                 "name": "Ukraine",
                 "capital": "Kiev",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "UA",
@@ -4984,8 +4748,7 @@ class dyCountry {
                 "name": "United Arab Emirates",
                 "capital": "Abu Dhabi",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "AE",
@@ -5005,8 +4768,7 @@ class dyCountry {
                 "name": "United Kingdom",
                 "capital": "London",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "GB",
@@ -5026,8 +4788,7 @@ class dyCountry {
                 "name": "United States",
                 "capital": "Washington",
                 "continent": {
-                    "code": "NA",
-                    "name": "North America"
+                    "code": "NA"
                 },
                 "iso": {
                     "alpha2": "US",
@@ -5047,8 +4808,7 @@ class dyCountry {
                 "name": "Uruguay",
                 "capital": "Montevideo",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "UY",
@@ -5068,8 +4828,7 @@ class dyCountry {
                 "name": "Uzbekistan",
                 "capital": "Tashkent",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "UZ",
@@ -5089,8 +4848,7 @@ class dyCountry {
                 "name": "Vanuatu",
                 "capital": "Port Vila",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "VU",
@@ -5110,8 +4868,7 @@ class dyCountry {
                 "name": "Vatican City",
                 "capital": "Vatican City",
                 "continent": {
-                    "code": "EU",
-                    "name": "Europe"
+                    "code": "EU"
                 },
                 "iso": {
                     "alpha2": "VA",
@@ -5131,8 +4888,7 @@ class dyCountry {
                 "name": "Venezuela",
                 "capital": "Caracas",
                 "continent": {
-                    "code": "SA",
-                    "name": "South America"
+                    "code": "SA"
                 },
                 "iso": {
                     "alpha2": "VE",
@@ -5152,8 +4908,7 @@ class dyCountry {
                 "name": "Vietnam",
                 "capital": "Hanoi",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "VN",
@@ -5173,8 +4928,7 @@ class dyCountry {
                 "name": "Wallis and Futuna",
                 "capital": "Mata Utu",
                 "continent": {
-                    "code": "OC",
-                    "name": "Oceania"
+                    "code": "OC"
                 },
                 "iso": {
                     "alpha2": "WF",
@@ -5194,8 +4948,7 @@ class dyCountry {
                 "name": "Western Sahara",
                 "capital": "El-Aaiun",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "EH",
@@ -5215,8 +4968,7 @@ class dyCountry {
                 "name": "Yemen",
                 "capital": "Sanaa",
                 "continent": {
-                    "code": "AS",
-                    "name": "Asia"
+                    "code": "AS"
                 },
                 "iso": {
                     "alpha2": "YE",
@@ -5236,8 +4988,7 @@ class dyCountry {
                 "name": "Zambia",
                 "capital": "Lusaka",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ZM",
@@ -5257,8 +5008,7 @@ class dyCountry {
                 "name": "Zimbabwe",
                 "capital": "Harare",
                 "continent": {
-                    "code": "AF",
-                    "name": "Africa"
+                    "code": "AF"
                 },
                 "iso": {
                     "alpha2": "ZW",
@@ -5273,7 +5023,17 @@ class dyCountry {
                 "phoneCode": ["263"],
                 "currencies": ["ZWL"],
                 "languages": ["en-ZW", "sn", "nr", "nd"]
-            }
+            },
+        };
+
+        this._continentName = {
+            "AF": "Africa",
+            "AN": "Antarctica",
+            "AS": "Asia",
+            "EU": "Europe",
+            "NA": "North america",
+            "OC": "Oceania",
+            "SA": "South america"
         };
 
         this._isoAlpha3_to_isoAlpha2 = {
@@ -5552,7 +5312,11 @@ class dyCountry {
         }
 
         if (typeof key !== 'undefined') {
-            result = result[key];
+            if (param === 'continent' && key === 'name') {
+                result = this._continentName[result['code']];
+            } else {
+                result = result[key];
+            }
         }
 
         if (typeof result === 'undefined') {
@@ -5591,6 +5355,8 @@ class dyCountry {
         } else {
             flag = null;
         }
+
+        result['continent']['name'] = this._continentName[result['continent']['code']];
 
         return result;
     }
