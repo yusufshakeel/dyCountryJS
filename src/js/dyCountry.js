@@ -5031,9 +5031,9 @@ class dyCountry {
             "AN": "Antarctica",
             "AS": "Asia",
             "EU": "Europe",
-            "NA": "North america",
+            "NA": "North America",
             "OC": "Oceania",
-            "SA": "South america"
+            "SA": "South America"
         };
 
         this._isoAlpha3_to_isoAlpha2 = {
@@ -5495,6 +5495,17 @@ class dyCountry {
      */
     languages(code) {
         return this._getDataByParam(code, 'languages');
+    }
+
+    /**
+     * This will return an array of countries detail.
+     * @returns [{*}]
+     */
+    all() {
+        return Object.values(this._data).map((elem) => {
+            elem['continent']['name'] = this.continent(elem.iso.alpha2, 'name');
+            return elem;
+        });
     }
 
 }
