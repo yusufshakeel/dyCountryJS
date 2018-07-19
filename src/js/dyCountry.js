@@ -25,7 +25,7 @@ class dyCountry {
 
         this._data = {
             "AF": {
-                "country": "Afghanistan",
+                "name": "Afghanistan",
                 "capital": "Kabul",
                 "continent": {
                     "code": "AS",
@@ -46,7 +46,7 @@ class dyCountry {
                 "languages": ["fa-AF", "ps", "uz-AF", "tk"]
             },
             "AX": {
-                "country": "Aland",
+                "name": "Aland",
                 "capital": "Mariehamn",
                 "continent": {
                     "code": "EU",
@@ -67,7 +67,7 @@ class dyCountry {
                 "languages": ["sv-AX"]
             },
             "AL": {
-                "country": "Albania",
+                "name": "Albania",
                 "capital": "Tirana",
                 "continent": {
                     "code": "EU",
@@ -88,7 +88,7 @@ class dyCountry {
                 "languages": ["sq", "el"]
             },
             "DZ": {
-                "country": "Algeria",
+                "name": "Algeria",
                 "capital": "Algiers",
                 "continent": {
                     "code": "AF",
@@ -109,7 +109,7 @@ class dyCountry {
                 "languages": ["ar-DZ"]
             },
             "AS": {
-                "country": "American Samoa",
+                "name": "American Samoa",
                 "capital": "Pago Pago",
                 "continent": {
                     "code": "OC",
@@ -130,7 +130,7 @@ class dyCountry {
                 "languages": ["en-AS", "sm", "to"]
             },
             "AD": {
-                "country": "Andorra",
+                "name": "Andorra",
                 "capital": "Andorra la Vella",
                 "continent": {
                     "code": "EU",
@@ -151,7 +151,7 @@ class dyCountry {
                 "languages": ["ca"]
             },
             "AO": {
-                "country": "Angola",
+                "name": "Angola",
                 "capital": "Luanda",
                 "continent": {
                     "code": "AF",
@@ -172,7 +172,7 @@ class dyCountry {
                 "languages": ["pt-AO"]
             },
             "AI": {
-                "country": "Anguilla",
+                "name": "Anguilla",
                 "capital": "The Valley",
                 "continent": {
                     "code": "NA",
@@ -193,7 +193,7 @@ class dyCountry {
                 "languages": ["en-AI"]
             },
             "AQ": {
-                "country": "Antarctica",
+                "name": "Antarctica",
                 "capital": "",
                 "continent": {
                     "code": "AN",
@@ -214,7 +214,7 @@ class dyCountry {
                 "languages": [""]
             },
             "AG": {
-                "country": "Antigua and Barbuda",
+                "name": "Antigua and Barbuda",
                 "capital": "St. John's",
                 "continent": {
                     "code": "NA",
@@ -235,7 +235,7 @@ class dyCountry {
                 "languages": ["en-AG"]
             },
             "AR": {
-                "country": "Argentina",
+                "name": "Argentina",
                 "capital": "Buenos Aires",
                 "continent": {
                     "code": "SA",
@@ -256,7 +256,7 @@ class dyCountry {
                 "languages": ["es-AR", "en", "it", "de", "fr", "gn"]
             },
             "AM": {
-                "country": "Armenia",
+                "name": "Armenia",
                 "capital": "Yerevan",
                 "continent": {
                     "code": "AS",
@@ -277,7 +277,7 @@ class dyCountry {
                 "languages": ["hy"]
             },
             "AW": {
-                "country": "Aruba",
+                "name": "Aruba",
                 "capital": "Oranjestad",
                 "continent": {
                     "code": "NA",
@@ -298,7 +298,7 @@ class dyCountry {
                 "languages": ["nl-AW", "pap", "es", "en"]
             },
             "AU": {
-                "country": "Australia",
+                "name": "Australia",
                 "capital": "Canberra",
                 "continent": {
                     "code": "OC",
@@ -319,7 +319,7 @@ class dyCountry {
                 "languages": ["en-AU"]
             },
             "AT": {
-                "country": "Austria",
+                "name": "Austria",
                 "capital": "Vienna",
                 "continent": {
                     "code": "EU",
@@ -340,7 +340,7 @@ class dyCountry {
                 "languages": ["de-AT", "hr", "hu", "sl"]
             },
             "AZ": {
-                "country": "Azerbaijan",
+                "name": "Azerbaijan",
                 "capital": "Baku",
                 "continent": {
                     "code": "AS",
@@ -361,7 +361,7 @@ class dyCountry {
                 "languages": ["az", "ru", "hy"]
             },
             "BS": {
-                "country": "Bahamas",
+                "name": "Bahamas",
                 "capital": "Nassau",
                 "continent": {
                     "code": "NA",
@@ -382,7 +382,7 @@ class dyCountry {
                 "languages": ["en-BS"]
             },
             "BH": {
-                "country": "Bahrain",
+                "name": "Bahrain",
                 "capital": "Manama",
                 "continent": {
                     "code": "AS",
@@ -403,7 +403,7 @@ class dyCountry {
                 "languages": ["ar-BH", "en", "fa", "ur"]
             },
             "BD": {
-                "country": "Bangladesh",
+                "name": "Bangladesh",
                 "capital": "Dhaka",
                 "continent": {
                     "code": "AS",
@@ -424,7 +424,7 @@ class dyCountry {
                 "languages": ["bn-BD", "en"]
             },
             "BB": {
-                "country": "Barbados",
+                "name": "Barbados",
                 "capital": "Bridgetown",
                 "continent": {
                     "code": "NA",
@@ -445,7 +445,7 @@ class dyCountry {
                 "languages": ["en-BB"]
             },
             "BY": {
-                "country": "Belarus",
+                "name": "Belarus",
                 "capital": "Minsk",
                 "continent": {
                     "code": "EU",
@@ -466,7 +466,7 @@ class dyCountry {
                 "languages": ["be", "ru"]
             },
             "BE": {
-                "country": "Belgium",
+                "name": "Belgium",
                 "capital": "Brussels",
                 "continent": {
                     "code": "EU",
@@ -487,7 +487,7 @@ class dyCountry {
                 "languages": ["nl-BE", "fr-BE", "de-BE"]
             },
             "BZ": {
-                "country": "Belize",
+                "name": "Belize",
                 "capital": "Belmopan",
                 "continent": {
                     "code": "NA",
@@ -508,7 +508,7 @@ class dyCountry {
                 "languages": ["en-BZ", "es"]
             },
             "BJ": {
-                "country": "Benin",
+                "name": "Benin",
                 "capital": "Porto-Novo",
                 "continent": {
                     "code": "AF",
@@ -529,7 +529,7 @@ class dyCountry {
                 "languages": ["fr-BJ"]
             },
             "BM": {
-                "country": "Bermuda",
+                "name": "Bermuda",
                 "capital": "Hamilton",
                 "continent": {
                     "code": "NA",
@@ -550,7 +550,7 @@ class dyCountry {
                 "languages": ["en-BM", "pt"]
             },
             "BT": {
-                "country": "Bhutan",
+                "name": "Bhutan",
                 "capital": "Thimphu",
                 "continent": {
                     "code": "AS",
@@ -571,7 +571,7 @@ class dyCountry {
                 "languages": ["dz"]
             },
             "BO": {
-                "country": "Bolivia",
+                "name": "Bolivia",
                 "capital": "Sucre",
                 "continent": {
                     "code": "SA",
@@ -592,7 +592,7 @@ class dyCountry {
                 "languages": ["es-BO", "qu", "ay"]
             },
             "BQ": {
-                "country": "Bonaire",
+                "name": "Bonaire",
                 "capital": "",
                 "continent": {
                     "code": "NA",
@@ -613,7 +613,7 @@ class dyCountry {
                 "languages": ["nl", "pap", "en"]
             },
             "BA": {
-                "country": "Bosnia and Herzegovina",
+                "name": "Bosnia and Herzegovina",
                 "capital": "Sarajevo",
                 "continent": {
                     "code": "EU",
@@ -634,7 +634,7 @@ class dyCountry {
                 "languages": ["bs", "hr-BA", "sr-BA"]
             },
             "BW": {
-                "country": "Botswana",
+                "name": "Botswana",
                 "capital": "Gaborone",
                 "continent": {
                     "code": "AF",
@@ -655,7 +655,7 @@ class dyCountry {
                 "languages": ["en-BW", "tn-BW"]
             },
             "BV": {
-                "country": "Bouvet Island",
+                "name": "Bouvet Island",
                 "capital": "",
                 "continent": {
                     "code": "AN",
@@ -676,7 +676,7 @@ class dyCountry {
                 "languages": [""]
             },
             "BR": {
-                "country": "Brazil",
+                "name": "Brazil",
                 "capital": "Brasilia",
                 "continent": {
                     "code": "SA",
@@ -697,7 +697,7 @@ class dyCountry {
                 "languages": ["pt-BR", "es", "en", "fr"]
             },
             "IO": {
-                "country": "British Indian Ocean Territory",
+                "name": "British Indian Ocean Territory",
                 "capital": "Diego Garcia",
                 "continent": {
                     "code": "AS",
@@ -718,7 +718,7 @@ class dyCountry {
                 "languages": ["en-IO"]
             },
             "VG": {
-                "country": "British Virgin Islands",
+                "name": "British Virgin Islands",
                 "capital": "Road Town",
                 "continent": {
                     "code": "NA",
@@ -739,7 +739,7 @@ class dyCountry {
                 "languages": ["en-VG"]
             },
             "BN": {
-                "country": "Brunei",
+                "name": "Brunei",
                 "capital": "Bandar Seri Begawan",
                 "continent": {
                     "code": "AS",
@@ -760,7 +760,7 @@ class dyCountry {
                 "languages": ["ms-BN", "en-BN"]
             },
             "BG": {
-                "country": "Bulgaria",
+                "name": "Bulgaria",
                 "capital": "Sofia",
                 "continent": {
                     "code": "EU",
@@ -781,7 +781,7 @@ class dyCountry {
                 "languages": ["bg", "tr-BG", "rom"]
             },
             "BF": {
-                "country": "Burkina Faso",
+                "name": "Burkina Faso",
                 "capital": "Ouagadougou",
                 "continent": {
                     "code": "AF",
@@ -802,7 +802,7 @@ class dyCountry {
                 "languages": ["fr-BF", "mos"]
             },
             "BI": {
-                "country": "Burundi",
+                "name": "Burundi",
                 "capital": "Bujumbura",
                 "continent": {
                     "code": "AF",
@@ -823,7 +823,7 @@ class dyCountry {
                 "languages": ["fr-BI", "rn"]
             },
             "KH": {
-                "country": "Cambodia",
+                "name": "Cambodia",
                 "capital": "Phnom Penh",
                 "continent": {
                     "code": "AS",
@@ -844,7 +844,7 @@ class dyCountry {
                 "languages": ["km", "fr", "en"]
             },
             "CM": {
-                "country": "Cameroon",
+                "name": "Cameroon",
                 "capital": "Yaounde",
                 "continent": {
                     "code": "AF",
@@ -865,7 +865,7 @@ class dyCountry {
                 "languages": ["en-CM", "fr-CM"]
             },
             "CA": {
-                "country": "Canada",
+                "name": "Canada",
                 "capital": "Ottawa",
                 "continent": {
                     "code": "NA",
@@ -886,7 +886,7 @@ class dyCountry {
                 "languages": ["en-CA", "fr-CA", "iu"]
             },
             "CV": {
-                "country": "Cape Verde",
+                "name": "Cape Verde",
                 "capital": "Praia",
                 "continent": {
                     "code": "AF",
@@ -907,7 +907,7 @@ class dyCountry {
                 "languages": ["pt-CV"]
             },
             "KY": {
-                "country": "Cayman Islands",
+                "name": "Cayman Islands",
                 "capital": "George Town",
                 "continent": {
                     "code": "NA",
@@ -928,7 +928,7 @@ class dyCountry {
                 "languages": ["en-KY"]
             },
             "CF": {
-                "country": "Central African Republic",
+                "name": "Central African Republic",
                 "capital": "Bangui",
                 "continent": {
                     "code": "AF",
@@ -949,7 +949,7 @@ class dyCountry {
                 "languages": ["fr-CF", "sg", "ln", "kg"]
             },
             "TD": {
-                "country": "Chad",
+                "name": "Chad",
                 "capital": "N'Djamena",
                 "continent": {
                     "code": "AF",
@@ -970,7 +970,7 @@ class dyCountry {
                 "languages": ["fr-TD", "ar-TD", "sre"]
             },
             "CL": {
-                "country": "Chile",
+                "name": "Chile",
                 "capital": "Santiago",
                 "continent": {
                     "code": "SA",
@@ -991,7 +991,7 @@ class dyCountry {
                 "languages": ["es-CL"]
             },
             "CN": {
-                "country": "China",
+                "name": "China",
                 "capital": "Beijing",
                 "continent": {
                     "code": "AS",
@@ -1012,7 +1012,7 @@ class dyCountry {
                 "languages": ["zh-CN", "yue", "wuu", "dta", "ug", "za"]
             },
             "CX": {
-                "country": "Christmas Island",
+                "name": "Christmas Island",
                 "capital": "Flying Fish Cove",
                 "continent": {
                     "code": "OC",
@@ -1033,7 +1033,7 @@ class dyCountry {
                 "languages": ["en", "zh", "ms-CC"]
             },
             "CC": {
-                "country": "Cocos [Keeling] Islands",
+                "name": "Cocos [Keeling] Islands",
                 "capital": "West Island",
                 "continent": {
                     "code": "AS",
@@ -1054,7 +1054,7 @@ class dyCountry {
                 "languages": ["ms-CC", "en"]
             },
             "CO": {
-                "country": "Colombia",
+                "name": "Colombia",
                 "capital": "Bogota",
                 "continent": {
                     "code": "SA",
@@ -1075,7 +1075,7 @@ class dyCountry {
                 "languages": ["es-CO"]
             },
             "KM": {
-                "country": "Comoros",
+                "name": "Comoros",
                 "capital": "Moroni",
                 "continent": {
                     "code": "AF",
@@ -1096,7 +1096,7 @@ class dyCountry {
                 "languages": ["ar", "fr-KM"]
             },
             "CK": {
-                "country": "Cook Islands",
+                "name": "Cook Islands",
                 "capital": "Avarua",
                 "continent": {
                     "code": "OC",
@@ -1117,7 +1117,7 @@ class dyCountry {
                 "languages": ["en-CK", "mi"]
             },
             "CR": {
-                "country": "Costa Rica",
+                "name": "Costa Rica",
                 "capital": "San Jose",
                 "continent": {
                     "code": "NA",
@@ -1138,7 +1138,7 @@ class dyCountry {
                 "languages": ["es-CR", "en"]
             },
             "HR": {
-                "country": "Croatia",
+                "name": "Croatia",
                 "capital": "Zagreb",
                 "continent": {
                     "code": "EU",
@@ -1159,7 +1159,7 @@ class dyCountry {
                 "languages": ["hr-HR", "sr"]
             },
             "CU": {
-                "country": "Cuba",
+                "name": "Cuba",
                 "capital": "Havana",
                 "continent": {
                     "code": "NA",
@@ -1180,7 +1180,7 @@ class dyCountry {
                 "languages": ["es-CU", "pap"]
             },
             "CW": {
-                "country": "Curacao",
+                "name": "Curacao",
                 "capital": " Willemstad",
                 "continent": {
                     "code": "NA",
@@ -1201,7 +1201,7 @@ class dyCountry {
                 "languages": ["nl", "pap"]
             },
             "CY": {
-                "country": "Cyprus",
+                "name": "Cyprus",
                 "capital": "Nicosia",
                 "continent": {
                     "code": "EU",
@@ -1222,7 +1222,7 @@ class dyCountry {
                 "languages": ["el-CY", "tr-CY", "en"]
             },
             "CZ": {
-                "country": "Czech Republic",
+                "name": "Czech Republic",
                 "capital": "Prague",
                 "continent": {
                     "code": "EU",
@@ -1243,7 +1243,7 @@ class dyCountry {
                 "languages": ["cs", "sk"]
             },
             "CD": {
-                "country": "Democratic Republic of the Congo",
+                "name": "Democratic Republic of the Congo",
                 "capital": "Kinshasa",
                 "continent": {
                     "code": "AF",
@@ -1264,7 +1264,7 @@ class dyCountry {
                 "languages": ["fr-CD", "ln", "ktu", "kg", "sw", "lua"]
             },
             "DK": {
-                "country": "Denmark",
+                "name": "Denmark",
                 "capital": "Copenhagen",
                 "continent": {
                     "code": "EU",
@@ -1285,7 +1285,7 @@ class dyCountry {
                 "languages": ["da-DK", "en", "fo", "de-DK"]
             },
             "DJ": {
-                "country": "Djibouti",
+                "name": "Djibouti",
                 "capital": "Djibouti",
                 "continent": {
                     "code": "AF",
@@ -1306,7 +1306,7 @@ class dyCountry {
                 "languages": ["fr-DJ", "ar", "so-DJ", "aa"]
             },
             "DM": {
-                "country": "Dominica",
+                "name": "Dominica",
                 "capital": "Roseau",
                 "continent": {
                     "code": "NA",
@@ -1327,7 +1327,7 @@ class dyCountry {
                 "languages": ["en-DM"]
             },
             "DO": {
-                "country": "Dominican Republic",
+                "name": "Dominican Republic",
                 "capital": "Santo Domingo",
                 "continent": {
                     "code": "NA",
@@ -1348,7 +1348,7 @@ class dyCountry {
                 "languages": ["es-DO"]
             },
             "TL": {
-                "country": "East Timor",
+                "name": "East Timor",
                 "capital": "Dili",
                 "continent": {
                     "code": "OC",
@@ -1369,7 +1369,7 @@ class dyCountry {
                 "languages": ["tet", "pt-TL", "id", "en"]
             },
             "EC": {
-                "country": "Ecuador",
+                "name": "Ecuador",
                 "capital": "Quito",
                 "continent": {
                     "code": "SA",
@@ -1390,7 +1390,7 @@ class dyCountry {
                 "languages": ["es-EC"]
             },
             "EG": {
-                "country": "Egypt",
+                "name": "Egypt",
                 "capital": "Cairo",
                 "continent": {
                     "code": "AF",
@@ -1411,7 +1411,7 @@ class dyCountry {
                 "languages": ["ar-EG", "en", "fr"]
             },
             "SV": {
-                "country": "El Salvador",
+                "name": "El Salvador",
                 "capital": "San Salvador",
                 "continent": {
                     "code": "NA",
@@ -1432,7 +1432,7 @@ class dyCountry {
                 "languages": ["es-SV"]
             },
             "GQ": {
-                "country": "Equatorial Guinea",
+                "name": "Equatorial Guinea",
                 "capital": "Malabo",
                 "continent": {
                     "code": "AF",
@@ -1453,7 +1453,7 @@ class dyCountry {
                 "languages": ["es-GQ", "fr"]
             },
             "ER": {
-                "country": "Eritrea",
+                "name": "Eritrea",
                 "capital": "Asmara",
                 "continent": {
                     "code": "AF",
@@ -1474,7 +1474,7 @@ class dyCountry {
                 "languages": ["aa-ER", "ar", "tig", "kun", "ti-ER"]
             },
             "EE": {
-                "country": "Estonia",
+                "name": "Estonia",
                 "capital": "Tallinn",
                 "continent": {
                     "code": "EU",
@@ -1495,7 +1495,7 @@ class dyCountry {
                 "languages": ["et", "ru"]
             },
             "ET": {
-                "country": "Ethiopia",
+                "name": "Ethiopia",
                 "capital": "Addis Ababa",
                 "continent": {
                     "code": "AF",
@@ -1516,7 +1516,7 @@ class dyCountry {
                 "languages": ["am", "en-ET", "om-ET", "ti-ET", "so-ET", "sid"]
             },
             "FK": {
-                "country": "Falkland Islands",
+                "name": "Falkland Islands",
                 "capital": "Stanley",
                 "continent": {
                     "code": "SA",
@@ -1537,7 +1537,7 @@ class dyCountry {
                 "languages": ["en-FK"]
             },
             "FO": {
-                "country": "Faroe Islands",
+                "name": "Faroe Islands",
                 "capital": "Torshavn",
                 "continent": {
                     "code": "EU",
@@ -1558,7 +1558,7 @@ class dyCountry {
                 "languages": ["fo", "da-FO"]
             },
             "FJ": {
-                "country": "Fiji",
+                "name": "Fiji",
                 "capital": "Suva",
                 "continent": {
                     "code": "OC",
@@ -1579,7 +1579,7 @@ class dyCountry {
                 "languages": ["en-FJ", "fj"]
             },
             "FI": {
-                "country": "Finland",
+                "name": "Finland",
                 "capital": "Helsinki",
                 "continent": {
                     "code": "EU",
@@ -1600,7 +1600,7 @@ class dyCountry {
                 "languages": ["fi-FI", "sv-FI", "smn"]
             },
             "FR": {
-                "country": "France",
+                "name": "France",
                 "capital": "Paris",
                 "continent": {
                     "code": "EU",
@@ -1621,7 +1621,7 @@ class dyCountry {
                 "languages": ["fr-FR", "frp", "br", "co", "ca", "eu", "oc"]
             },
             "GF": {
-                "country": "French Guiana",
+                "name": "French Guiana",
                 "capital": "Cayenne",
                 "continent": {
                     "code": "SA",
@@ -1642,7 +1642,7 @@ class dyCountry {
                 "languages": ["fr-GF"]
             },
             "PF": {
-                "country": "French Polynesia",
+                "name": "French Polynesia",
                 "capital": "Papeete",
                 "continent": {
                     "code": "OC",
@@ -1663,7 +1663,7 @@ class dyCountry {
                 "languages": ["fr-PF", "ty"]
             },
             "TF": {
-                "country": "French Southern Territories",
+                "name": "French Southern Territories",
                 "capital": "Port-aux-Francais",
                 "continent": {
                     "code": "AN",
@@ -1684,7 +1684,7 @@ class dyCountry {
                 "languages": ["fr"]
             },
             "GA": {
-                "country": "Gabon",
+                "name": "Gabon",
                 "capital": "Libreville",
                 "continent": {
                     "code": "AF",
@@ -1705,7 +1705,7 @@ class dyCountry {
                 "languages": ["fr-GA"]
             },
             "GM": {
-                "country": "Gambia",
+                "name": "Gambia",
                 "capital": "Banjul",
                 "continent": {
                     "code": "AF",
@@ -1726,7 +1726,7 @@ class dyCountry {
                 "languages": ["en-GM", "mnk", "wof", "wo", "ff"]
             },
             "GE": {
-                "country": "Georgia",
+                "name": "Georgia",
                 "capital": "Tbilisi",
                 "continent": {
                     "code": "AS",
@@ -1747,7 +1747,7 @@ class dyCountry {
                 "languages": ["ka", "ru", "hy", "az"]
             },
             "DE": {
-                "country": "Germany",
+                "name": "Germany",
                 "capital": "Berlin",
                 "continent": {
                     "code": "EU",
@@ -1768,7 +1768,7 @@ class dyCountry {
                 "languages": ["de"]
             },
             "GH": {
-                "country": "Ghana",
+                "name": "Ghana",
                 "capital": "Accra",
                 "continent": {
                     "code": "AF",
@@ -1789,7 +1789,7 @@ class dyCountry {
                 "languages": ["en-GH", "ak", "ee", "tw"]
             },
             "GI": {
-                "country": "Gibraltar",
+                "name": "Gibraltar",
                 "capital": "Gibraltar",
                 "continent": {
                     "code": "EU",
@@ -1810,7 +1810,7 @@ class dyCountry {
                 "languages": ["en-GI", "es", "it", "pt"]
             },
             "GR": {
-                "country": "Greece",
+                "name": "Greece",
                 "capital": "Athens",
                 "continent": {
                     "code": "EU",
@@ -1831,7 +1831,7 @@ class dyCountry {
                 "languages": ["el-GR", "en", "fr"]
             },
             "GL": {
-                "country": "Greenland",
+                "name": "Greenland",
                 "capital": "Nuuk",
                 "continent": {
                     "code": "NA",
@@ -1852,7 +1852,7 @@ class dyCountry {
                 "languages": ["kl", "da-GL", "en"]
             },
             "GD": {
-                "country": "Grenada",
+                "name": "Grenada",
                 "capital": "St. George's",
                 "continent": {
                     "code": "NA",
@@ -1873,7 +1873,7 @@ class dyCountry {
                 "languages": ["en-GD"]
             },
             "GP": {
-                "country": "Guadeloupe",
+                "name": "Guadeloupe",
                 "capital": "Basse-Terre",
                 "continent": {
                     "code": "NA",
@@ -1894,7 +1894,7 @@ class dyCountry {
                 "languages": ["fr-GP"]
             },
             "GU": {
-                "country": "Guam",
+                "name": "Guam",
                 "capital": "Hagatna",
                 "continent": {
                     "code": "OC",
@@ -1915,7 +1915,7 @@ class dyCountry {
                 "languages": ["en-GU", "ch-GU"]
             },
             "GT": {
-                "country": "Guatemala",
+                "name": "Guatemala",
                 "capital": "Guatemala City",
                 "continent": {
                     "code": "NA",
@@ -1936,7 +1936,7 @@ class dyCountry {
                 "languages": ["es-GT"]
             },
             "GG": {
-                "country": "Guernsey",
+                "name": "Guernsey",
                 "capital": "St Peter Port",
                 "continent": {
                     "code": "EU",
@@ -1957,7 +1957,7 @@ class dyCountry {
                 "languages": ["en", "nrf"]
             },
             "GN": {
-                "country": "Guinea",
+                "name": "Guinea",
                 "capital": "Conakry",
                 "continent": {
                     "code": "AF",
@@ -1978,7 +1978,7 @@ class dyCountry {
                 "languages": ["fr-GN"]
             },
             "GW": {
-                "country": "Guinea-Bissau",
+                "name": "Guinea-Bissau",
                 "capital": "Bissau",
                 "continent": {
                     "code": "AF",
@@ -1999,7 +1999,7 @@ class dyCountry {
                 "languages": ["pt-GW", "pov"]
             },
             "GY": {
-                "country": "Guyana",
+                "name": "Guyana",
                 "capital": "Georgetown",
                 "continent": {
                     "code": "SA",
@@ -2020,7 +2020,7 @@ class dyCountry {
                 "languages": ["en-GY"]
             },
             "HT": {
-                "country": "Haiti",
+                "name": "Haiti",
                 "capital": "Port-au-Prince",
                 "continent": {
                     "code": "NA",
@@ -2041,7 +2041,7 @@ class dyCountry {
                 "languages": ["ht", "fr-HT"]
             },
             "HM": {
-                "country": "Heard Island and McDonald Islands",
+                "name": "Heard Island and McDonald Islands",
                 "capital": "",
                 "continent": {
                     "code": "AN",
@@ -2062,7 +2062,7 @@ class dyCountry {
                 "languages": [""]
             },
             "HN": {
-                "country": "Honduras",
+                "name": "Honduras",
                 "capital": "Tegucigalpa",
                 "continent": {
                     "code": "NA",
@@ -2083,7 +2083,7 @@ class dyCountry {
                 "languages": ["es-HN", "cab", "miq"]
             },
             "HK": {
-                "country": "Hong Kong",
+                "name": "Hong Kong",
                 "capital": "Hong Kong",
                 "continent": {
                     "code": "AS",
@@ -2104,7 +2104,7 @@ class dyCountry {
                 "languages": ["zh-HK", "yue", "zh", "en"]
             },
             "HU": {
-                "country": "Hungary",
+                "name": "Hungary",
                 "capital": "Budapest",
                 "continent": {
                     "code": "EU",
@@ -2125,7 +2125,7 @@ class dyCountry {
                 "languages": ["hu-HU"]
             },
             "IS": {
-                "country": "Iceland",
+                "name": "Iceland",
                 "capital": "Reykjavik",
                 "continent": {
                     "code": "EU",
@@ -2146,7 +2146,7 @@ class dyCountry {
                 "languages": ["is", "en", "de", "da", "sv", "no"]
             },
             "IN": {
-                "country": "India",
+                "name": "India",
                 "capital": "New Delhi",
                 "continent": {
                     "code": "AS",
@@ -2167,7 +2167,7 @@ class dyCountry {
                 "languages": ["en-IN", "hi", "bn", "te", "mr", "ta", "ur", "gu", "kn", "ml", "or", "pa", "as", "bh", "sat", "ks", "ne", "sd", "kok", "doi", "mni", "sit", "sa", "fr", "lus", "inc"]
             },
             "ID": {
-                "country": "Indonesia",
+                "name": "Indonesia",
                 "capital": "Jakarta",
                 "continent": {
                     "code": "AS",
@@ -2188,7 +2188,7 @@ class dyCountry {
                 "languages": ["id", "en", "nl", "jv"]
             },
             "IR": {
-                "country": "Iran",
+                "name": "Iran",
                 "capital": "Tehran",
                 "continent": {
                     "code": "AS",
@@ -2209,7 +2209,7 @@ class dyCountry {
                 "languages": ["fa-IR", "ku"]
             },
             "IQ": {
-                "country": "Iraq",
+                "name": "Iraq",
                 "capital": "Baghdad",
                 "continent": {
                     "code": "AS",
@@ -2230,7 +2230,7 @@ class dyCountry {
                 "languages": ["ar-IQ", "ku", "hy"]
             },
             "IE": {
-                "country": "Ireland",
+                "name": "Ireland",
                 "capital": "Dublin",
                 "continent": {
                     "code": "EU",
@@ -2251,7 +2251,7 @@ class dyCountry {
                 "languages": ["en-IE", "ga-IE"]
             },
             "IM": {
-                "country": "Isle of Man",
+                "name": "Isle of Man",
                 "capital": "Douglas, Isle of Man",
                 "continent": {
                     "code": "EU",
@@ -2272,7 +2272,7 @@ class dyCountry {
                 "languages": ["en", "gv"]
             },
             "IL": {
-                "country": "Israel",
+                "name": "Israel",
                 "capital": "Jerusalem",
                 "continent": {
                     "code": "AS",
@@ -2293,7 +2293,7 @@ class dyCountry {
                 "languages": ["he", "ar-IL", "en-IL", ""]
             },
             "IT": {
-                "country": "Italy",
+                "name": "Italy",
                 "capital": "Rome",
                 "continent": {
                     "code": "EU",
@@ -2314,7 +2314,7 @@ class dyCountry {
                 "languages": ["it-IT", "de-IT", "fr-IT", "sc", "ca", "co", "sl"]
             },
             "CI": {
-                "country": "Ivory Coast",
+                "name": "Ivory Coast",
                 "capital": "Yamoussoukro",
                 "continent": {
                     "code": "AF",
@@ -2335,7 +2335,7 @@ class dyCountry {
                 "languages": ["fr-CI"]
             },
             "JM": {
-                "country": "Jamaica",
+                "name": "Jamaica",
                 "capital": "Kingston",
                 "continent": {
                     "code": "NA",
@@ -2356,7 +2356,7 @@ class dyCountry {
                 "languages": ["en-JM"]
             },
             "JP": {
-                "country": "Japan",
+                "name": "Japan",
                 "capital": "Tokyo",
                 "continent": {
                     "code": "AS",
@@ -2377,7 +2377,7 @@ class dyCountry {
                 "languages": ["ja"]
             },
             "JE": {
-                "country": "Jersey",
+                "name": "Jersey",
                 "capital": "Saint Helier",
                 "continent": {
                     "code": "EU",
@@ -2398,7 +2398,7 @@ class dyCountry {
                 "languages": ["en", "fr", "nrf"]
             },
             "JO": {
-                "country": "Jordan",
+                "name": "Jordan",
                 "capital": "Amman",
                 "continent": {
                     "code": "AS",
@@ -2419,7 +2419,7 @@ class dyCountry {
                 "languages": ["ar-JO", "en"]
             },
             "KZ": {
-                "country": "Kazakhstan",
+                "name": "Kazakhstan",
                 "capital": "Astana",
                 "continent": {
                     "code": "AS",
@@ -2440,7 +2440,7 @@ class dyCountry {
                 "languages": ["kk", "ru"]
             },
             "KE": {
-                "country": "Kenya",
+                "name": "Kenya",
                 "capital": "Nairobi",
                 "continent": {
                     "code": "AF",
@@ -2461,7 +2461,7 @@ class dyCountry {
                 "languages": ["en-KE", "sw-KE"]
             },
             "KI": {
-                "country": "Kiribati",
+                "name": "Kiribati",
                 "capital": "Tarawa",
                 "continent": {
                     "code": "OC",
@@ -2482,7 +2482,7 @@ class dyCountry {
                 "languages": ["en-KI", "gil"]
             },
             "XK": {
-                "country": "Kosovo",
+                "name": "Kosovo",
                 "capital": "Pristina",
                 "continent": {
                     "code": "EU",
@@ -2503,7 +2503,7 @@ class dyCountry {
                 "languages": ["sq", "sr"]
             },
             "KW": {
-                "country": "Kuwait",
+                "name": "Kuwait",
                 "capital": "Kuwait City",
                 "continent": {
                     "code": "AS",
@@ -2524,7 +2524,7 @@ class dyCountry {
                 "languages": ["ar-KW", "en"]
             },
             "KG": {
-                "country": "Kyrgyzstan",
+                "name": "Kyrgyzstan",
                 "capital": "Bishkek",
                 "continent": {
                     "code": "AS",
@@ -2545,7 +2545,7 @@ class dyCountry {
                 "languages": ["ky", "uz", "ru"]
             },
             "LA": {
-                "country": "Laos",
+                "name": "Laos",
                 "capital": "Vientiane",
                 "continent": {
                     "code": "AS",
@@ -2566,7 +2566,7 @@ class dyCountry {
                 "languages": ["lo", "fr", "en"]
             },
             "LV": {
-                "country": "Latvia",
+                "name": "Latvia",
                 "capital": "Riga",
                 "continent": {
                     "code": "EU",
@@ -2587,7 +2587,7 @@ class dyCountry {
                 "languages": ["lv", "ru", "lt"]
             },
             "LB": {
-                "country": "Lebanon",
+                "name": "Lebanon",
                 "capital": "Beirut",
                 "continent": {
                     "code": "AS",
@@ -2608,7 +2608,7 @@ class dyCountry {
                 "languages": ["ar-LB", "fr-LB", "en", "hy"]
             },
             "LS": {
-                "country": "Lesotho",
+                "name": "Lesotho",
                 "capital": "Maseru",
                 "continent": {
                     "code": "AF",
@@ -2629,7 +2629,7 @@ class dyCountry {
                 "languages": ["en-LS", "st", "zu", "xh"]
             },
             "LR": {
-                "country": "Liberia",
+                "name": "Liberia",
                 "capital": "Monrovia",
                 "continent": {
                     "code": "AF",
@@ -2650,7 +2650,7 @@ class dyCountry {
                 "languages": ["en-LR"]
             },
             "LY": {
-                "country": "Libya",
+                "name": "Libya",
                 "capital": "Tripolis",
                 "continent": {
                     "code": "AF",
@@ -2671,7 +2671,7 @@ class dyCountry {
                 "languages": ["ar-LY", "it", "en"]
             },
             "LI": {
-                "country": "Liechtenstein",
+                "name": "Liechtenstein",
                 "capital": "Vaduz",
                 "continent": {
                     "code": "EU",
@@ -2692,7 +2692,7 @@ class dyCountry {
                 "languages": ["de-LI"]
             },
             "LT": {
-                "country": "Lithuania",
+                "name": "Lithuania",
                 "capital": "Vilnius",
                 "continent": {
                     "code": "EU",
@@ -2713,7 +2713,7 @@ class dyCountry {
                 "languages": ["lt", "ru", "pl"]
             },
             "LU": {
-                "country": "Luxembourg",
+                "name": "Luxembourg",
                 "capital": "Luxembourg",
                 "continent": {
                     "code": "EU",
@@ -2734,7 +2734,7 @@ class dyCountry {
                 "languages": ["lb", "de-LU", "fr-LU"]
             },
             "MO": {
-                "country": "Macao",
+                "name": "Macao",
                 "capital": "Macao",
                 "continent": {
                     "code": "AS",
@@ -2755,7 +2755,7 @@ class dyCountry {
                 "languages": ["zh", "zh-MO", "pt"]
             },
             "MK": {
-                "country": "Macedonia",
+                "name": "Macedonia",
                 "capital": "Skopje",
                 "continent": {
                     "code": "EU",
@@ -2776,7 +2776,7 @@ class dyCountry {
                 "languages": ["mk", "sq", "tr", "rmm", "sr"]
             },
             "MG": {
-                "country": "Madagascar",
+                "name": "Madagascar",
                 "capital": "Antananarivo",
                 "continent": {
                     "code": "AF",
@@ -2797,7 +2797,7 @@ class dyCountry {
                 "languages": ["fr-MG", "mg"]
             },
             "MW": {
-                "country": "Malawi",
+                "name": "Malawi",
                 "capital": "Lilongwe",
                 "continent": {
                     "code": "AF",
@@ -2818,7 +2818,7 @@ class dyCountry {
                 "languages": ["ny", "yao", "tum", "swk"]
             },
             "MY": {
-                "country": "Malaysia",
+                "name": "Malaysia",
                 "capital": "Kuala Lumpur",
                 "continent": {
                     "code": "AS",
@@ -2839,7 +2839,7 @@ class dyCountry {
                 "languages": ["ms-MY", "en", "zh", "ta", "te", "ml", "pa", "th"]
             },
             "MV": {
-                "country": "Maldives",
+                "name": "Maldives",
                 "capital": "Male",
                 "continent": {
                     "code": "AS",
@@ -2860,7 +2860,7 @@ class dyCountry {
                 "languages": ["dv", "en"]
             },
             "ML": {
-                "country": "Mali",
+                "name": "Mali",
                 "capital": "Bamako",
                 "continent": {
                     "code": "AF",
@@ -2881,7 +2881,7 @@ class dyCountry {
                 "languages": ["fr-ML", "bm"]
             },
             "MT": {
-                "country": "Malta",
+                "name": "Malta",
                 "capital": "Valletta",
                 "continent": {
                     "code": "EU",
@@ -2902,7 +2902,7 @@ class dyCountry {
                 "languages": ["mt", "en-MT"]
             },
             "MH": {
-                "country": "Marshall Islands",
+                "name": "Marshall Islands",
                 "capital": "Majuro",
                 "continent": {
                     "code": "OC",
@@ -2923,7 +2923,7 @@ class dyCountry {
                 "languages": ["mh", "en-MH"]
             },
             "MQ": {
-                "country": "Martinique",
+                "name": "Martinique",
                 "capital": "Fort-de-France",
                 "continent": {
                     "code": "NA",
@@ -2944,7 +2944,7 @@ class dyCountry {
                 "languages": ["fr-MQ"]
             },
             "MR": {
-                "country": "Mauritania",
+                "name": "Mauritania",
                 "capital": "Nouakchott",
                 "continent": {
                     "code": "AF",
@@ -2965,7 +2965,7 @@ class dyCountry {
                 "languages": ["ar-MR", "fuc", "snk", "fr", "mey", "wo"]
             },
             "MU": {
-                "country": "Mauritius",
+                "name": "Mauritius",
                 "capital": "Port Louis",
                 "continent": {
                     "code": "AF",
@@ -2986,7 +2986,7 @@ class dyCountry {
                 "languages": ["en-MU", "bho", "fr"]
             },
             "YT": {
-                "country": "Mayotte",
+                "name": "Mayotte",
                 "capital": "Mamoudzou",
                 "continent": {
                     "code": "AF",
@@ -3007,7 +3007,7 @@ class dyCountry {
                 "languages": ["fr-YT"]
             },
             "MX": {
-                "country": "Mexico",
+                "name": "Mexico",
                 "capital": "Mexico City",
                 "continent": {
                     "code": "NA",
@@ -3028,7 +3028,7 @@ class dyCountry {
                 "languages": ["es-MX"]
             },
             "FM": {
-                "country": "Micronesia",
+                "name": "Micronesia",
                 "capital": "Palikir",
                 "continent": {
                     "code": "OC",
@@ -3049,7 +3049,7 @@ class dyCountry {
                 "languages": ["en-FM", "chk", "pon", "yap", "kos", "uli", "woe", "nkr", "kpg"]
             },
             "MD": {
-                "country": "Moldova",
+                "name": "Moldova",
                 "capital": "Chisinau",
                 "continent": {
                     "code": "EU",
@@ -3070,7 +3070,7 @@ class dyCountry {
                 "languages": ["ro", "ru", "gag", "tr"]
             },
             "MC": {
-                "country": "Monaco",
+                "name": "Monaco",
                 "capital": "Monaco",
                 "continent": {
                     "code": "EU",
@@ -3091,7 +3091,7 @@ class dyCountry {
                 "languages": ["fr-MC", "en", "it"]
             },
             "MN": {
-                "country": "Mongolia",
+                "name": "Mongolia",
                 "capital": "Ulan Bator",
                 "continent": {
                     "code": "AS",
@@ -3112,7 +3112,7 @@ class dyCountry {
                 "languages": ["mn", "ru"]
             },
             "ME": {
-                "country": "Montenegro",
+                "name": "Montenegro",
                 "capital": "Podgorica",
                 "continent": {
                     "code": "EU",
@@ -3133,7 +3133,7 @@ class dyCountry {
                 "languages": ["sr", "hu", "bs", "sq", "hr", "rom"]
             },
             "MS": {
-                "country": "Montserrat",
+                "name": "Montserrat",
                 "capital": "Plymouth",
                 "continent": {
                     "code": "NA",
@@ -3154,7 +3154,7 @@ class dyCountry {
                 "languages": ["en-MS"]
             },
             "MA": {
-                "country": "Morocco",
+                "name": "Morocco",
                 "capital": "Rabat",
                 "continent": {
                     "code": "AF",
@@ -3175,7 +3175,7 @@ class dyCountry {
                 "languages": ["ar-MA", "ber", "fr"]
             },
             "MZ": {
-                "country": "Mozambique",
+                "name": "Mozambique",
                 "capital": "Maputo",
                 "continent": {
                     "code": "AF",
@@ -3196,7 +3196,7 @@ class dyCountry {
                 "languages": ["pt-MZ", "vmw"]
             },
             "MM": {
-                "country": "Myanmar [Burma]",
+                "name": "Myanmar [Burma]",
                 "capital": "Nay Pyi Taw",
                 "continent": {
                     "code": "AS",
@@ -3217,7 +3217,7 @@ class dyCountry {
                 "languages": ["my"]
             },
             "NA": {
-                "country": "Namibia",
+                "name": "Namibia",
                 "capital": "Windhoek",
                 "continent": {
                     "code": "AF",
@@ -3238,7 +3238,7 @@ class dyCountry {
                 "languages": ["en-NA", "af", "de", "hz", "naq"]
             },
             "NR": {
-                "country": "Nauru",
+                "name": "Nauru",
                 "capital": "Yaren",
                 "continent": {
                     "code": "OC",
@@ -3259,7 +3259,7 @@ class dyCountry {
                 "languages": ["na", "en-NR"]
             },
             "NP": {
-                "country": "Nepal",
+                "name": "Nepal",
                 "capital": "Kathmandu",
                 "continent": {
                     "code": "AS",
@@ -3280,7 +3280,7 @@ class dyCountry {
                 "languages": ["ne", "en"]
             },
             "NL": {
-                "country": "Netherlands",
+                "name": "Netherlands",
                 "capital": "Amsterdam",
                 "continent": {
                     "code": "EU",
@@ -3301,7 +3301,7 @@ class dyCountry {
                 "languages": ["nl-NL", "fy-NL"]
             },
             "NC": {
-                "country": "New Caledonia",
+                "name": "New Caledonia",
                 "capital": "Noumea",
                 "continent": {
                     "code": "OC",
@@ -3322,7 +3322,7 @@ class dyCountry {
                 "languages": ["fr-NC"]
             },
             "NZ": {
-                "country": "New Zealand",
+                "name": "New Zealand",
                 "capital": "Wellington",
                 "continent": {
                     "code": "OC",
@@ -3343,7 +3343,7 @@ class dyCountry {
                 "languages": ["en-NZ", "mi"]
             },
             "NI": {
-                "country": "Nicaragua",
+                "name": "Nicaragua",
                 "capital": "Managua",
                 "continent": {
                     "code": "NA",
@@ -3364,7 +3364,7 @@ class dyCountry {
                 "languages": ["es-NI", "en"]
             },
             "NE": {
-                "country": "Niger",
+                "name": "Niger",
                 "capital": "Niamey",
                 "continent": {
                     "code": "AF",
@@ -3385,7 +3385,7 @@ class dyCountry {
                 "languages": ["fr-NE", "ha", "kr", "dje"]
             },
             "NG": {
-                "country": "Nigeria",
+                "name": "Nigeria",
                 "capital": "Abuja",
                 "continent": {
                     "code": "AF",
@@ -3406,7 +3406,7 @@ class dyCountry {
                 "languages": ["en-NG", "ha", "yo", "ig", "ff"]
             },
             "NU": {
-                "country": "Niue",
+                "name": "Niue",
                 "capital": "Alofi",
                 "continent": {
                     "code": "OC",
@@ -3427,7 +3427,7 @@ class dyCountry {
                 "languages": ["niu", "en-NU"]
             },
             "NF": {
-                "country": "Norfolk Island",
+                "name": "Norfolk Island",
                 "capital": "Kingston",
                 "continent": {
                     "code": "OC",
@@ -3448,7 +3448,7 @@ class dyCountry {
                 "languages": ["en-NF"]
             },
             "KP": {
-                "country": "North Korea",
+                "name": "North Korea",
                 "capital": "Pyongyang",
                 "continent": {
                     "code": "AS",
@@ -3469,7 +3469,7 @@ class dyCountry {
                 "languages": ["ko-KP"]
             },
             "MP": {
-                "country": "Northern Mariana Islands",
+                "name": "Northern Mariana Islands",
                 "capital": "Saipan",
                 "continent": {
                     "code": "OC",
@@ -3490,7 +3490,7 @@ class dyCountry {
                 "languages": ["fil", "tl", "zh", "ch-MP", "en-MP"]
             },
             "NO": {
-                "country": "Norway",
+                "name": "Norway",
                 "capital": "Oslo",
                 "continent": {
                     "code": "EU",
@@ -3511,7 +3511,7 @@ class dyCountry {
                 "languages": ["no", "nb", "nn", "se", "fi"]
             },
             "OM": {
-                "country": "Oman",
+                "name": "Oman",
                 "capital": "Muscat",
                 "continent": {
                     "code": "AS",
@@ -3532,7 +3532,7 @@ class dyCountry {
                 "languages": ["ar-OM", "en", "bal", "ur"]
             },
             "PK": {
-                "country": "Pakistan",
+                "name": "Pakistan",
                 "capital": "Islamabad",
                 "continent": {
                     "code": "AS",
@@ -3553,7 +3553,7 @@ class dyCountry {
                 "languages": ["ur-PK", "en-PK", "pa", "sd", "ps", "brh"]
             },
             "PW": {
-                "country": "Palau",
+                "name": "Palau",
                 "capital": "Melekeok",
                 "continent": {
                     "code": "OC",
@@ -3574,7 +3574,7 @@ class dyCountry {
                 "languages": ["pau", "sov", "en-PW", "tox", "ja", "fil", "zh"]
             },
             "PS": {
-                "country": "Palestine",
+                "name": "Palestine",
                 "capital": "East Jerusalem",
                 "continent": {
                     "code": "AS",
@@ -3595,7 +3595,7 @@ class dyCountry {
                 "languages": ["ar-PS"]
             },
             "PA": {
-                "country": "Panama",
+                "name": "Panama",
                 "capital": "Panama City",
                 "continent": {
                     "code": "NA",
@@ -3616,7 +3616,7 @@ class dyCountry {
                 "languages": ["es-PA", "en"]
             },
             "PG": {
-                "country": "Papua New Guinea",
+                "name": "Papua New Guinea",
                 "capital": "Port Moresby",
                 "continent": {
                     "code": "OC",
@@ -3637,7 +3637,7 @@ class dyCountry {
                 "languages": ["en-PG", "ho", "meu", "tpi"]
             },
             "PY": {
-                "country": "Paraguay",
+                "name": "Paraguay",
                 "capital": "Asuncion",
                 "continent": {
                     "code": "SA",
@@ -3658,7 +3658,7 @@ class dyCountry {
                 "languages": ["es-PY", "gn"]
             },
             "PE": {
-                "country": "Peru",
+                "name": "Peru",
                 "capital": "Lima",
                 "continent": {
                     "code": "SA",
@@ -3679,7 +3679,7 @@ class dyCountry {
                 "languages": ["es-PE", "qu", "ay"]
             },
             "PH": {
-                "country": "Philippines",
+                "name": "Philippines",
                 "capital": "Manila",
                 "continent": {
                     "code": "AS",
@@ -3700,7 +3700,7 @@ class dyCountry {
                 "languages": ["tl", "en-PH", "fil", "ceb", "tgl", "ilo", "hil", "war", "pam", "bik", "bcl", "pag", "mrw", "tsg", "mdh", "cbk", "krj", "sgd", "msb", "akl", "ibg", "yka", "mta", "abx"]
             },
             "PN": {
-                "country": "Pitcairn Islands",
+                "name": "Pitcairn Islands",
                 "capital": "Adamstown",
                 "continent": {
                     "code": "OC",
@@ -3721,7 +3721,7 @@ class dyCountry {
                 "languages": ["en-PN"]
             },
             "PL": {
-                "country": "Poland",
+                "name": "Poland",
                 "capital": "Warsaw",
                 "continent": {
                     "code": "EU",
@@ -3742,7 +3742,7 @@ class dyCountry {
                 "languages": ["pl"]
             },
             "PT": {
-                "country": "Portugal",
+                "name": "Portugal",
                 "capital": "Lisbon",
                 "continent": {
                     "code": "EU",
@@ -3763,7 +3763,7 @@ class dyCountry {
                 "languages": ["pt-PT", "mwl"]
             },
             "PR": {
-                "country": "Puerto Rico",
+                "name": "Puerto Rico",
                 "capital": "San Juan",
                 "continent": {
                     "code": "NA",
@@ -3784,7 +3784,7 @@ class dyCountry {
                 "languages": ["en-PR", "es-PR"]
             },
             "QA": {
-                "country": "Qatar",
+                "name": "Qatar",
                 "capital": "Doha",
                 "continent": {
                     "code": "AS",
@@ -3805,7 +3805,7 @@ class dyCountry {
                 "languages": ["ar-QA", "es"]
             },
             "CG": {
-                "country": "Republic of the Congo",
+                "name": "Republic of the Congo",
                 "capital": "Brazzaville",
                 "continent": {
                     "code": "AF",
@@ -3826,7 +3826,7 @@ class dyCountry {
                 "languages": ["fr-CG", "kg", "ln-CG"]
             },
             "RE": {
-                "country": "Réunion",
+                "name": "Réunion",
                 "capital": "Saint-Denis",
                 "continent": {
                     "code": "AF",
@@ -3847,7 +3847,7 @@ class dyCountry {
                 "languages": ["fr-RE"]
             },
             "RO": {
-                "country": "Romania",
+                "name": "Romania",
                 "capital": "Bucharest",
                 "continent": {
                     "code": "EU",
@@ -3868,7 +3868,7 @@ class dyCountry {
                 "languages": ["ro", "hu", "rom"]
             },
             "RU": {
-                "country": "Russia",
+                "name": "Russia",
                 "capital": "Moscow",
                 "continent": {
                     "code": "EU",
@@ -3889,7 +3889,7 @@ class dyCountry {
                 "languages": ["ru", "tt", "xal", "cau", "ady", "kv", "ce", "tyv", "cv", "udm", "tut", "mns", "bua", "myv", "mdf", "chm", "ba", "inh", "tut", "kbd", "krc", "av", "sah", "nog"]
             },
             "RW": {
-                "country": "Rwanda",
+                "name": "Rwanda",
                 "capital": "Kigali",
                 "continent": {
                     "code": "AF",
@@ -3910,7 +3910,7 @@ class dyCountry {
                 "languages": ["rw", "en-RW", "fr-RW", "sw"]
             },
             "BL": {
-                "country": "Saint Barthélemy",
+                "name": "Saint Barthélemy",
                 "capital": "Gustavia",
                 "continent": {
                     "code": "NA",
@@ -3931,7 +3931,7 @@ class dyCountry {
                 "languages": ["fr"]
             },
             "SH": {
-                "country": "Saint Helena",
+                "name": "Saint Helena",
                 "capital": "Jamestown",
                 "continent": {
                     "code": "AF",
@@ -3952,7 +3952,7 @@ class dyCountry {
                 "languages": ["en-SH"]
             },
             "KN": {
-                "country": "Saint Kitts and Nevis",
+                "name": "Saint Kitts and Nevis",
                 "capital": "Basseterre",
                 "continent": {
                     "code": "NA",
@@ -3973,7 +3973,7 @@ class dyCountry {
                 "languages": ["en-KN"]
             },
             "LC": {
-                "country": "Saint Lucia",
+                "name": "Saint Lucia",
                 "capital": "Castries",
                 "continent": {
                     "code": "NA",
@@ -3994,7 +3994,7 @@ class dyCountry {
                 "languages": ["en-LC"]
             },
             "MF": {
-                "country": "Saint Martin",
+                "name": "Saint Martin",
                 "capital": "Marigot",
                 "continent": {
                     "code": "NA",
@@ -4015,7 +4015,7 @@ class dyCountry {
                 "languages": ["fr"]
             },
             "PM": {
-                "country": "Saint Pierre and Miquelon",
+                "name": "Saint Pierre and Miquelon",
                 "capital": "Saint-Pierre",
                 "continent": {
                     "code": "NA",
@@ -4036,7 +4036,7 @@ class dyCountry {
                 "languages": ["fr-PM"]
             },
             "VC": {
-                "country": "Saint Vincent and the Grenadines",
+                "name": "Saint Vincent and the Grenadines",
                 "capital": "Kingstown",
                 "continent": {
                     "code": "NA",
@@ -4057,7 +4057,7 @@ class dyCountry {
                 "languages": ["en-VC", "fr"]
             },
             "WS": {
-                "country": "Samoa",
+                "name": "Samoa",
                 "capital": "Apia",
                 "continent": {
                     "code": "OC",
@@ -4078,7 +4078,7 @@ class dyCountry {
                 "languages": ["sm", "en-WS"]
             },
             "SM": {
-                "country": "San Marino",
+                "name": "San Marino",
                 "capital": "San Marino",
                 "continent": {
                     "code": "EU",
@@ -4099,7 +4099,7 @@ class dyCountry {
                 "languages": ["it-SM"]
             },
             "ST": {
-                "country": "São Tomé and Príncipe",
+                "name": "São Tomé and Príncipe",
                 "capital": "Sao Tome",
                 "continent": {
                     "code": "AF",
@@ -4120,7 +4120,7 @@ class dyCountry {
                 "languages": ["pt-ST"]
             },
             "SA": {
-                "country": "Saudi Arabia",
+                "name": "Saudi Arabia",
                 "capital": "Riyadh",
                 "continent": {
                     "code": "AS",
@@ -4141,7 +4141,7 @@ class dyCountry {
                 "languages": ["ar-SA"]
             },
             "SN": {
-                "country": "Senegal",
+                "name": "Senegal",
                 "capital": "Dakar",
                 "continent": {
                     "code": "AF",
@@ -4162,7 +4162,7 @@ class dyCountry {
                 "languages": ["fr-SN", "wo", "fuc", "mnk"]
             },
             "RS": {
-                "country": "Serbia",
+                "name": "Serbia",
                 "capital": "Belgrade",
                 "continent": {
                     "code": "EU",
@@ -4183,7 +4183,7 @@ class dyCountry {
                 "languages": ["sr", "hu", "bs", "rom"]
             },
             "SC": {
-                "country": "Seychelles",
+                "name": "Seychelles",
                 "capital": "Victoria",
                 "continent": {
                     "code": "AF",
@@ -4204,7 +4204,7 @@ class dyCountry {
                 "languages": ["en-SC", "fr-SC"]
             },
             "SL": {
-                "country": "Sierra Leone",
+                "name": "Sierra Leone",
                 "capital": "Freetown",
                 "continent": {
                     "code": "AF",
@@ -4225,7 +4225,7 @@ class dyCountry {
                 "languages": ["en-SL", "men", "tem"]
             },
             "SG": {
-                "country": "Singapore",
+                "name": "Singapore",
                 "capital": "Singapur",
                 "continent": {
                     "code": "AS",
@@ -4246,7 +4246,7 @@ class dyCountry {
                 "languages": ["cmn", "en-SG", "ms-SG", "ta-SG", "zh-SG"]
             },
             "SX": {
-                "country": "Sint Maarten",
+                "name": "Sint Maarten",
                 "capital": "Philipsburg",
                 "continent": {
                     "code": "NA",
@@ -4267,7 +4267,7 @@ class dyCountry {
                 "languages": ["nl", "en"]
             },
             "SK": {
-                "country": "Slovakia",
+                "name": "Slovakia",
                 "capital": "Bratislava",
                 "continent": {
                     "code": "EU",
@@ -4288,7 +4288,7 @@ class dyCountry {
                 "languages": ["sk", "hu"]
             },
             "SI": {
-                "country": "Slovenia",
+                "name": "Slovenia",
                 "capital": "Ljubljana",
                 "continent": {
                     "code": "EU",
@@ -4309,7 +4309,7 @@ class dyCountry {
                 "languages": ["sl", "sh"]
             },
             "SB": {
-                "country": "Solomon Islands",
+                "name": "Solomon Islands",
                 "capital": "Honiara",
                 "continent": {
                     "code": "OC",
@@ -4330,7 +4330,7 @@ class dyCountry {
                 "languages": ["en-SB", "tpi"]
             },
             "SO": {
-                "country": "Somalia",
+                "name": "Somalia",
                 "capital": "Mogadishu",
                 "continent": {
                     "code": "AF",
@@ -4351,7 +4351,7 @@ class dyCountry {
                 "languages": ["so-SO", "ar-SO", "it", "en-SO"]
             },
             "ZA": {
-                "country": "South Africa",
+                "name": "South Africa",
                 "capital": "Pretoria",
                 "continent": {
                     "code": "AF",
@@ -4372,7 +4372,7 @@ class dyCountry {
                 "languages": ["zu", "xh", "af", "nso", "en-ZA", "tn", "st", "ts", "ss", "ve", "nr"]
             },
             "GS": {
-                "country": "South Georgia and the South Sandwich Islands",
+                "name": "South Georgia and the South Sandwich Islands",
                 "capital": "Grytviken",
                 "continent": {
                     "code": "AN",
@@ -4393,7 +4393,7 @@ class dyCountry {
                 "languages": ["en"]
             },
             "KR": {
-                "country": "South Korea",
+                "name": "South Korea",
                 "capital": "Seoul",
                 "continent": {
                     "code": "AS",
@@ -4414,7 +4414,7 @@ class dyCountry {
                 "languages": ["ko-KR", "en"]
             },
             "SS": {
-                "country": "South Sudan",
+                "name": "South Sudan",
                 "capital": "Juba",
                 "continent": {
                     "code": "AF",
@@ -4435,7 +4435,7 @@ class dyCountry {
                 "languages": ["en"]
             },
             "ES": {
-                "country": "Spain",
+                "name": "Spain",
                 "capital": "Madrid",
                 "continent": {
                     "code": "EU",
@@ -4456,7 +4456,7 @@ class dyCountry {
                 "languages": ["es-ES", "ca", "gl", "eu", "oc"]
             },
             "LK": {
-                "country": "Sri Lanka",
+                "name": "Sri Lanka",
                 "capital": "Colombo",
                 "continent": {
                     "code": "AS",
@@ -4477,7 +4477,7 @@ class dyCountry {
                 "languages": ["si", "ta", "en"]
             },
             "SD": {
-                "country": "Sudan",
+                "name": "Sudan",
                 "capital": "Khartoum",
                 "continent": {
                     "code": "AF",
@@ -4498,7 +4498,7 @@ class dyCountry {
                 "languages": ["ar-SD", "en", "fia"]
             },
             "SR": {
-                "country": "Suriname",
+                "name": "Suriname",
                 "capital": "Paramaribo",
                 "continent": {
                     "code": "SA",
@@ -4519,7 +4519,7 @@ class dyCountry {
                 "languages": ["nl-SR", "en", "srn", "hns", "jv"]
             },
             "SJ": {
-                "country": "Svalbard and Jan Mayen",
+                "name": "Svalbard and Jan Mayen",
                 "capital": "Longyearbyen",
                 "continent": {
                     "code": "EU",
@@ -4540,7 +4540,7 @@ class dyCountry {
                 "languages": ["no", "ru"]
             },
             "SZ": {
-                "country": "Swaziland",
+                "name": "Swaziland",
                 "capital": "Mbabane",
                 "continent": {
                     "code": "AF",
@@ -4561,7 +4561,7 @@ class dyCountry {
                 "languages": ["en-SZ", "ss-SZ"]
             },
             "SE": {
-                "country": "Sweden",
+                "name": "Sweden",
                 "capital": "Stockholm",
                 "continent": {
                     "code": "EU",
@@ -4582,7 +4582,7 @@ class dyCountry {
                 "languages": ["sv-SE", "se", "sma", "fi-SE"]
             },
             "CH": {
-                "country": "Switzerland",
+                "name": "Switzerland",
                 "capital": "Berne",
                 "continent": {
                     "code": "EU",
@@ -4603,7 +4603,7 @@ class dyCountry {
                 "languages": ["de-CH", "fr-CH", "it-CH", "rm"]
             },
             "SY": {
-                "country": "Syria",
+                "name": "Syria",
                 "capital": "Damascus",
                 "continent": {
                     "code": "AS",
@@ -4624,7 +4624,7 @@ class dyCountry {
                 "languages": ["ar-SY", "ku", "hy", "arc", "fr", "en"]
             },
             "TW": {
-                "country": "Taiwan",
+                "name": "Taiwan",
                 "capital": "Taipei",
                 "continent": {
                     "code": "AS",
@@ -4645,7 +4645,7 @@ class dyCountry {
                 "languages": ["zh-TW", "zh", "nan", "hak"]
             },
             "TJ": {
-                "country": "Tajikistan",
+                "name": "Tajikistan",
                 "capital": "Dushanbe",
                 "continent": {
                     "code": "AS",
@@ -4666,7 +4666,7 @@ class dyCountry {
                 "languages": ["tg", "ru"]
             },
             "TZ": {
-                "country": "Tanzania",
+                "name": "Tanzania",
                 "capital": "Dodoma",
                 "continent": {
                     "code": "AF",
@@ -4687,7 +4687,7 @@ class dyCountry {
                 "languages": ["sw-TZ", "en", "ar"]
             },
             "TH": {
-                "country": "Thailand",
+                "name": "Thailand",
                 "capital": "Bangkok",
                 "continent": {
                     "code": "AS",
@@ -4708,7 +4708,7 @@ class dyCountry {
                 "languages": ["th", "en"]
             },
             "TG": {
-                "country": "Togo",
+                "name": "Togo",
                 "capital": "Lome",
                 "continent": {
                     "code": "AF",
@@ -4729,7 +4729,7 @@ class dyCountry {
                 "languages": ["fr-TG", "ee", "hna", "kbp", "dag", "ha"]
             },
             "TK": {
-                "country": "Tokelau",
+                "name": "Tokelau",
                 "capital": "",
                 "continent": {
                     "code": "OC",
@@ -4750,7 +4750,7 @@ class dyCountry {
                 "languages": ["tkl", "en-TK"]
             },
             "TO": {
-                "country": "Tonga",
+                "name": "Tonga",
                 "capital": "Nuku'alofa",
                 "continent": {
                     "code": "OC",
@@ -4771,7 +4771,7 @@ class dyCountry {
                 "languages": ["to", "en-TO"]
             },
             "TT": {
-                "country": "Trinidad and Tobago",
+                "name": "Trinidad and Tobago",
                 "capital": "Port of Spain",
                 "continent": {
                     "code": "NA",
@@ -4792,7 +4792,7 @@ class dyCountry {
                 "languages": ["en-TT", "hns", "fr", "es", "zh"]
             },
             "TN": {
-                "country": "Tunisia",
+                "name": "Tunisia",
                 "capital": "Tunis",
                 "continent": {
                     "code": "AF",
@@ -4813,7 +4813,7 @@ class dyCountry {
                 "languages": ["ar-TN", "fr"]
             },
             "TR": {
-                "country": "Turkey",
+                "name": "Turkey",
                 "capital": "Ankara",
                 "continent": {
                     "code": "AS",
@@ -4834,7 +4834,7 @@ class dyCountry {
                 "languages": ["tr-TR", "ku", "diq", "az", "av"]
             },
             "TM": {
-                "country": "Turkmenistan",
+                "name": "Turkmenistan",
                 "capital": "Ashgabat",
                 "continent": {
                     "code": "AS",
@@ -4855,7 +4855,7 @@ class dyCountry {
                 "languages": ["tk", "ru", "uz"]
             },
             "TC": {
-                "country": "Turks and Caicos Islands",
+                "name": "Turks and Caicos Islands",
                 "capital": "Cockburn Town",
                 "continent": {
                     "code": "NA",
@@ -4876,7 +4876,7 @@ class dyCountry {
                 "languages": ["en-TC"]
             },
             "TV": {
-                "country": "Tuvalu",
+                "name": "Tuvalu",
                 "capital": "Funafuti",
                 "continent": {
                     "code": "OC",
@@ -4897,7 +4897,7 @@ class dyCountry {
                 "languages": ["tvl", "en", "sm", "gil"]
             },
             "UM": {
-                "country": "U.S. Minor Outlying Islands",
+                "name": "U.S. Minor Outlying Islands",
                 "capital": "",
                 "continent": {
                     "code": "OC",
@@ -4918,7 +4918,7 @@ class dyCountry {
                 "languages": ["en-UM"]
             },
             "VI": {
-                "country": "U.S. Virgin Islands",
+                "name": "U.S. Virgin Islands",
                 "capital": "Charlotte Amalie",
                 "continent": {
                     "code": "NA",
@@ -4939,7 +4939,7 @@ class dyCountry {
                 "languages": ["en-VI"]
             },
             "UG": {
-                "country": "Uganda",
+                "name": "Uganda",
                 "capital": "Kampala",
                 "continent": {
                     "code": "AF",
@@ -4960,7 +4960,7 @@ class dyCountry {
                 "languages": ["en-UG", "lg", "sw", "ar"]
             },
             "UA": {
-                "country": "Ukraine",
+                "name": "Ukraine",
                 "capital": "Kiev",
                 "continent": {
                     "code": "EU",
@@ -4981,7 +4981,7 @@ class dyCountry {
                 "languages": ["uk", "ru-UA", "rom", "pl", "hu"]
             },
             "AE": {
-                "country": "United Arab Emirates",
+                "name": "United Arab Emirates",
                 "capital": "Abu Dhabi",
                 "continent": {
                     "code": "AS",
@@ -5002,7 +5002,7 @@ class dyCountry {
                 "languages": ["ar-AE", "fa", "en", "hi", "ur"]
             },
             "GB": {
-                "country": "United Kingdom",
+                "name": "United Kingdom",
                 "capital": "London",
                 "continent": {
                     "code": "EU",
@@ -5023,7 +5023,7 @@ class dyCountry {
                 "languages": ["en-GB", "cy-GB", "gd"]
             },
             "US": {
-                "country": "United States",
+                "name": "United States",
                 "capital": "Washington",
                 "continent": {
                     "code": "NA",
@@ -5044,7 +5044,7 @@ class dyCountry {
                 "languages": ["en-US", "es-US", "haw", "fr"]
             },
             "UY": {
-                "country": "Uruguay",
+                "name": "Uruguay",
                 "capital": "Montevideo",
                 "continent": {
                     "code": "SA",
@@ -5065,7 +5065,7 @@ class dyCountry {
                 "languages": ["es-UY"]
             },
             "UZ": {
-                "country": "Uzbekistan",
+                "name": "Uzbekistan",
                 "capital": "Tashkent",
                 "continent": {
                     "code": "AS",
@@ -5086,7 +5086,7 @@ class dyCountry {
                 "languages": ["uz", "ru", "tg"]
             },
             "VU": {
-                "country": "Vanuatu",
+                "name": "Vanuatu",
                 "capital": "Port Vila",
                 "continent": {
                     "code": "OC",
@@ -5107,7 +5107,7 @@ class dyCountry {
                 "languages": ["bi", "en-VU", "fr-VU"]
             },
             "VA": {
-                "country": "Vatican City",
+                "name": "Vatican City",
                 "capital": "Vatican City",
                 "continent": {
                     "code": "EU",
@@ -5128,7 +5128,7 @@ class dyCountry {
                 "languages": ["la", "it", "fr"]
             },
             "VE": {
-                "country": "Venezuela",
+                "name": "Venezuela",
                 "capital": "Caracas",
                 "continent": {
                     "code": "SA",
@@ -5149,7 +5149,7 @@ class dyCountry {
                 "languages": ["es-VE"]
             },
             "VN": {
-                "country": "Vietnam",
+                "name": "Vietnam",
                 "capital": "Hanoi",
                 "continent": {
                     "code": "AS",
@@ -5170,7 +5170,7 @@ class dyCountry {
                 "languages": ["vi", "en", "fr", "zh", "km"]
             },
             "WF": {
-                "country": "Wallis and Futuna",
+                "name": "Wallis and Futuna",
                 "capital": "Mata Utu",
                 "continent": {
                     "code": "OC",
@@ -5191,7 +5191,7 @@ class dyCountry {
                 "languages": ["wls", "fud", "fr-WF"]
             },
             "EH": {
-                "country": "Western Sahara",
+                "name": "Western Sahara",
                 "capital": "El-Aaiun",
                 "continent": {
                     "code": "AF",
@@ -5212,7 +5212,7 @@ class dyCountry {
                 "languages": ["ar", "mey"]
             },
             "YE": {
-                "country": "Yemen",
+                "name": "Yemen",
                 "capital": "Sanaa",
                 "continent": {
                     "code": "AS",
@@ -5233,7 +5233,7 @@ class dyCountry {
                 "languages": ["ar-YE"]
             },
             "ZM": {
-                "country": "Zambia",
+                "name": "Zambia",
                 "capital": "Lusaka",
                 "continent": {
                     "code": "AF",
@@ -5254,7 +5254,7 @@ class dyCountry {
                 "languages": ["en-ZM", "bem", "loz", "lun", "lue", "ny", "toi"]
             },
             "ZW": {
-                "country": "Zimbabwe",
+                "name": "Zimbabwe",
                 "capital": "Harare",
                 "continent": {
                     "code": "AF",
@@ -5552,6 +5552,11 @@ class dyCountry {
             return {error: 'No match found'};
         }
 
+        let flag = this.flag(code);
+        if (!flag.error) {
+            result['flag'] = flag;
+        }
+
         return result;
     }
 
@@ -5562,13 +5567,13 @@ class dyCountry {
      * @param {string} code iso-alpha-2 and iso-alpha-3 code
      * @returns {*}
      */
-    country(code) {
+    name(code) {
         let result;
 
         if (code.length === 2) {
-            result = this._data[code]['country'];
+            result = this._data[code]['name'];
         } else if (code.length === 3) {
-            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['country'];
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['name'];
         } else {
             return {error: 'Invalid code'};
         }

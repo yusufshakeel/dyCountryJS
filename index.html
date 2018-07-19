@@ -132,29 +132,29 @@ var obj = new dyCountry(config);</code></pre>
 
             <hr>
 
-            <!-- country() -->
-            <a name="country"></a>
-            <h4><a href="#country"><code>country()</code></a> returns the country name</h4>
+            <!-- name() -->
+            <a name="name"></a>
+            <h4><a href="#name"><code>name()</code></a> returns the country name</h4>
 
             <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
                 it will return the country name.</p>
 
-            <pre><code>obj.country('IN');</code></pre>
+            <pre><code>obj.name('IN');</code></pre>
 
-            <pre><code>obj.country('IND');</code></pre>
+            <pre><code>obj.name('IND');</code></pre>
 
             <div>
                 <a class="btn btn-primary"
                    role="button"
                    data-toggle="collapse"
-                   href="#collapse-country"
+                   href="#collapse-name"
                    aria-expanded="false"
-                   aria-controls="collapse-country">Output</a>
+                   aria-controls="collapse-name">Output</a>
             </div>
-            <div class="collapse" id="collapse-country">
-                <pre><code id="country-output"></code></pre>
+            <div class="collapse" id="collapse-name">
+                <pre><code id="name-output"></code></pre>
             </div>
-            <!-- country() ends here-->
+            <!-- name() ends here-->
 
             <hr>
 
@@ -320,10 +320,10 @@ var obj = new dyCountry(config);</code></pre>
         .getElementById('get-output')
         .innerHTML = JSON.stringify(dyCountryObj.get('IN'), null, 2);
 
-    // country()
+    // name()
     document
-        .getElementById('country-output')
-        .innerHTML = JSON.stringify(dyCountryObj.country('IN'), null, 2);
+        .getElementById('name-output')
+        .innerHTML = JSON.stringify(dyCountryObj.name('IN'), null, 2);
 
     // capital()
     document
