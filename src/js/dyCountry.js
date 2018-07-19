@@ -5775,4 +5775,29 @@ class dyCountry {
         return result;
     }
 
+    /**
+     * This will return the phone code of the country
+     * iso-alpha-2 and iso-alpha-3 code.
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @returns {*}
+     */
+    phoneCode(code) {
+        let result;
+
+        if (code.length === 2) {
+            result = this._data[code]['phoneCode'];
+        } else if (code.length === 3) {
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['phoneCode'];
+        } else {
+            return {error: 'Invalid code'};
+        }
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        }
+
+        return result;
+    }
+
 }

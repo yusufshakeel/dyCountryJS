@@ -381,6 +381,32 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- fipsCode() ends here-->
 
+            <hr>
+
+            <!-- phoneCode() -->
+            <a name="phoneCode"></a>
+            <h4><a href="#phoneCode"><code>phoneCode()</code></a> returns the country phone code</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country phone code.</p>
+
+            <pre><code>obj.phoneCode('IN');</code></pre>
+
+            <pre><code>obj.phoneCode('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-phoneCode"
+                   aria-expanded="false"
+                   aria-controls="collapse-phoneCode">Output</a>
+            </div>
+            <div class="collapse" id="collapse-phoneCode">
+                <pre><code id="phoneCode-output"></code></pre>
+            </div>
+            <!-- phoneCode() ends here-->
+
 
         </div>
 
@@ -493,6 +519,11 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('fipsCode-output')
         .innerHTML = JSON.stringify(dyCountryObj.fipsCode('IN'), null, 2);
+
+    // phoneCode()
+    document
+        .getElementById('phoneCode-output')
+        .innerHTML = JSON.stringify(dyCountryObj.phoneCode('IN'), null, 2);
 
 </script>
 </body>

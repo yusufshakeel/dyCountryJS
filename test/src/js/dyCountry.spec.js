@@ -192,4 +192,20 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData, 'IN');
     });
 
+    /**
+     * get phoneCode() of a country using iso-alpha-2 code
+     */
+    it('should fetch country phoneCode by iso-alpha-2 code', () => {
+        let countryData = obj.phoneCode('IN');
+        assert.equal(countryData[0], '91');
+    });
+
+    /**
+     * get phoneCode() of a country using iso-alpha-3 code
+     */
+    it('should fetch country phoneCode by iso-alpha-3 code', () => {
+        let countryData = obj.phoneCode('IND');
+        assert.equal(countryData[0], '91');
+    });
+
 });
