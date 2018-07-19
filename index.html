@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dyCountryJS - Yusuf Shakeel</title>
+
+    <!-- twitter bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- dyScrollUpJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dyscrollupjs@1.1.4/css/dyscrollup.min.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center">
+                <h1>dyCountryJS</h1>
+                <p>Dictionary to get country info.</p>
+
+                <div class="text-center">
+                    <a class="btn btn-default btn-lg"
+                       href='https://github.com/yusufshakeel/dyCountryJS/releases'>Download</a>
+                    <a class="btn btn-default btn-lg" href='https://github.com/yusufshakeel/dyCountryJS'>GitHub</a>
+                </div>
+
+                <h4>Created by: <a href='https://github.com/yusufshakeel'>Yusuf Shakeel</a></h4>
+
+            </div>
+
+            <div class="text-center">
+                <h3>License</h3>
+                <p>It's free and released under <a href="https://github.com/yusufshakeel/dyCountryJS/blob/master/LICENSE">MIT
+                    License</a> Copyright (c) 2018 <a href="https://github.com/yusufshakeel">Yusuf Shakeel</a></p>
+            </div>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+
+            <h3 class="text-center">Getting Started</h3>
+
+            <hr>
+
+            <h4>Include the dyCountryJS file</h4>
+
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;dyCountryJS Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- some html goes here --&gt;
+
+&lt;!-- script --&gt;
+&lt;script src=&quot;path/to/dyCountry.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <br>
+
+            <h4>Instantiate an object</h4>
+
+            <p>Now, instantiate an object of the <code>dyCountry</code> class.</p>
+
+            <pre><code>var obj = new dyCountry();</code></pre>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+
+            <h3 class="text-center">Methods</h3>
+
+            <hr>
+
+            <!-- get() -->
+            <a name="get"></a>
+            <h4><a href="#get"><code>get()</code></a> country details</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country information.</p>
+
+            <pre><code>obj.get('IN');</code></pre>
+
+            <pre><code>obj.get('IND');</code></pre>
+
+            <p>Output</p>
+
+            <pre><code id="get-output"></code></pre>
+            <!-- get() ends here-->
+
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="text-center">
+                <h3>Donate</h3>
+                <p>Feeling generous &hearts; Buy me a cup of tea</p>
+                <p><a href="https://www.paypal.me/yusufshakeel">Donate via PayPal</a></p>
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p>Copyright &copy; Yusuf Shakeel</p>
+                <p>MIT License</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- javascript -->
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+<!-- dyScrollUpJS -->
+<script src="https://cdn.jsdelivr.net/npm/dyscrollupjs@1.1.4/js/dyscrollup.min.js"></script>
+<script>
+    $(function () {
+        dyscrollup.init({
+            showafter: 600,
+            scrolldelay: 500,
+            position: "right",
+            image: "https://cdn.jsdelivr.net/npm/dyscrollupjs@1.1.4/image/32.png",
+            shape: "square",
+            width: 32,
+            height: 32
+        });
+    })
+</script>
+
+<!-- script -->
+<script src="dist/js/dyCountry.min.js"></script>
+
+<script>
+    var dyCountryObj = new dyCountry();
+
+    // get()
+    document
+        .getElementById('get-output')
+        .innerHTML = JSON.stringify(dyCountryObj.get('IN'), null, 2);
+</script>
+</body>
+</html>
