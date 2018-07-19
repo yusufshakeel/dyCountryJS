@@ -14,7 +14,15 @@
 
 class dyCountry {
 
-    constructor() {
+    /**
+     * The constructor.
+     *
+     * @param {object} config
+     */
+    constructor(config) {
+
+        this._config = config;
+
         this._data = {
             "AF": {
                 "country": "Afghanistan",
@@ -5523,7 +5531,7 @@ class dyCountry {
     }
 
     /**
-     * This method will return country detail by country
+     * This will return country detail by country
      * iso-alpha-2 and iso-alpha-3 code.
      *
      * @param {string} code iso-alpha-2 and iso-alpha-3 code
@@ -5568,6 +5576,60 @@ class dyCountry {
         if (typeof result === 'undefined') {
             return {error: 'No match found'};
         }
+
+        return result;
+    }
+
+    /**
+     * This will return iso data based on country
+     * iso-alpha-2 and iso-alpha-3 code
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @param {string} type (optional)
+     * @returns {*}
+     */
+    iso(code, type) {
+        let result;
+
+        if (code.length === 2) {
+            result = this._data[code]['iso'];
+        } else if (code.length === 3) {
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['iso'];
+        } else {
+            return {error: 'Invalid code'};
+        }
+
+        if (typeof type !== 'undefined') {
+            result = result[type];
+        }
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        }
+
+        return result;
+    }
+
+    /**
+     * This will return image path of country flag by
+     * iso-alpha-2 and iso-alpha-3 code
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @returns {*}
+     */
+    flag(code) {
+        let result;
+
+        result = this.iso(code, 'alpha2');
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        } else if (result.error) {
+            return result;
+        }
+
+        // construct flag image file path
+        result = this._config.flagDirPath + "/" + result.toLowerCase() + ".png";
 
         return result;
     }

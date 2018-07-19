@@ -20,7 +20,9 @@ describe('Testing dyCountryJS', () => {
     let obj;
 
     beforeEach(() => {
-        obj = new dyCountry();
+        obj = new dyCountry({
+            flagDirPath: 'path/to/dist/flags'
+        });
     });
 
     /**
@@ -35,7 +37,7 @@ describe('Testing dyCountryJS', () => {
      */
     it('should fetch country by iso-alpha-2 code', () => {
         let countryData = obj.get('IN');
-        assert(countryData.iso.alpha2, 'IN', 'iso-alpha-2 country code is a match');
+        assert.equal(countryData.iso.alpha2, 'IN');
     });
 
     /**
@@ -43,7 +45,7 @@ describe('Testing dyCountryJS', () => {
      */
     it('should fetch country by iso-alpha-3 code', () => {
         let countryData = obj.get('IND');
-        assert(countryData.iso.alpha3, 'IND', 'iso-alpha-3 country code is a match');
+        assert.equal(countryData.iso.alpha3, 'IND');
     });
 
     /**
@@ -51,7 +53,7 @@ describe('Testing dyCountryJS', () => {
      */
     it('should fetch country capital by iso-alpha-2 code', () => {
         let countryData = obj.capital('IN');
-        assert(countryData, 'New Delhi', 'iso-alpha-2 country capital is a match');
+        assert.equal(countryData, 'New Delhi');
     });
 
     /**
@@ -59,7 +61,55 @@ describe('Testing dyCountryJS', () => {
      */
     it('should fetch country capital by iso-alpha-3 code', () => {
         let countryData = obj.capital('IND');
-        assert(countryData, 'New Delhi', 'iso-alpha-3 country capital is a match');
+        assert.equal(countryData, 'New Delhi');
+    });
+
+    /**
+     * get iso() of a country using iso-alpha-2 code
+     */
+    it('should fetch country iso by iso-alpha-2 code', () => {
+        let countryData = obj.iso('IN');
+        assert.equal(countryData.alpha2, 'IN');
+    });
+
+    /**
+     * get iso() of a country using iso-alpha-2 code and type
+     */
+    it('should fetch country iso by iso-alpha-2 code and type', () => {
+        let countryData = obj.iso('IN', 'alpha2');
+        assert.equal(countryData, 'IN');
+    });
+
+    /**
+     * get iso() of a country using iso-alpha-3 code
+     */
+    it('should fetch country iso by iso-alpha-3 code', () => {
+        let countryData = obj.iso('IND');
+        assert.equal(countryData.alpha3, 'IND');
+    });
+
+    /**
+     * get iso() of a country using iso-alpha-3 code and type
+     */
+    it('should fetch country iso by iso-alpha-3 code and type', () => {
+        let countryData = obj.iso('IND', 'alpha3');
+        assert.equal(countryData, 'IND');
+    });
+
+    /**
+     * get flag() of a country using iso-alpha-2 code
+     */
+    it('should fetch country flag by iso-alpha-2 code', () => {
+        let countryData = obj.flag('IN');
+        assert.equal(countryData, 'path/to/dist/flags/in.png');
+    });
+
+    /**
+     * get flag() of a country using iso-alpha-3 code
+     */
+    it('should fetch country flag by iso-alpha-3 code', () => {
+        let countryData = obj.flag('IND');
+        assert.equal(countryData, 'path/to/dist/flags/in.png');
     });
 
 });

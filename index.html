@@ -33,7 +33,8 @@
 
             <div class="text-center">
                 <h3>License</h3>
-                <p>It's free and released under <a href="https://github.com/yusufshakeel/dyCountryJS/blob/master/LICENSE">MIT
+                <p>It's free and released under <a
+                        href="https://github.com/yusufshakeel/dyCountryJS/blob/master/LICENSE">MIT
                     License</a> Copyright (c) 2018 <a href="https://github.com/yusufshakeel">Yusuf Shakeel</a></p>
             </div>
 
@@ -88,10 +89,44 @@
 
             <pre><code>obj.get('IND');</code></pre>
 
-            <p>Output</p>
-
-            <pre><code id="get-output"></code></pre>
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-get"
+                   aria-expanded="false"
+                   aria-controls="collapse-get">Output</a>
+            </div>
+            <div class="collapse" id="collapse-get">
+                <pre><code id="get-output"></code></pre>
+            </div>
             <!-- get() ends here-->
+
+            <hr>
+
+            <!-- capital() -->
+            <a name="capital"></a>
+            <h4><a href="#capital"><code>capital()</code></a> country capital</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country capital.</p>
+
+            <pre><code>obj.capital('IN');</code></pre>
+
+            <pre><code>obj.capital('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-capital"
+                   aria-expanded="false"
+                   aria-controls="collapse-capital">Output</a>
+            </div>
+            <div class="collapse" id="collapse-capital">
+                <pre><code id="capital-output"></code></pre>
+            </div>
+            <!-- capital() ends here-->
 
 
         </div>
@@ -147,12 +182,20 @@
 <script src="dist/js/dyCountry.min.js"></script>
 
 <script>
-    var dyCountryObj = new dyCountry();
+    var config = {
+        flagDirPath: 'dist/flags'
+    };
+    var dyCountryObj = new dyCountry(config);
 
     // get()
     document
         .getElementById('get-output')
         .innerHTML = JSON.stringify(dyCountryObj.get('IN'), null, 2);
+
+    // capital()
+    document
+        .getElementById('capital-output')
+        .innerHTML = JSON.stringify(dyCountryObj.capital('IN'), null, 2);
 </script>
 </body>
 </html>
