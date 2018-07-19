@@ -459,6 +459,30 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- languages() ends here-->
 
+            <hr>
+
+            <!-- all() -->
+            <a name="all"></a>
+            <h4><a href="#all"><code>all()</code></a> returns all the countries detail</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return all the countries detail.</p>
+
+            <pre><code>obj.all();</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-all"
+                   aria-expanded="false"
+                   aria-controls="collapse-all">Output</a>
+            </div>
+            <div class="collapse" id="collapse-all">
+                <pre><code id="all-output"></code></pre>
+            </div>
+            <!-- all() ends here-->
+
 
         </div>
 
@@ -586,6 +610,11 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('languages-output')
         .innerHTML = JSON.stringify(dyCountryObj.languages('IN'), null, 2);
+
+    // all()
+    document
+        .getElementById('all-output')
+        .innerHTML = JSON.stringify(dyCountryObj.all(), null, 2);
 
 </script>
 </body>

@@ -240,4 +240,13 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData[0], 'en-IN');
     });
 
+    /**
+     * get all() countries detail
+     */
+    it('should fetch all countries detail', () => {
+        let countryData = obj.all();
+        let matchingData = obj.get(countryData[0]['iso']['alpha2']);
+        assert.deepEqual(countryData[0], matchingData);
+    });
+
 });
