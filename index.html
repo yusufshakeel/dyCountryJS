@@ -355,6 +355,32 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- timezone() ends here-->
 
+            <hr>
+
+            <!-- fipsCode() -->
+            <a name="fipsCode"></a>
+            <h4><a href="#fipsCode"><code>fipsCode()</code></a> returns the country fips code</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country fips code.</p>
+
+            <pre><code>obj.fipsCode('IN');</code></pre>
+
+            <pre><code>obj.fipsCode('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-fipsCode"
+                   aria-expanded="false"
+                   aria-controls="collapse-fipsCode">Output</a>
+            </div>
+            <div class="collapse" id="collapse-fipsCode">
+                <pre><code id="fipsCode-output"></code></pre>
+            </div>
+            <!-- fipsCode() ends here-->
+
 
         </div>
 
@@ -462,6 +488,11 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('timezone-output')
         .innerHTML = JSON.stringify(dyCountryObj.timezone('IN'), null, 2);
+
+    // fipsCode()
+    document
+        .getElementById('fipsCode-output')
+        .innerHTML = JSON.stringify(dyCountryObj.fipsCode('IN'), null, 2);
 
 </script>
 </body>

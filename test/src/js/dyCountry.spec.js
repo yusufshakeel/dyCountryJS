@@ -176,4 +176,20 @@ describe('Testing dyCountryJS', () => {
         assert.equal(countryData, 'Asia/Kolkata');
     });
 
+    /**
+     * get fipsCode() of a country using iso-alpha-2 code
+     */
+    it('should fetch country fipsCode by iso-alpha-2 code', () => {
+        let countryData = obj.fipsCode('IN');
+        assert.equal(countryData, 'IN');
+    });
+
+    /**
+     * get fipsCode() of a country using iso-alpha-3 code
+     */
+    it('should fetch country fipsCode by iso-alpha-3 code', () => {
+        let countryData = obj.fipsCode('IND');
+        assert.equal(countryData, 'IN');
+    });
+
 });
