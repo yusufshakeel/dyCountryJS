@@ -105,9 +105,9 @@ describe('Testing dyCountryJS', () => {
     });
 
     /**
-     * get iso() of a country using iso-alpha-3 code and type
+     * get iso() of a country using iso-alpha-3 code and key
      */
-    it('should fetch country iso by iso-alpha-3 code and type', () => {
+    it('should fetch country iso by iso-alpha-3 code and key', () => {
         let countryData = obj.iso('IND', 'alpha3');
         assert.equal(countryData, 'IND');
     });
@@ -126,6 +126,22 @@ describe('Testing dyCountryJS', () => {
     it('should fetch country flag by iso-alpha-3 code', () => {
         let countryData = obj.flag('IND');
         assert.equal(countryData, 'path/to/dist/flags/in.png');
+    });
+
+    /**
+     * get continent() of a country using iso-alpha-3 code
+     */
+    it('should fetch country continent by iso-alpha-3 code', () => {
+        let countryData = obj.continent('IND');
+        assert.equal(countryData.code, 'AS');
+    });
+
+    /**
+     * get continent() of a country using iso-alpha-3 code and key
+     */
+    it('should fetch country continent by iso-alpha-3 code and key', () => {
+        let countryData = obj.continent('IND', 'name');
+        assert.equal(countryData, 'Asia');
     });
 
 });

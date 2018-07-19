@@ -5615,10 +5615,10 @@ class dyCountry {
      * iso-alpha-2 and iso-alpha-3 code
      *
      * @param {string} code iso-alpha-2 and iso-alpha-3 code
-     * @param {string} type (optional)
+     * @param {string} key (optional)
      * @returns {*}
      */
-    iso(code, type) {
+    iso(code, key) {
         let result;
 
         if (code.length === 2) {
@@ -5629,8 +5629,8 @@ class dyCountry {
             return {error: 'Invalid code'};
         }
 
-        if (typeof type !== 'undefined') {
-            result = result[type];
+        if (typeof key !== 'undefined') {
+            result = result[key];
         }
 
         if (typeof result === 'undefined') {
@@ -5660,6 +5660,36 @@ class dyCountry {
 
         // construct flag image file path
         result = this._config.flagDirPath + "/" + result.toLowerCase() + ".png";
+
+        return result;
+    }
+
+    /**
+     * This will return continent data based on country
+     * iso-alpha-2 and iso-alpha-3 code
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @param {string} key (optional)
+     * @returns {*}
+     */
+    continent(code, key) {
+        let result;
+
+        if (code.length === 2) {
+            result = this._data[code]['continent'];
+        } else if (code.length === 3) {
+            result = this._data[this._isoAlpha3_to_isoAlpha2[code]]['continent'];
+        } else {
+            return {error: 'Invalid code'};
+        }
+
+        if (typeof key !== 'undefined') {
+            result = result[key];
+        }
+
+        if (typeof result === 'undefined') {
+            return {error: 'No match found'};
+        }
 
         return result;
     }

@@ -236,7 +236,7 @@ var obj = new dyCountry(config);</code></pre>
 
             <br>
 
-            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and type to the method and
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and key to the method and
                 it will return specify country iso data.</p>
 
             <pre><code>obj.iso('IN', 'alpha3');</code></pre>
@@ -255,6 +255,53 @@ var obj = new dyCountry(config);</code></pre>
                 <pre><code id="iso-2-output"></code></pre>
             </div>
             <!-- iso() ends here-->
+
+            <hr>
+
+            <!-- continent() -->
+            <a name="continent"></a>
+            <h4><a href="#continent"><code>continent()</code></a> returns the country continent data</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country continent data.</p>
+
+            <pre><code>obj.continent('IN');</code></pre>
+
+            <pre><code>obj.continent('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-continent"
+                   aria-expanded="false"
+                   aria-controls="collapse-continent">Output</a>
+            </div>
+            <div class="collapse" id="collapse-continent">
+                <pre><code id="continent-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and key to the method and
+                it will return specify country continent data.</p>
+
+            <pre><code>obj.continent('IN', 'name');</code></pre>
+
+            <pre><code>obj.continent('IND', 'name');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-continent-2"
+                   aria-expanded="false"
+                   aria-controls="collapse-continent-2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-continent-2">
+                <pre><code id="continent-2-output"></code></pre>
+            </div>
+            <!-- continent() ends here-->
 
 
         </div>
@@ -345,6 +392,15 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('iso-2-output')
         .innerHTML = JSON.stringify(dyCountryObj.iso('IN', 'alpha3'), null, 2);
+
+    // continent()
+    document
+        .getElementById('continent-output')
+        .innerHTML = JSON.stringify(dyCountryObj.continent('IN'), null, 2);
+    document
+        .getElementById('continent-2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.continent('IN', 'name'), null, 2);
+
 </script>
 </body>
 </html>
