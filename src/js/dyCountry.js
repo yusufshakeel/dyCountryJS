@@ -6517,7 +6517,7 @@ class dyCountry {
      * @returns {*}
      */
     latlong(code, key) {
-        return this._getDataByParam(code, 'latlongw', key);
+        return this._getDataByParam(code, 'latlong', key);
     }
 
 }

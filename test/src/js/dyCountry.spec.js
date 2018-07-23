@@ -254,7 +254,7 @@ describe('Testing dyCountryJS', () => {
      */
     it('should fetch country latlong by iso-alpha-2 code', () => {
         let countryData = obj.latlong('IN');
-        assert.deepEqual(countryData, { "lat": 20.593684, "long": 78.96288 });
+        assert.deepEqual(countryData, { lat: 20.593684, long: 78.96288 });
     });
 
     /**
@@ -262,7 +262,7 @@ describe('Testing dyCountryJS', () => {
      */
     it('should fetch country latlong by iso-alpha-3 code', () => {
         let countryData = obj.latlong('IND');
-        assert.deepEqual(countryData, { "lat": 20.593684, "long": 78.96288 });
+        assert.deepEqual(countryData, { lat: 20.593684, long: 78.96288 });
     });
 
 });
