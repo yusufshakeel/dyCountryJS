@@ -211,6 +211,53 @@ var obj = new dyCountry(config);</code></pre>
 
             <hr>
 
+            <!-- latlong() -->
+            <a name="latlong"></a>
+            <h4><a href="#latlong"><code>latlong()</code></a> returns the country lat-long data</h4>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
+                it will return the country lat-long data.</p>
+
+            <pre><code>obj.latlong('IN');</code></pre>
+
+            <pre><code>obj.latlong('IND');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-latlong"
+                   aria-expanded="false"
+                   aria-controls="collapse-latlong">Output</a>
+            </div>
+            <div class="collapse" id="collapse-latlong">
+                <pre><code id="latlong-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code and key to the method and
+                it will return either country lat/long country data.</p>
+
+            <pre><code>obj.latlong('IN', 'lat');</code></pre>
+
+            <pre><code>obj.latlong('IND', 'lat');</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-latlong-2"
+                   aria-expanded="false"
+                   aria-controls="collapse-latlong-2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-latlong-2">
+                <pre><code id="latlong-2-output"></code></pre>
+            </div>
+            <!-- latlong() ends here-->
+
+            <hr>
+
             <!-- iso() -->
             <a name="iso"></a>
             <h4><a href="#iso"><code>iso()</code></a> returns the country iso data</h4>
@@ -564,6 +611,14 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('flag-output-img')
         .setAttribute('src', dyCountryObj.flag('IN'));
+
+    // latlong()
+    document
+        .getElementById('latlong-output')
+        .innerHTML = JSON.stringify(dyCountryObj.latlong('IN'), null, 2);
+    document
+        .getElementById('latlong-2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.latlong('IN', 'lat'), null, 2);
 
     // iso()
     document

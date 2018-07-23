@@ -5,7 +5,7 @@ Dictionary to get country info.
 ### Status
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yusufshakeel/dyCountryJS)
-[![npm version](https://img.shields.io/badge/npm-0.4.1-blue.svg)](https://www.npmjs.com/package/dycountryjs)
+[![npm version](https://img.shields.io/badge/npm-0.5.1-blue.svg)](https://www.npmjs.com/package/dycountryjs)
 [![Build Status](https://travis-ci.org/yusufshakeel/dyCountryJS.svg?branch=master)](https://travis-ci.org/yusufshakeel/dyCountryJS)
 [![](https://data.jsdelivr.com/v1/package/npm/dycountryjs/badge)](https://www.jsdelivr.com/package/npm/dycountryjs)
 
@@ -55,6 +55,10 @@ var data = obj.get('IN');
   },
   "timezone": {
     "capital": "Asia/Kolkata"
+  },
+  "latlong": {
+    "lat": 20.593684,
+    "long": 78.96288
   },
   "topLevelDomain": "in",
   "fipsCode": "IN",
