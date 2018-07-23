@@ -1,0 +1,64 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+
+---
+
+# [0.4.1](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.4.1) - 2018-07-20
+
+## Added
+
+Following data will be listed:
+
+* Country Name
+* Country Capital
+* Continent
+  * Name
+  * Code
+* ISO
+  * Alpha2 Code
+  * Alpha3 Code
+  * Numeric
+* Timezone
+  * Capital
+* Top Level Domain
+* FIPS Code
+* Phone Code
+* Currencies
+* Languages
+* Flag Image
+
+### Sample Ouptut
+
+```JSON
+{
+  "name": "India",
+  "capital": "New Delhi",
+  "continent": {
+    "code": "AS",
+    "name": "Asia"
+  },
+  "iso": {
+    "alpha2": "IN",
+    "alpha3": "IND",
+    "numeric": "356"
+  },
+  "timezone": {
+    "capital": "Asia/Kolkata"
+  },
+  "topLevelDomain": "in",
+  "fipsCode": "IN",
+  "phoneCode": [
+    "91"
+  ],
+  "currencies": [
+    "INR"
+  ],
+  "languages": [
+    "en-IN"
+  ],
+  "flag": "dist/flags/in.png"
+}
+```
+
+---
