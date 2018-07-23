@@ -6520,4 +6520,54 @@ class dyCountry {
         return this._getDataByParam(code, 'latlong', key);
     }
 
+    /**
+     * This will return data based on search query.
+     *
+     * @param {string|object} query search query
+     * @param {string} key (optional)
+     * @returns {*}
+     */
+    search(query) {
+
+        let
+            searchParam = 'name',
+            searchQuery = '',
+            searchResult = [];
+
+        if (typeof query === 'object') {
+            searchParam = Object.keys(query)[0];
+            searchQuery = query[searchParam];
+        } else if (typeof query === 'string') {
+            searchParam = 'name';
+            searchQuery = query;
+        } else {
+            searchResult = this.all();
+            return {
+                match: searchResult.length,
+                result: searchResult
+            };
+        }
+
+        searchResult = this.all().filter((elem) => {
+            let
+                haystack = elem[searchParam].split(' '),
+                match = [];
+            haystack.forEach((el) => {
+                if (el.toLowerCase().indexOf(searchQuery.toLowerCase()) > -1) {
+                    match.push(elem);
+                }
+            });
+
+            if (match.length > 0) {
+                return match;
+            }
+        });
+
+        return {
+            match: searchResult.length,
+            result: searchResult
+        };
+
+    }
+
 }
