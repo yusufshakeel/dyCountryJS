@@ -4,9 +4,26 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.5.1](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.5.1) - 2018-07-23
+
+### Added
+
+* `latlong` parameter which holds the latitude and longitude of the country.
+
+### Sample Output:
+
+```
+{
+  "lat": 20.593684,
+  "long": 78.96288
+}
+```
+
+---
+
 # [0.4.1](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.4.1) - 2018-07-20
 
-## Added
+### Added
 
 Following data will be listed:
 
@@ -30,7 +47,7 @@ Following data will be listed:
 
 ### Sample Ouptut
 
-```JSON
+```
 {
   "name": "India",
   "capital": "New Delhi",

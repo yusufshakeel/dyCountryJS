@@ -38,6 +38,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Kabul"
                 },
+                "latlong": {
+                    "lat": 33.93911,
+                    "long": 67.709953
+                },
                 "topLevelDomain": "af",
                 "fipsCode": "AF",
                 "phoneCode": ["93"],
@@ -57,6 +61,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": ""
+                },
+                "latlong": {
+                    "lat": 60.1995487,
+                    "long": 20.3711715
                 },
                 "topLevelDomain": "",
                 "fipsCode": "",
@@ -78,6 +86,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Tirane"
                 },
+                "latlong": {
+                    "lat": 41.153332,
+                    "long": 20.168331
+                },
                 "topLevelDomain": "al",
                 "fipsCode": "AL",
                 "phoneCode": ["355"],
@@ -97,6 +109,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Algiers"
+                },
+                "latlong": {
+                    "lat": 28.033886,
+                    "long": 1.659626
                 },
                 "topLevelDomain": "dz",
                 "fipsCode": "AG",
@@ -118,6 +134,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Pago_Pago"
                 },
+                "latlong": {
+                    "lat": -14.270972,
+                    "long": -170.132217
+                },
                 "topLevelDomain": "as",
                 "fipsCode": "AQ",
                 "phoneCode": ["1-684"],
@@ -137,6 +157,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Andorra"
+                },
+                "latlong": {
+                    "lat": 42.546245,
+                    "long": 1.601554
                 },
                 "topLevelDomain": "ad",
                 "fipsCode": "AN",
@@ -158,6 +182,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Luanda"
                 },
+                "latlong": {
+                    "lat": -11.202692,
+                    "long": 17.873887
+                },
                 "topLevelDomain": "ao",
                 "fipsCode": "AO",
                 "phoneCode": ["244"],
@@ -177,6 +205,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Anguilla"
+                },
+                "latlong": {
+                    "lat": 18.220554,
+                    "long": -63.068615
                 },
                 "topLevelDomain": "ai",
                 "fipsCode": "AV",
@@ -198,6 +230,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Antarctica/Troll"
                 },
+                "latlong": {
+                    "lat": -75.250973,
+                    "long": -0.071389
+                },
                 "topLevelDomain": "aq",
                 "fipsCode": "AY",
                 "phoneCode": [],
@@ -217,6 +253,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Antigua"
+                },
+                "latlong": {
+                    "lat": 17.060816,
+                    "long": -61.796428
                 },
                 "topLevelDomain": "ag",
                 "fipsCode": "AC",
@@ -238,6 +278,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Argentina/Buenos_Aires"
                 },
+                "latlong": {
+                    "lat": -38.416097,
+                    "long": -63.616672
+                },
                 "topLevelDomain": "ar",
                 "fipsCode": "AR",
                 "phoneCode": ["54"],
@@ -257,6 +301,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Yerevan"
+                },
+                "latlong": {
+                    "lat": 40.069099,
+                    "long": 45.038189
                 },
                 "topLevelDomain": "am",
                 "fipsCode": "AM",
@@ -278,6 +326,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Aruba"
                 },
+                "latlong": {
+                    "lat": 12.52111,
+                    "long": -69.968338
+                },
                 "topLevelDomain": "aw",
                 "fipsCode": "AA",
                 "phoneCode": ["297"],
@@ -297,6 +349,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Australia/Sydney"
+                },
+                "latlong": {
+                    "lat": -25.274398,
+                    "long": 133.775136
                 },
                 "topLevelDomain": "au",
                 "fipsCode": "AS",
@@ -318,6 +374,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Vienna"
                 },
+                "latlong": {
+                    "lat": 47.516231,
+                    "long": 14.550072
+                },
                 "topLevelDomain": "at",
                 "fipsCode": "AU",
                 "phoneCode": ["43"],
@@ -337,6 +397,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Baku"
+                },
+                "latlong": {
+                    "lat": 40.143105,
+                    "long": 47.576927
                 },
                 "topLevelDomain": "az",
                 "fipsCode": "AJ",
@@ -358,6 +422,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Nassau"
                 },
+                "latlong": {
+                    "lat": 25.03428,
+                    "long": -77.39628
+                },
                 "topLevelDomain": "bs",
                 "fipsCode": "BF",
                 "phoneCode": ["1-242"],
@@ -377,6 +445,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Bahrain"
+                },
+                "latlong": {
+                    "lat": 25.930414,
+                    "long": 50.637772
                 },
                 "topLevelDomain": "bh",
                 "fipsCode": "BA",
@@ -398,6 +470,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Dhaka"
                 },
+                "latlong": {
+                    "lat": 23.684994,
+                    "long": 90.356331
+                },
                 "topLevelDomain": "bd",
                 "fipsCode": "BG",
                 "phoneCode": ["880"],
@@ -417,6 +493,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Barbados"
+                },
+                "latlong": {
+                    "lat": 13.193887,
+                    "long": -59.543198
                 },
                 "topLevelDomain": "bb",
                 "fipsCode": "BB",
@@ -438,6 +518,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Minsk"
                 },
+                "latlong": {
+                    "lat": 53.709807,
+                    "long": 27.953389
+                },
                 "topLevelDomain": "by",
                 "fipsCode": "BO",
                 "phoneCode": ["375"],
@@ -457,6 +541,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Brussels"
+                },
+                "latlong": {
+                    "lat": 50.503887,
+                    "long": 4.469936
                 },
                 "topLevelDomain": "be",
                 "fipsCode": "BE",
@@ -478,6 +566,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Belize"
                 },
+                "latlong": {
+                    "lat": 17.189877,
+                    "long": -88.49765
+                },
                 "topLevelDomain": "bz",
                 "fipsCode": "BH",
                 "phoneCode": ["501"],
@@ -497,6 +589,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Porto-Novo"
+                },
+                "latlong": {
+                    "lat": 9.30769,
+                    "long": 2.315834
                 },
                 "topLevelDomain": "bj",
                 "fipsCode": "BN",
@@ -518,6 +614,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Atlantic/Bermuda"
                 },
+                "latlong": {
+                    "lat": 32.321384,
+                    "long": -64.75737
+                },
                 "topLevelDomain": "bm",
                 "fipsCode": "BD",
                 "phoneCode": ["1-441"],
@@ -537,6 +637,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Thimphu"
+                },
+                "latlong": {
+                    "lat": 27.514162,
+                    "long": 90.433601
                 },
                 "topLevelDomain": "bt",
                 "fipsCode": "BT",
@@ -558,6 +662,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/La_Paz"
                 },
+                "latlong": {
+                    "lat": -16.290154,
+                    "long": -63.588653
+                },
                 "topLevelDomain": "bo",
                 "fipsCode": "BL",
                 "phoneCode": ["591"],
@@ -577,6 +685,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": ""
+                },
+                "latlong": {
+                    "lat": 12.201890,
+                    "long": -68.262383
                 },
                 "topLevelDomain": "",
                 "fipsCode": "",
@@ -598,6 +710,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Sarajevo"
                 },
+                "latlong": {
+                    "lat": 43.915886,
+                    "long": 17.679076
+                },
                 "topLevelDomain": "ba",
                 "fipsCode": "BK",
                 "phoneCode": ["387"],
@@ -617,6 +733,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Gaborone"
+                },
+                "latlong": {
+                    "lat": -22.328474,
+                    "long": 24.684866
                 },
                 "topLevelDomain": "bw",
                 "fipsCode": "BC",
@@ -638,6 +758,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": -54.423199,
+                    "long": 3.413194
+                },
                 "topLevelDomain": "",
                 "fipsCode": "BV",
                 "phoneCode": [],
@@ -657,6 +781,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Sao_Paulo"
+                },
+                "latlong": {
+                    "lat": -14.235004,
+                    "long": -51.92528
                 },
                 "topLevelDomain": "br",
                 "fipsCode": "BR",
@@ -678,6 +806,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Indian/Chagos"
                 },
+                "latlong": {
+                    "lat": -6.343194,
+                    "long": 71.876519
+                },
                 "topLevelDomain": "io",
                 "fipsCode": "IO",
                 "phoneCode": ["246"],
@@ -697,6 +829,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Tortola"
+                },
+                "latlong": {
+                    "lat": 18.420695,
+                    "long": -64.639968
                 },
                 "topLevelDomain": "vg",
                 "fipsCode": "VI",
@@ -718,6 +854,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Brunei"
                 },
+                "latlong": {
+                    "lat": 4.535277,
+                    "long": 114.727669
+                },
                 "topLevelDomain": "bn",
                 "fipsCode": "BX",
                 "phoneCode": ["673"],
@@ -737,6 +877,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Sofia"
+                },
+                "latlong": {
+                    "lat": 42.733883,
+                    "long": 25.48583
                 },
                 "topLevelDomain": "bg",
                 "fipsCode": "BU",
@@ -758,6 +902,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Ouagadougou"
                 },
+                "latlong": {
+                    "lat": 12.238333,
+                    "long": -1.561593
+                },
                 "topLevelDomain": "bf",
                 "fipsCode": "UV",
                 "phoneCode": ["226"],
@@ -777,6 +925,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Bujumbura"
+                },
+                "latlong": {
+                    "lat": -3.373056,
+                    "long": 29.918886
                 },
                 "topLevelDomain": "bi",
                 "fipsCode": "BY",
@@ -798,6 +950,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Phnom_Penh"
                 },
+                "latlong": {
+                    "lat": 12.565679,
+                    "long": 104.990963
+                },
                 "topLevelDomain": "kh",
                 "fipsCode": "CB",
                 "phoneCode": ["855"],
@@ -817,6 +973,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Douala"
+                },
+                "latlong": {
+                    "lat": 7.369722,
+                    "long": 12.354722
                 },
                 "topLevelDomain": "cm",
                 "fipsCode": "CM",
@@ -838,6 +998,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Toronto"
                 },
+                "latlong": {
+                    "lat": 56.130366,
+                    "long": -106.346771
+                },
                 "topLevelDomain": "ca",
                 "fipsCode": "CA",
                 "phoneCode": ["1"],
@@ -857,6 +1021,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Atlantic/Cape_Verde"
+                },
+                "latlong": {
+                    "lat": 16.002082,
+                    "long": -24.013197
                 },
                 "topLevelDomain": "cv",
                 "fipsCode": "CV",
@@ -878,6 +1046,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Cayman"
                 },
+                "latlong": {
+                    "lat": 19.513469,
+                    "long": -80.566956
+                },
                 "topLevelDomain": "ky",
                 "fipsCode": "CJ",
                 "phoneCode": ["1-345"],
@@ -897,6 +1069,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Bangui"
+                },
+                "latlong": {
+                    "lat": 6.611111,
+                    "long": 20.939444
                 },
                 "topLevelDomain": "cf",
                 "fipsCode": "CT",
@@ -918,6 +1094,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Ndjamena"
                 },
+                "latlong": {
+                    "lat": 15.454166,
+                    "long": 18.732207
+                },
                 "topLevelDomain": "td",
                 "fipsCode": "CD",
                 "phoneCode": ["235"],
@@ -937,6 +1117,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Santiago"
+                },
+                "latlong": {
+                    "lat": -35.675147,
+                    "long": -71.542969
                 },
                 "topLevelDomain": "cl",
                 "fipsCode": "CI",
@@ -958,6 +1142,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Shanghai"
                 },
+                "latlong": {
+                    "lat": 35.86166,
+                    "long": 104.195397
+                },
                 "topLevelDomain": "cn",
                 "fipsCode": "CH",
                 "phoneCode": ["86"],
@@ -977,6 +1165,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Indian/Christmas"
+                },
+                "latlong": {
+                    "lat": -10.447525,
+                    "long": 105.690449
                 },
                 "topLevelDomain": "cx",
                 "fipsCode": "KT",
@@ -998,6 +1190,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Indian/Cocos"
                 },
+                "latlong": {
+                    "lat": -12.164165,
+                    "long": 96.870956
+                },
                 "topLevelDomain": "cc",
                 "fipsCode": "CK",
                 "phoneCode": ["61"],
@@ -1017,6 +1213,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Bogota"
+                },
+                "latlong": {
+                    "lat": 4.570868,
+                    "long": -74.297333
                 },
                 "topLevelDomain": "co",
                 "fipsCode": "CO",
@@ -1038,6 +1238,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Indian/Comoro"
                 },
+                "latlong": {
+                    "lat": -11.875001,
+                    "long": 43.872219
+                },
                 "topLevelDomain": "km",
                 "fipsCode": "CN",
                 "phoneCode": ["269"],
@@ -1057,6 +1261,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Rarotonga"
+                },
+                "latlong": {
+                    "lat": -21.236736,
+                    "long": -159.777671
                 },
                 "topLevelDomain": "ck",
                 "fipsCode": "CW",
@@ -1078,6 +1286,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Costa_Rica"
                 },
+                "latlong": {
+                    "lat": 9.748917,
+                    "long": -83.753428
+                },
                 "topLevelDomain": "cr",
                 "fipsCode": "CS",
                 "phoneCode": ["506"],
@@ -1097,6 +1309,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Zagreb"
+                },
+                "latlong": {
+                    "lat": 45.1,
+                    "long": 15.2
                 },
                 "topLevelDomain": "hr",
                 "fipsCode": "HR",
@@ -1118,6 +1334,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Havana"
                 },
+                "latlong": {
+                    "lat": 21.521757,
+                    "long": -77.781167
+                },
                 "topLevelDomain": "cu",
                 "fipsCode": "CU",
                 "phoneCode": ["53"],
@@ -1137,6 +1357,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Curacao"
+                },
+                "latlong": {
+                    "lat": 12.2135221,
+                    "long": -68.9495816
                 },
                 "topLevelDomain": "cw",
                 "fipsCode": "UC",
@@ -1158,6 +1382,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Nicosia"
                 },
+                "latlong": {
+                    "lat": 35.126413,
+                    "long": 33.429859
+                },
                 "topLevelDomain": "cy",
                 "fipsCode": "CY",
                 "phoneCode": ["357"],
@@ -1177,6 +1405,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Prague"
+                },
+                "latlong": {
+                    "lat": 49.817492,
+                    "long": 15.472962
                 },
                 "topLevelDomain": "cz",
                 "fipsCode": "EZ",
@@ -1198,6 +1430,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Kinshasa"
                 },
+                "latlong": {
+                    "lat": -4.038333,
+                    "long": 21.758664
+                },
                 "topLevelDomain": "cd",
                 "fipsCode": "CG",
                 "phoneCode": ["243"],
@@ -1217,6 +1453,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Copenhagen"
+                },
+                "latlong": {
+                    "lat": 56.26392,
+                    "long": 9.501785
                 },
                 "topLevelDomain": "dk",
                 "fipsCode": "DA",
@@ -1238,6 +1478,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Djibouti"
                 },
+                "latlong": {
+                    "lat": 11.825138,
+                    "long": 42.590275
+                },
                 "topLevelDomain": "dj",
                 "fipsCode": "DJ",
                 "phoneCode": ["253"],
@@ -1257,6 +1501,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Dominica"
+                },
+                "latlong": {
+                    "lat": 15.414999,
+                    "long": -61.370976
                 },
                 "topLevelDomain": "dm",
                 "fipsCode": "DO",
@@ -1278,6 +1526,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Santo_Domingo"
                 },
+                "latlong": {
+                    "lat": 18.735693,
+                    "long": -70.162651
+                },
                 "topLevelDomain": "do",
                 "fipsCode": "DR",
                 "phoneCode": ["1-809", "1-829"],
@@ -1297,6 +1549,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Dili"
+                },
+                "latlong": {
+                    "lat": -8.874217,
+                    "long": 125.727539
                 },
                 "topLevelDomain": "tl",
                 "fipsCode": "TT",
@@ -1318,6 +1574,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Guayaquil"
                 },
+                "latlong": {
+                    "lat": -1.831239,
+                    "long": -78.183406
+                },
                 "topLevelDomain": "ec",
                 "fipsCode": "EC",
                 "phoneCode": ["593"],
@@ -1337,6 +1597,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Cairo"
+                },
+                "latlong": {
+                    "lat": 26.820553,
+                    "long": 30.802498
                 },
                 "topLevelDomain": "eg",
                 "fipsCode": "EG",
@@ -1358,6 +1622,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/El_Salvador"
                 },
+                "latlong": {
+                    "lat": 13.794185,
+                    "long": -88.89653
+                },
                 "topLevelDomain": "sv",
                 "fipsCode": "ES",
                 "phoneCode": ["503"],
@@ -1377,6 +1645,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Malabo"
+                },
+                "latlong": {
+                    "lat": 1.650801,
+                    "long": 10.267895
                 },
                 "topLevelDomain": "gq",
                 "fipsCode": "EK",
@@ -1398,6 +1670,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Asmara"
                 },
+                "latlong": {
+                    "lat": 15.179384,
+                    "long": 39.782334
+                },
                 "topLevelDomain": "er",
                 "fipsCode": "ER",
                 "phoneCode": ["291"],
@@ -1417,6 +1693,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Tallinn"
+                },
+                "latlong": {
+                    "lat": 58.595272,
+                    "long": 25.013607
                 },
                 "topLevelDomain": "ee",
                 "fipsCode": "EN",
@@ -1438,6 +1718,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Addis_Ababa"
                 },
+                "latlong": {
+                    "lat": 9.145,
+                    "long": 40.489673
+                },
                 "topLevelDomain": "et",
                 "fipsCode": "ET",
                 "phoneCode": ["251"],
@@ -1457,6 +1741,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Atlantic/Stanley"
+                },
+                "latlong": {
+                    "lat": -51.796253,
+                    "long": -59.523613
                 },
                 "topLevelDomain": "fk",
                 "fipsCode": "FK",
@@ -1478,6 +1766,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Atlantic/Faroe"
                 },
+                "latlong": {
+                    "lat": 61.892635,
+                    "long": -6.911806
+                },
                 "topLevelDomain": "fo",
                 "fipsCode": "FO",
                 "phoneCode": ["298"],
@@ -1497,6 +1789,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Fiji"
+                },
+                "latlong": {
+                    "lat": -16.578193,
+                    "long": 179.414413
                 },
                 "topLevelDomain": "fj",
                 "fipsCode": "FJ",
@@ -1518,6 +1814,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Helsinki"
                 },
+                "latlong": {
+                    "lat": 61.92411,
+                    "long": 25.748151
+                },
                 "topLevelDomain": "fi",
                 "fipsCode": "FI",
                 "phoneCode": ["358"],
@@ -1537,6 +1837,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Paris"
+                },
+                "latlong": {
+                    "lat": 46.227638,
+                    "long": 2.213749
                 },
                 "topLevelDomain": "fr",
                 "fipsCode": "FR",
@@ -1558,6 +1862,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": 3.933889,
+                    "long": -53.125782
+                },
                 "topLevelDomain": "",
                 "fipsCode": "FG",
                 "phoneCode": ["594"],
@@ -1577,6 +1885,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Tahiti"
+                },
+                "latlong": {
+                    "lat": -17.679742,
+                    "long": -149.406843
                 },
                 "topLevelDomain": "pf",
                 "fipsCode": "FP",
@@ -1598,6 +1910,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": -49.280366,
+                    "long": 69.348557
+                },
                 "topLevelDomain": "",
                 "fipsCode": "FS",
                 "phoneCode": [],
@@ -1617,6 +1933,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Libreville"
+                },
+                "latlong": {
+                    "lat": -0.803689,
+                    "long": 11.609444
                 },
                 "topLevelDomain": "ga",
                 "fipsCode": "GB",
@@ -1638,6 +1958,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Banjul"
                 },
+                "latlong": {
+                    "lat": 13.443182,
+                    "long": -15.310139
+                },
                 "topLevelDomain": "gm",
                 "fipsCode": "GA",
                 "phoneCode": ["220"],
@@ -1657,6 +1981,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Tbilisi"
+                },
+                "latlong": {
+                    "lat": 42.315407,
+                    "long": 43.356892
                 },
                 "topLevelDomain": "ge",
                 "fipsCode": "GG",
@@ -1678,6 +2006,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Berlin"
                 },
+                "latlong": {
+                    "lat": 51.165691,
+                    "long": 10.451526
+                },
                 "topLevelDomain": "de",
                 "fipsCode": "GM",
                 "phoneCode": ["49"],
@@ -1697,6 +2029,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Accra"
+                },
+                "latlong": {
+                    "lat": 7.946527,
+                    "long": -1.023194
                 },
                 "topLevelDomain": "gh",
                 "fipsCode": "GH",
@@ -1718,6 +2054,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Gibraltar"
                 },
+                "latlong": {
+                    "lat": 36.137741,
+                    "long": -5.345374
+                },
                 "topLevelDomain": "gi",
                 "fipsCode": "GI",
                 "phoneCode": ["350"],
@@ -1737,6 +2077,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Athens"
+                },
+                "latlong": {
+                    "lat": 39.074208,
+                    "long": 21.824312
                 },
                 "topLevelDomain": "gr",
                 "fipsCode": "GR",
@@ -1758,6 +2102,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Godthab"
                 },
+                "latlong": {
+                    "lat": 71.706936,
+                    "long": -42.604303
+                },
                 "topLevelDomain": "gl",
                 "fipsCode": "GL",
                 "phoneCode": ["299"],
@@ -1777,6 +2125,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Grenada"
+                },
+                "latlong": {
+                    "lat": 12.262776,
+                    "long": -61.604171
                 },
                 "topLevelDomain": "gd",
                 "fipsCode": "GJ",
@@ -1798,6 +2150,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": 16.995971,
+                    "long": -62.067641
+                },
                 "topLevelDomain": "",
                 "fipsCode": "GP",
                 "phoneCode": ["590"],
@@ -1817,6 +2173,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Guam"
+                },
+                "latlong": {
+                    "lat": 13.444304,
+                    "long": 144.793731
                 },
                 "topLevelDomain": "gu",
                 "fipsCode": "GQ",
@@ -1838,6 +2198,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Guatemala"
                 },
+                "latlong": {
+                    "lat": 15.783471,
+                    "long": -90.230759
+                },
                 "topLevelDomain": "gt",
                 "fipsCode": "GT",
                 "phoneCode": ["502"],
@@ -1857,6 +2221,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Guernsey"
+                },
+                "latlong": {
+                    "lat": 49.465691,
+                    "long": -2.585278
                 },
                 "topLevelDomain": "gg",
                 "fipsCode": "GK",
@@ -1878,6 +2246,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Conakry"
                 },
+                "latlong": {
+                    "lat": 9.945587,
+                    "long": -9.696645
+                },
                 "topLevelDomain": "gn",
                 "fipsCode": "GV",
                 "phoneCode": ["224"],
@@ -1897,6 +2269,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Bissau"
+                },
+                "latlong": {
+                    "lat": 11.803749,
+                    "long": -15.180413
                 },
                 "topLevelDomain": "gw",
                 "fipsCode": "PU",
@@ -1918,6 +2294,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Guyana"
                 },
+                "latlong": {
+                    "lat": 4.860416,
+                    "long": -58.93018
+                },
                 "topLevelDomain": "gy",
                 "fipsCode": "GY",
                 "phoneCode": ["592"],
@@ -1937,6 +2317,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Port-au-Prince"
+                },
+                "latlong": {
+                    "lat": 18.971187,
+                    "long": -72.285215
                 },
                 "topLevelDomain": "ht",
                 "fipsCode": "HA",
@@ -1958,6 +2342,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": -53.08181,
+                    "long": 73.504158
+                },
                 "topLevelDomain": "",
                 "fipsCode": "HM",
                 "phoneCode": [],
@@ -1977,6 +2365,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Tegucigalpa"
+                },
+                "latlong": {
+                    "lat": 15.199999,
+                    "long": -86.241905
                 },
                 "topLevelDomain": "hn",
                 "fipsCode": "HO",
@@ -1998,6 +2390,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Hong_Kong"
                 },
+                "latlong": {
+                    "lat": 22.396428,
+                    "long": 114.109497
+                },
                 "topLevelDomain": "hk",
                 "fipsCode": "HK",
                 "phoneCode": ["852"],
@@ -2017,6 +2413,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Budapest"
+                },
+                "latlong": {
+                    "lat": 47.162494,
+                    "long": 19.503304
                 },
                 "topLevelDomain": "hu",
                 "fipsCode": "HU",
@@ -2038,6 +2438,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Atlantic/Reykjavik"
                 },
+                "latlong": {
+                    "lat": 64.963051,
+                    "long": -19.020835
+                },
                 "topLevelDomain": "is",
                 "fipsCode": "IC",
                 "phoneCode": ["354"],
@@ -2057,6 +2461,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Kolkata"
+                },
+                "latlong": {
+                    "lat": 20.593684,
+                    "long": 78.96288
                 },
                 "topLevelDomain": "in",
                 "fipsCode": "IN",
@@ -2078,6 +2486,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Jakarta"
                 },
+                "latlong": {
+                    "lat": -0.789275,
+                    "long": 113.921327
+                },
                 "topLevelDomain": "id",
                 "fipsCode": "ID",
                 "phoneCode": ["62"],
@@ -2097,6 +2509,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Tehran"
+                },
+                "latlong": {
+                    "lat": 32.427908,
+                    "long": 53.688046
                 },
                 "topLevelDomain": "ir",
                 "fipsCode": "IR",
@@ -2118,6 +2534,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Baghdad"
                 },
+                "latlong": {
+                    "lat": 33.223191,
+                    "long": 43.679291
+                },
                 "topLevelDomain": "iq",
                 "fipsCode": "IZ",
                 "phoneCode": ["964"],
@@ -2137,6 +2557,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Dublin"
+                },
+                "latlong": {
+                    "lat": 53.41291,
+                    "long": -8.24389
                 },
                 "topLevelDomain": "ie",
                 "fipsCode": "EI",
@@ -2158,6 +2582,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Isle_of_Man"
                 },
+                "latlong": {
+                    "lat": 54.236107,
+                    "long": -4.548056
+                },
                 "topLevelDomain": "im",
                 "fipsCode": "IM",
                 "phoneCode": ["44-1624"],
@@ -2177,6 +2605,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Jerusalem"
+                },
+                "latlong": {
+                    "lat": 31.046051,
+                    "long": 34.851612
                 },
                 "topLevelDomain": "il",
                 "fipsCode": "IS",
@@ -2198,6 +2630,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Rome"
                 },
+                "latlong": {
+                    "lat": 41.87194,
+                    "long": 12.56738
+                },
                 "topLevelDomain": "it",
                 "fipsCode": "IT",
                 "phoneCode": ["39"],
@@ -2217,6 +2653,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Abidjan"
+                },
+                "latlong": {
+                    "lat": 7.539989,
+                    "long": -5.54708
                 },
                 "topLevelDomain": "ci",
                 "fipsCode": "IV",
@@ -2238,6 +2678,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Jamaica"
                 },
+                "latlong": {
+                    "lat": 18.109581,
+                    "long": -77.297508
+                },
                 "topLevelDomain": "jm",
                 "fipsCode": "JM",
                 "phoneCode": ["1-876"],
@@ -2257,6 +2701,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Tokyo"
+                },
+                "latlong": {
+                    "lat": 36.204824,
+                    "long": 138.252924
                 },
                 "topLevelDomain": "jp",
                 "fipsCode": "JA",
@@ -2278,6 +2726,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Jersey"
                 },
+                "latlong": {
+                    "lat": 49.214439,
+                    "long": -2.13125
+                },
                 "topLevelDomain": "je",
                 "fipsCode": "JE",
                 "phoneCode": ["44-1534"],
@@ -2297,6 +2749,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Amman"
+                },
+                "latlong": {
+                    "lat": 30.585164,
+                    "long": 36.238414
                 },
                 "topLevelDomain": "jo",
                 "fipsCode": "JO",
@@ -2318,6 +2774,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Almaty"
                 },
+                "latlong": {
+                    "lat": 48.019573,
+                    "long": 66.923684
+                },
                 "topLevelDomain": "kz",
                 "fipsCode": "KZ",
                 "phoneCode": ["7"],
@@ -2337,6 +2797,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Nairobi"
+                },
+                "latlong": {
+                    "lat": -0.023559,
+                    "long": 37.906193
                 },
                 "topLevelDomain": "ke",
                 "fipsCode": "KE",
@@ -2358,6 +2822,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Tarawa"
                 },
+                "latlong": {
+                    "lat": -3.370417,
+                    "long": -168.734039
+                },
                 "topLevelDomain": "ki",
                 "fipsCode": "KR",
                 "phoneCode": ["686"],
@@ -2377,6 +2845,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Podgorica"
+                },
+                "latlong": {
+                    "lat": 42.602636,
+                    "long": 20.902977
                 },
                 "topLevelDomain": "",
                 "fipsCode": "KV",
@@ -2398,6 +2870,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Kuwait"
                 },
+                "latlong": {
+                    "lat": 29.31166,
+                    "long": 47.481766
+                },
                 "topLevelDomain": "kw",
                 "fipsCode": "KU",
                 "phoneCode": ["965"],
@@ -2417,6 +2893,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Bishkek"
+                },
+                "latlong": {
+                    "lat": 41.20438,
+                    "long": 74.766098
                 },
                 "topLevelDomain": "kg",
                 "fipsCode": "KG",
@@ -2438,6 +2918,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Vientiane"
                 },
+                "latlong": {
+                    "lat": 19.85627,
+                    "long": 102.495496
+                },
                 "topLevelDomain": "la",
                 "fipsCode": "LA",
                 "phoneCode": ["856"],
@@ -2457,6 +2941,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Riga"
+                },
+                "latlong": {
+                    "lat": 56.879635,
+                    "long": 24.603189
                 },
                 "topLevelDomain": "lv",
                 "fipsCode": "LG",
@@ -2478,6 +2966,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Beirut"
                 },
+                "latlong": {
+                    "lat": 33.854721,
+                    "long": 35.862285
+                },
                 "topLevelDomain": "lb",
                 "fipsCode": "LE",
                 "phoneCode": ["961"],
@@ -2497,6 +2989,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Maseru"
+                },
+                "latlong": {
+                    "lat": -29.609988,
+                    "long": 28.233608
                 },
                 "topLevelDomain": "ls",
                 "fipsCode": "LT",
@@ -2518,6 +3014,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Monrovia"
                 },
+                "latlong": {
+                    "lat": 6.428055,
+                    "long": -9.429499
+                },
                 "topLevelDomain": "lr",
                 "fipsCode": "LI",
                 "phoneCode": ["231"],
@@ -2537,6 +3037,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Tripoli"
+                },
+                "latlong": {
+                    "lat": 26.3351,
+                    "long": 17.228331
                 },
                 "topLevelDomain": "ly",
                 "fipsCode": "LY",
@@ -2558,6 +3062,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Vaduz"
                 },
+                "latlong": {
+                    "lat": 47.166,
+                    "long": 9.555373
+                },
                 "topLevelDomain": "li",
                 "fipsCode": "LS",
                 "phoneCode": ["423"],
@@ -2577,6 +3085,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Vilnius"
+                },
+                "latlong": {
+                    "lat": 55.169438,
+                    "long": 23.881275
                 },
                 "topLevelDomain": "lt",
                 "fipsCode": "LH",
@@ -2598,6 +3110,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Luxembourg"
                 },
+                "latlong": {
+                    "lat": 49.815273,
+                    "long": 6.129583
+                },
                 "topLevelDomain": "lu",
                 "fipsCode": "LU",
                 "phoneCode": ["352"],
@@ -2617,6 +3133,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Macau"
+                },
+                "latlong": {
+                    "lat": 22.198745,
+                    "long": 113.543873
                 },
                 "topLevelDomain": "mo",
                 "fipsCode": "MC",
@@ -2638,6 +3158,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Skopje"
                 },
+                "latlong": {
+                    "lat": 41.608635,
+                    "long": 21.745275
+                },
                 "topLevelDomain": "mk",
                 "fipsCode": "MK",
                 "phoneCode": ["389"],
@@ -2657,6 +3181,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Indian/Antananarivo"
+                },
+                "latlong": {
+                    "lat": -18.766947,
+                    "long": 46.869107
                 },
                 "topLevelDomain": "mg",
                 "fipsCode": "MA",
@@ -2678,6 +3206,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Blantyre"
                 },
+                "latlong": {
+                    "lat": -13.254308,
+                    "long": 34.301525
+                },
                 "topLevelDomain": "mw",
                 "fipsCode": "MI",
                 "phoneCode": ["265"],
@@ -2697,6 +3229,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Kuala_Lumpur"
+                },
+                "latlong": {
+                    "lat": 4.210484,
+                    "long": 101.975766
                 },
                 "topLevelDomain": "my",
                 "fipsCode": "MY",
@@ -2718,6 +3254,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Indian/Maldives"
                 },
+                "latlong": {
+                    "lat": 3.202778,
+                    "long": 73.22068
+                },
                 "topLevelDomain": "mv",
                 "fipsCode": "MV",
                 "phoneCode": ["960"],
@@ -2737,6 +3277,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Bamako"
+                },
+                "latlong": {
+                    "lat": 17.570692,
+                    "long": -3.996166
                 },
                 "topLevelDomain": "ml",
                 "fipsCode": "ML",
@@ -2758,6 +3302,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Malta"
                 },
+                "latlong": {
+                    "lat": 35.937496,
+                    "long": 14.375416
+                },
                 "topLevelDomain": "mt",
                 "fipsCode": "MT",
                 "phoneCode": ["356"],
@@ -2777,6 +3325,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Majuro"
+                },
+                "latlong": {
+                    "lat": 7.131474,
+                    "long": 171.184478
                 },
                 "topLevelDomain": "mh",
                 "fipsCode": "RM",
@@ -2798,6 +3350,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": 14.641528,
+                    "long": -61.024174
+                },
                 "topLevelDomain": "",
                 "fipsCode": "MB",
                 "phoneCode": ["596"],
@@ -2817,6 +3373,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Nouakchott"
+                },
+                "latlong": {
+                    "lat": 21.00789,
+                    "long": -10.940835
                 },
                 "topLevelDomain": "mr",
                 "fipsCode": "MR",
@@ -2838,6 +3398,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Indian/Mauritius"
                 },
+                "latlong": {
+                    "lat": -20.348404,
+                    "long": 57.552152
+                },
                 "topLevelDomain": "mu",
                 "fipsCode": "MP",
                 "phoneCode": ["230"],
@@ -2857,6 +3421,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Indian/Mayotte"
+                },
+                "latlong": {
+                    "lat": -12.8275,
+                    "long": 45.166244
                 },
                 "topLevelDomain": "yt",
                 "fipsCode": "MF",
@@ -2878,6 +3446,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Mexico_City"
                 },
+                "latlong": {
+                    "lat": 23.634501,
+                    "long": -102.552784
+                },
                 "topLevelDomain": "mx",
                 "fipsCode": "MX",
                 "phoneCode": ["52"],
@@ -2897,6 +3469,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Pohnpei"
+                },
+                "latlong": {
+                    "lat": 7.425554,
+                    "long": 150.550812
                 },
                 "topLevelDomain": "fm",
                 "fipsCode": "FM",
@@ -2918,6 +3494,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Chisinau"
                 },
+                "latlong": {
+                    "lat": 47.411631,
+                    "long": 28.369885
+                },
                 "topLevelDomain": "md",
                 "fipsCode": "MD",
                 "phoneCode": ["373"],
@@ -2937,6 +3517,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Monaco"
+                },
+                "latlong": {
+                    "lat": 43.750298,
+                    "long": 7.412841
                 },
                 "topLevelDomain": "mc",
                 "fipsCode": "MN",
@@ -2958,6 +3542,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Ulaanbaatar"
                 },
+                "latlong": {
+                    "lat": 46.862496,
+                    "long": 103.846656
+                },
                 "topLevelDomain": "mn",
                 "fipsCode": "MG",
                 "phoneCode": ["976"],
@@ -2977,6 +3565,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Podgorica"
+                },
+                "latlong": {
+                    "lat": 42.708678,
+                    "long": 19.37439
                 },
                 "topLevelDomain": "me",
                 "fipsCode": "MJ",
@@ -2998,6 +3590,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Montserrat"
                 },
+                "latlong": {
+                    "lat": 16.742498,
+                    "long": -62.187366
+                },
                 "topLevelDomain": "ms",
                 "fipsCode": "MH",
                 "phoneCode": ["1-664"],
@@ -3017,6 +3613,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Casablanca"
+                },
+                "latlong": {
+                    "lat": 31.791702,
+                    "long": -7.09262
                 },
                 "topLevelDomain": "ma",
                 "fipsCode": "MO",
@@ -3038,6 +3638,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Maputo"
                 },
+                "latlong": {
+                    "lat": -18.665695,
+                    "long": 35.529562
+                },
                 "topLevelDomain": "mz",
                 "fipsCode": "MZ",
                 "phoneCode": ["258"],
@@ -3057,6 +3661,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Rangoon"
+                },
+                "latlong": {
+                    "lat": 21.913965,
+                    "long": 95.956223
                 },
                 "topLevelDomain": "mm",
                 "fipsCode": "BM",
@@ -3078,6 +3686,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Windhoek"
                 },
+                "latlong": {
+                    "lat": -22.95764,
+                    "long": 18.49041
+                },
                 "topLevelDomain": "na",
                 "fipsCode": "WA",
                 "phoneCode": ["264"],
@@ -3097,6 +3709,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Nauru"
+                },
+                "latlong": {
+                    "lat": -0.522778,
+                    "long": 166.931503
                 },
                 "topLevelDomain": "nr",
                 "fipsCode": "NR",
@@ -3118,6 +3734,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Kathmandu"
                 },
+                "latlong": {
+                    "lat": 28.394857,
+                    "long": 84.124008
+                },
                 "topLevelDomain": "np",
                 "fipsCode": "NP",
                 "phoneCode": ["977"],
@@ -3137,6 +3757,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Amsterdam"
+                },
+                "latlong": {
+                    "lat": 52.132633,
+                    "long": 5.291266
                 },
                 "topLevelDomain": "nl",
                 "fipsCode": "NL",
@@ -3158,6 +3782,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Noumea"
                 },
+                "latlong": {
+                    "lat": -20.904305,
+                    "long": 165.618042
+                },
                 "topLevelDomain": "nc",
                 "fipsCode": "NC",
                 "phoneCode": ["687"],
@@ -3177,6 +3805,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Auckland"
+                },
+                "latlong": {
+                    "lat": -40.900557,
+                    "long": 174.885971
                 },
                 "topLevelDomain": "nz",
                 "fipsCode": "NZ",
@@ -3198,6 +3830,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Managua"
                 },
+                "latlong": {
+                    "lat": 12.865416,
+                    "long": -85.207229
+                },
                 "topLevelDomain": "ni",
                 "fipsCode": "NU",
                 "phoneCode": ["505"],
@@ -3217,6 +3853,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Niamey"
+                },
+                "latlong": {
+                    "lat": 17.607789,
+                    "long": 8.081666
                 },
                 "topLevelDomain": "ne",
                 "fipsCode": "NG",
@@ -3238,6 +3878,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Lagos"
                 },
+                "latlong": {
+                    "lat": 9.081999,
+                    "long": 8.675277
+                },
                 "topLevelDomain": "ng",
                 "fipsCode": "NI",
                 "phoneCode": ["234"],
@@ -3257,6 +3901,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Niue"
+                },
+                "latlong": {
+                    "lat": -19.054445,
+                    "long": -169.867233
                 },
                 "topLevelDomain": "nu",
                 "fipsCode": "NE",
@@ -3278,6 +3926,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": -29.040835,
+                    "long": 167.954712
+                },
                 "topLevelDomain": "",
                 "fipsCode": "NF",
                 "phoneCode": ["672"],
@@ -3297,6 +3949,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Pyongyang"
+                },
+                "latlong": {
+                    "lat": 40.339852,
+                    "long": 127.510093
                 },
                 "topLevelDomain": "kp",
                 "fipsCode": "KN",
@@ -3318,6 +3974,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Saipan"
                 },
+                "latlong": {
+                    "lat": 17.33083,
+                    "long": 145.38469
+                },
                 "topLevelDomain": "mp",
                 "fipsCode": "CQ",
                 "phoneCode": ["1-670"],
@@ -3337,6 +3997,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Oslo"
+                },
+                "latlong": {
+                    "lat": 60.472024,
+                    "long": 8.468946
                 },
                 "topLevelDomain": "no",
                 "fipsCode": "NO",
@@ -3358,6 +4022,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Muscat"
                 },
+                "latlong": {
+                    "lat": 21.512583,
+                    "long": 55.923255
+                },
                 "topLevelDomain": "om",
                 "fipsCode": "MU",
                 "phoneCode": ["968"],
@@ -3377,6 +4045,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Karachi"
+                },
+                "latlong": {
+                    "lat": 30.375321,
+                    "long": 69.345116
                 },
                 "topLevelDomain": "pk",
                 "fipsCode": "PK",
@@ -3398,6 +4070,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Palau"
                 },
+                "latlong": {
+                    "lat": 7.51498,
+                    "long": 134.58252
+                },
                 "topLevelDomain": "pw",
                 "fipsCode": "PS",
                 "phoneCode": ["680"],
@@ -3417,6 +4093,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Hebron"
+                },
+                "latlong": {
+                    "lat": 31.952162,
+                    "long": 35.233154
                 },
                 "topLevelDomain": "ps",
                 "fipsCode": "WE",
@@ -3438,6 +4118,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Panama"
                 },
+                "latlong": {
+                    "lat": 8.537981,
+                    "long": -80.782127
+                },
                 "topLevelDomain": "pa",
                 "fipsCode": "PM",
                 "phoneCode": ["507"],
@@ -3457,6 +4141,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Port_Moresby"
+                },
+                "latlong": {
+                    "lat": -6.314993,
+                    "long": 143.95555
                 },
                 "topLevelDomain": "pg",
                 "fipsCode": "PP",
@@ -3478,6 +4166,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Asuncion"
                 },
+                "latlong": {
+                    "lat": -23.442503,
+                    "long": -58.443832
+                },
                 "topLevelDomain": "py",
                 "fipsCode": "PA",
                 "phoneCode": ["595"],
@@ -3497,6 +4189,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Lima"
+                },
+                "latlong": {
+                    "lat": -9.189967,
+                    "long": -75.015152
                 },
                 "topLevelDomain": "pe",
                 "fipsCode": "PE",
@@ -3518,6 +4214,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Manila"
                 },
+                "latlong": {
+                    "lat": 12.879721,
+                    "long": 121.774017
+                },
                 "topLevelDomain": "ph",
                 "fipsCode": "RP",
                 "phoneCode": ["63"],
@@ -3537,6 +4237,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Pitcairn"
+                },
+                "latlong": {
+                    "lat": -24.703615,
+                    "long": -127.439308
                 },
                 "topLevelDomain": "pn",
                 "fipsCode": "PC",
@@ -3558,6 +4262,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Warsaw"
                 },
+                "latlong": {
+                    "lat": 51.919438,
+                    "long": 19.145136
+                },
                 "topLevelDomain": "pl",
                 "fipsCode": "PL",
                 "phoneCode": ["48"],
@@ -3577,6 +4285,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Lisbon"
+                },
+                "latlong": {
+                    "lat": 39.399872,
+                    "long": -8.224454
                 },
                 "topLevelDomain": "pt",
                 "fipsCode": "PO",
@@ -3598,6 +4310,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Puerto_Rico"
                 },
+                "latlong": {
+                    "lat": 18.220833,
+                    "long": -66.590149
+                },
                 "topLevelDomain": "pr",
                 "fipsCode": "RQ",
                 "phoneCode": ["1-787", "1-939"],
@@ -3617,6 +4333,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Qatar"
+                },
+                "latlong": {
+                    "lat": 25.354826,
+                    "long": 51.183884
                 },
                 "topLevelDomain": "qa",
                 "fipsCode": "QA",
@@ -3638,6 +4358,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Brazzaville"
                 },
+                "latlong": {
+                    "lat": -0.228021,
+                    "long": 15.827659
+                },
                 "topLevelDomain": "cg",
                 "fipsCode": "CF",
                 "phoneCode": ["242"],
@@ -3657,6 +4381,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Indian/Reunion"
+                },
+                "latlong": {
+                    "lat": -21.115141,
+                    "long": 55.536384
                 },
                 "topLevelDomain": "re",
                 "fipsCode": "RE",
@@ -3678,6 +4406,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Bucharest"
                 },
+                "latlong": {
+                    "lat": 45.943161,
+                    "long": 24.96676
+                },
                 "topLevelDomain": "ro",
                 "fipsCode": "RO",
                 "phoneCode": ["40"],
@@ -3697,6 +4429,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Moscow"
+                },
+                "latlong": {
+                    "lat": 61.52401,
+                    "long": 105.318756
                 },
                 "topLevelDomain": "ru",
                 "fipsCode": "RS",
@@ -3718,6 +4454,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Kigali"
                 },
+                "latlong": {
+                    "lat": -1.940278,
+                    "long": 29.873888
+                },
                 "topLevelDomain": "rw",
                 "fipsCode": "RW",
                 "phoneCode": ["250"],
@@ -3737,6 +4477,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/St_Barthelemy"
+                },
+                "latlong": {
+                    "lat": 17.9139222,
+                    "long": -62.8338521
                 },
                 "topLevelDomain": "gp",
                 "fipsCode": "TB",
@@ -3758,6 +4502,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Atlantic/St_Helena"
                 },
+                "latlong": {
+                    "lat": -24.143474,
+                    "long": -10.030696
+                },
                 "topLevelDomain": "sh",
                 "fipsCode": "SH",
                 "phoneCode": ["290"],
@@ -3777,6 +4525,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/St_Kitts"
+                },
+                "latlong": {
+                    "lat": 17.357822,
+                    "long": -62.782998
                 },
                 "topLevelDomain": "kn",
                 "fipsCode": "SC",
@@ -3798,6 +4550,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/St_Lucia"
                 },
+                "latlong": {
+                    "lat": 13.909444,
+                    "long": -60.978893
+                },
                 "topLevelDomain": "lc",
                 "fipsCode": "ST",
                 "phoneCode": ["1-758"],
@@ -3817,6 +4573,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Marigot"
+                },
+                "latlong": {
+                    "lat": 18.0858547,
+                    "long": -63.0618597
                 },
                 "topLevelDomain": "gp",
                 "fipsCode": "RN",
@@ -3838,6 +4598,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Miquelon"
                 },
+                "latlong": {
+                    "lat": 46.941936,
+                    "long": -56.27111
+                },
                 "topLevelDomain": "pm",
                 "fipsCode": "SB",
                 "phoneCode": ["508"],
@@ -3857,6 +4621,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/St_Vincent"
+                },
+                "latlong": {
+                    "lat": 12.984305,
+                    "long": -61.287228
                 },
                 "topLevelDomain": "vc",
                 "fipsCode": "VC",
@@ -3878,6 +4646,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Apia"
                 },
+                "latlong": {
+                    "lat": -13.759029,
+                    "long": -172.104629
+                },
                 "topLevelDomain": "ws",
                 "fipsCode": "WS",
                 "phoneCode": ["685"],
@@ -3897,6 +4669,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/San_Marino"
+                },
+                "latlong": {
+                    "lat": 43.94236,
+                    "long": 12.457777
                 },
                 "topLevelDomain": "sm",
                 "fipsCode": "SM",
@@ -3918,6 +4694,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Sao_Tome"
                 },
+                "latlong": {
+                    "lat": 0.18636,
+                    "long": 6.613081
+                },
                 "topLevelDomain": "st",
                 "fipsCode": "TP",
                 "phoneCode": ["239"],
@@ -3937,6 +4717,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Riyadh"
+                },
+                "latlong": {
+                    "lat": 23.885942,
+                    "long": 45.079162
                 },
                 "topLevelDomain": "sa",
                 "fipsCode": "SA",
@@ -3958,6 +4742,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Dakar"
                 },
+                "latlong": {
+                    "lat": 14.497401,
+                    "long": -14.452362
+                },
                 "topLevelDomain": "sn",
                 "fipsCode": "SG",
                 "phoneCode": ["221"],
@@ -3977,6 +4765,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Belgrade"
+                },
+                "latlong": {
+                    "lat": 44.016521,
+                    "long": 21.005859
                 },
                 "topLevelDomain": "rs",
                 "fipsCode": "RI",
@@ -3998,6 +4790,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Indian/Mahe"
                 },
+                "latlong": {
+                    "lat": -4.679574,
+                    "long": 55.491977
+                },
                 "topLevelDomain": "sc",
                 "fipsCode": "SE",
                 "phoneCode": ["248"],
@@ -4017,6 +4813,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Freetown"
+                },
+                "latlong": {
+                    "lat": 8.460555,
+                    "long": -11.779889
                 },
                 "topLevelDomain": "sl",
                 "fipsCode": "SL",
@@ -4038,6 +4838,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Singapore"
                 },
+                "latlong": {
+                    "lat": 1.352083,
+                    "long": 103.819836
+                },
                 "topLevelDomain": "sg",
                 "fipsCode": "SN",
                 "phoneCode": ["65"],
@@ -4057,6 +4861,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Lower_Princes"
+                },
+                "latlong": {
+                    "lat": 18.0347188,
+                    "long": -63.0681114
                 },
                 "topLevelDomain": "sx",
                 "fipsCode": "NN",
@@ -4078,6 +4886,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Bratislava"
                 },
+                "latlong": {
+                    "lat": 48.669026,
+                    "long": 19.699024
+                },
                 "topLevelDomain": "sk",
                 "fipsCode": "LO",
                 "phoneCode": ["421"],
@@ -4097,6 +4909,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Ljubljana"
+                },
+                "latlong": {
+                    "lat": 46.151241,
+                    "long": 14.995463
                 },
                 "topLevelDomain": "si",
                 "fipsCode": "SI",
@@ -4118,6 +4934,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Guadalcanal"
                 },
+                "latlong": {
+                    "lat": -9.64571,
+                    "long": 160.156194
+                },
                 "topLevelDomain": "sb",
                 "fipsCode": "BP",
                 "phoneCode": ["677"],
@@ -4137,6 +4957,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Mogadishu"
+                },
+                "latlong": {
+                    "lat": 5.152149,
+                    "long": 46.199616
                 },
                 "topLevelDomain": "so",
                 "fipsCode": "SO",
@@ -4158,6 +4982,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Johannesburg"
                 },
+                "latlong": {
+                    "lat": -30.559482,
+                    "long": 22.937506
+                },
                 "topLevelDomain": "za",
                 "fipsCode": "SF",
                 "phoneCode": ["27"],
@@ -4177,6 +5005,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": ""
+                },
+                "latlong": {
+                    "lat": -54.429579,
+                    "long": -36.587909
                 },
                 "topLevelDomain": "",
                 "fipsCode": "SX",
@@ -4198,6 +5030,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Seoul"
                 },
+                "latlong": {
+                    "lat": 35.907757,
+                    "long": 127.766922
+                },
                 "topLevelDomain": "kr",
                 "fipsCode": "KS",
                 "phoneCode": ["82"],
@@ -4217,6 +5053,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Juba"
+                },
+                "latlong": {
+                    "lat": 7.8626845,
+                    "long": 29.6949232
                 },
                 "topLevelDomain": "ss",
                 "fipsCode": "OD",
@@ -4238,6 +5078,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Madrid"
                 },
+                "latlong": {
+                    "lat": 40.463667,
+                    "long": -3.74922
+                },
                 "topLevelDomain": "es",
                 "fipsCode": "SP",
                 "phoneCode": ["34"],
@@ -4257,6 +5101,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Colombo"
+                },
+                "latlong": {
+                    "lat": 7.873054,
+                    "long": 80.771797
                 },
                 "topLevelDomain": "lk",
                 "fipsCode": "CE",
@@ -4278,6 +5126,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Khartoum"
                 },
+                "latlong": {
+                    "lat": 12.862807,
+                    "long": 30.217636
+                },
                 "topLevelDomain": "sd",
                 "fipsCode": "SU",
                 "phoneCode": ["249"],
@@ -4297,6 +5149,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Paramaribo"
+                },
+                "latlong": {
+                    "lat": 3.919305,
+                    "long": -56.027783
                 },
                 "topLevelDomain": "sr",
                 "fipsCode": "NS",
@@ -4318,6 +5174,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Arctic/Longyearbyen"
                 },
+                "latlong": {
+                    "lat": 77.553604,
+                    "long": 23.670272
+                },
                 "topLevelDomain": "sj",
                 "fipsCode": "SV",
                 "phoneCode": ["47"],
@@ -4337,6 +5197,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Mbabane"
+                },
+                "latlong": {
+                    "lat": -26.522503,
+                    "long": 31.465866
                 },
                 "topLevelDomain": "sz",
                 "fipsCode": "WZ",
@@ -4358,6 +5222,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Stockholm"
                 },
+                "latlong": {
+                    "lat": 60.128161,
+                    "long": 18.643501
+                },
                 "topLevelDomain": "se",
                 "fipsCode": "SW",
                 "phoneCode": ["46"],
@@ -4377,6 +5245,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Zurich"
+                },
+                "latlong": {
+                    "lat": 46.818188,
+                    "long": 8.227512
                 },
                 "topLevelDomain": "ch",
                 "fipsCode": "SZ",
@@ -4398,6 +5270,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Damascus"
                 },
+                "latlong": {
+                    "lat": 34.802075,
+                    "long": 38.996815
+                },
                 "topLevelDomain": "sy",
                 "fipsCode": "SY",
                 "phoneCode": ["963"],
@@ -4417,6 +5293,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Taipei"
+                },
+                "latlong": {
+                    "lat": 23.69781,
+                    "long": 120.960515
                 },
                 "topLevelDomain": "tw",
                 "fipsCode": "TW",
@@ -4438,6 +5318,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Dushanbe"
                 },
+                "latlong": {
+                    "lat": 38.861034,
+                    "long": 71.276093
+                },
                 "topLevelDomain": "tj",
                 "fipsCode": "TI",
                 "phoneCode": ["992"],
@@ -4457,6 +5341,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Dar_es_Salaam"
+                },
+                "latlong": {
+                    "lat": -6.369028,
+                    "long": 34.888822
                 },
                 "topLevelDomain": "tz",
                 "fipsCode": "TZ",
@@ -4478,6 +5366,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Bangkok"
                 },
+                "latlong": {
+                    "lat": 15.870032,
+                    "long": 100.992541
+                },
                 "topLevelDomain": "th",
                 "fipsCode": "TH",
                 "phoneCode": ["66"],
@@ -4497,6 +5389,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Lome"
+                },
+                "latlong": {
+                    "lat": 8.619543,
+                    "long": 0.824782
                 },
                 "topLevelDomain": "tg",
                 "fipsCode": "TO",
@@ -4518,6 +5414,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Pacific/Fakaofo"
                 },
+                "latlong": {
+                    "lat": -8.967363,
+                    "long": -171.855881
+                },
                 "topLevelDomain": "tk",
                 "fipsCode": "TL",
                 "phoneCode": ["690"],
@@ -4537,6 +5437,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Tongatapu"
+                },
+                "latlong": {
+                    "lat": -21.178986,
+                    "long": -175.198242
                 },
                 "topLevelDomain": "to",
                 "fipsCode": "TN",
@@ -4558,6 +5462,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Port_of_Spain"
                 },
+                "latlong": {
+                    "lat": 10.691803,
+                    "long": -61.222503
+                },
                 "topLevelDomain": "tt",
                 "fipsCode": "TD",
                 "phoneCode": ["1-868"],
@@ -4577,6 +5485,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Africa/Tunis"
+                },
+                "latlong": {
+                    "lat": 33.886917,
+                    "long": 9.537499
                 },
                 "topLevelDomain": "tn",
                 "fipsCode": "TS",
@@ -4598,6 +5510,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Istanbul"
                 },
+                "latlong": {
+                    "lat": 38.963745,
+                    "long": 35.243322
+                },
                 "topLevelDomain": "tr",
                 "fipsCode": "TU",
                 "phoneCode": ["90"],
@@ -4617,6 +5533,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Ashgabat"
+                },
+                "latlong": {
+                    "lat": 38.969719,
+                    "long": 59.556278
                 },
                 "topLevelDomain": "tm",
                 "fipsCode": "TX",
@@ -4638,6 +5558,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/Grand_Turk"
                 },
+                "latlong": {
+                    "lat": 21.694025,
+                    "long": -71.797928
+                },
                 "topLevelDomain": "tc",
                 "fipsCode": "TK",
                 "phoneCode": ["1-649"],
@@ -4657,6 +5581,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Funafuti"
+                },
+                "latlong": {
+                    "lat": -7.109535,
+                    "long": 177.64933
                 },
                 "topLevelDomain": "tv",
                 "fipsCode": "TV",
@@ -4678,6 +5606,10 @@ class dyCountry {
                 "timezone": {
                     "capital": ""
                 },
+                "latlong": {
+                    "lat": 19.295374,
+                    "long": 166.6280441
+                },
                 "topLevelDomain": "",
                 "fipsCode": "",
                 "phoneCode": ["1"],
@@ -4697,6 +5629,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/St_Thomas"
+                },
+                "latlong": {
+                    "lat": 18.335765,
+                    "long": -64.896335
                 },
                 "topLevelDomain": "vi",
                 "fipsCode": "VQ",
@@ -4718,6 +5654,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Kampala"
                 },
+                "latlong": {
+                    "lat": 1.373333,
+                    "long": 32.290275
+                },
                 "topLevelDomain": "ug",
                 "fipsCode": "UG",
                 "phoneCode": ["256"],
@@ -4737,6 +5677,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/Kiev"
+                },
+                "latlong": {
+                    "lat": 48.379433,
+                    "long": 31.16558
                 },
                 "topLevelDomain": "ua",
                 "fipsCode": "UP",
@@ -4758,6 +5702,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Dubai"
                 },
+                "latlong": {
+                    "lat": 23.424076,
+                    "long": 53.847818
+                },
                 "topLevelDomain": "ae",
                 "fipsCode": "AE",
                 "phoneCode": ["971"],
@@ -4777,6 +5725,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Europe/London"
+                },
+                "latlong": {
+                    "lat": 55.378051,
+                    "long": -3.435973
                 },
                 "topLevelDomain": "uk",
                 "fipsCode": "UK",
@@ -4798,6 +5750,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "America/New_York"
                 },
+                "latlong": {
+                    "lat": 37.09024,
+                    "long": -95.712891
+                },
                 "topLevelDomain": "us",
                 "fipsCode": "US",
                 "phoneCode": ["1"],
@@ -4817,6 +5773,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Montevideo"
+                },
+                "latlong": {
+                    "lat": -32.522779,
+                    "long": -55.765835
                 },
                 "topLevelDomain": "uy",
                 "fipsCode": "UY",
@@ -4838,6 +5798,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Tashkent"
                 },
+                "latlong": {
+                    "lat": 41.377491,
+                    "long": 64.585262
+                },
                 "topLevelDomain": "uz",
                 "fipsCode": "UZ",
                 "phoneCode": ["998"],
@@ -4857,6 +5821,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Efate"
+                },
+                "latlong": {
+                    "lat": -15.376706,
+                    "long": 166.959158
                 },
                 "topLevelDomain": "vu",
                 "fipsCode": "NH",
@@ -4878,6 +5846,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Europe/Vatican"
                 },
+                "latlong": {
+                    "lat": 41.902916,
+                    "long": 12.453389
+                },
                 "topLevelDomain": "va",
                 "fipsCode": "VT",
                 "phoneCode": ["379"],
@@ -4897,6 +5869,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "America/Caracas"
+                },
+                "latlong": {
+                    "lat": 6.42375,
+                    "long": -66.58973
                 },
                 "topLevelDomain": "ve",
                 "fipsCode": "VE",
@@ -4918,6 +5894,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Asia/Ho_Chi_Minh"
                 },
+                "latlong": {
+                    "lat": 14.058324,
+                    "long": 108.277199
+                },
                 "topLevelDomain": "vn",
                 "fipsCode": "VM",
                 "phoneCode": ["84"],
@@ -4937,6 +5917,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Pacific/Wallis"
+                },
+                "latlong": {
+                    "lat": -13.768752,
+                    "long": -177.156097
                 },
                 "topLevelDomain": "wf",
                 "fipsCode": "WF",
@@ -4958,6 +5942,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/El_Aaiun"
                 },
+                "latlong": {
+                    "lat": 24.215527,
+                    "long": -12.885834
+                },
                 "topLevelDomain": "eh",
                 "fipsCode": "WI",
                 "phoneCode": ["212"],
@@ -4977,6 +5965,10 @@ class dyCountry {
                 },
                 "timezone": {
                     "capital": "Asia/Aden"
+                },
+                "latlong": {
+                    "lat": 15.552727,
+                    "long": 48.516388
                 },
                 "topLevelDomain": "ye",
                 "fipsCode": "YM",
@@ -4998,6 +5990,10 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Lusaka"
                 },
+                "latlong": {
+                    "lat": -13.133897,
+                    "long": 27.849332
+                },
                 "topLevelDomain": "zm",
                 "fipsCode": "ZA",
                 "phoneCode": ["260"],
@@ -5018,12 +6014,16 @@ class dyCountry {
                 "timezone": {
                     "capital": "Africa/Harare"
                 },
+                "latlong": {
+                    "lat": -19.015438,
+                    "long": 29.154857
+                },
                 "topLevelDomain": "zw",
                 "fipsCode": "ZI",
                 "phoneCode": ["263"],
                 "currencies": ["ZWL"],
                 "languages": ["en-ZW", "sn", "nr", "nd"]
-            },
+            }
         };
 
         this._continentName = {
@@ -5506,6 +6506,18 @@ class dyCountry {
             elem['continent']['name'] = this.continent(elem.iso.alpha2, 'name');
             return elem;
         });
+    }
+
+    /**
+     * This will return lat long data based on country
+     * iso-alpha-2 and iso-alpha-3 code
+     *
+     * @param {string} code iso-alpha-2 and iso-alpha-3 code
+     * @param {string} key (optional)
+     * @returns {*}
+     */
+    latlong(code, key) {
+        return this._getDataByParam(code, 'latlongw', key);
     }
 
 }
