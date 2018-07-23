@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.6.0](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.0) - 2018-07-23
+
+### Added
+
+* `search` by name, capital, topLevelDomain, fipsCode
+
+---
+
 # [0.5.1](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.5.1) - 2018-07-23
 
 ### Added
