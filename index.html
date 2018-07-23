@@ -530,6 +530,109 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- all() ends here-->
 
+            <hr>
+
+            <!-- search() -->
+            <a name="search"></a>
+            <h4><a href="#search"><code>search()</code></a> returns all the countries matching the search query
+            </h4>
+
+            <p>Pass string query to the method and
+                it will return all the countries matching the country name.</p>
+
+            <pre><code>obj.search('India');</code></pre>
+
+            <p>Where <code>match</code> is the total number of match.</p>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search"
+                   aria-expanded="false"
+                   aria-controls="collapse-search">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search">
+                <pre><code id="search-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>name</code> parameter query to the method and
+                it will return all the countries matching country name.</p>
+
+            <pre><code>obj.search({ name: 'India' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-2">
+                <pre><code id="search-2-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>capital</code> parameter query to the method and
+                it will return all the countries matching country capital.</p>
+
+            <pre><code>obj.search({ capital: 'Delhi' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-3"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-3">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-3">
+                <pre><code id="search-3-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>topLevelDomain</code> parameter query to the method and
+                it will return all the countries matching Top Level Domain.</p>
+
+            <pre><code>obj.search({ topLevelDomain: 'in' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-4"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-4">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-4">
+                <pre><code id="search-4-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>fipsCode</code> parameter query to the method and
+                it will return all the countries matching FIPS code.</p>
+
+            <pre><code>obj.search({ fipsCode: 'in' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-5"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-5">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-5">
+                <pre><code id="search-5-output"></code></pre>
+            </div>
+            <!-- search() ends here-->
+
 
         </div>
 
@@ -670,6 +773,23 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('all-output')
         .innerHTML = JSON.stringify(dyCountryObj.all(), null, 2);
+
+    // search()
+    document
+        .getElementById('search-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search('India'), null, 2);
+    document
+        .getElementById('search-2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({name: 'India'}), null, 2);
+    document
+        .getElementById('search-3-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({capital: 'Delhi'}), null, 2);
+    document
+        .getElementById('search-4-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({topLevelDomain: 'in'}), null, 2);
+    document
+        .getElementById('search-5-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({fipsCode: 'in'}), null, 2);
 
 </script>
 </body>
