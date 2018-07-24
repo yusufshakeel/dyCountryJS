@@ -310,4 +310,56 @@ describe('Testing dyCountryJS', () => {
         assert.deepEqual(countryData.result[0].fipsCode, 'IN');
     });
 
+    /**
+     * get search() for a country using object phoneCode query
+     */
+    it('should fetch country using object phoneCode query', () => {
+        let countryData = obj.search({phoneCode: '91'});
+        assert.equal(countryData.match, 1);
+        assert.deepEqual(countryData.result[0].phoneCode[0], '91');
+    });
+
+    /**
+     * get search() for a country using object phoneCode array query
+     */
+    it('should fetch country using object phoneCode array query', () => {
+        let countryData = obj.search({phoneCode: ['91']});
+        assert.equal(countryData.match, 1);
+        assert.deepEqual(countryData.result[0].phoneCode[0], '91');
+    });
+
+    /**
+     * get search() for a country using object currencies query
+     */
+    it('should fetch country using object currencies query', () => {
+        let countryData = obj.search({currencies: 'inr'});
+        assert.equal(countryData.match, 1);
+        assert.deepEqual(countryData.result[0].currencies[0], 'INR');
+    });
+
+    /**
+     * get search() for a country using object currencies array query
+     */
+    it('should fetch country using object currencies array query', () => {
+        let countryData = obj.search({currencies: ['inr']});
+        assert.equal(countryData.match, 1);
+        assert.deepEqual(countryData.result[0].currencies[0], 'INR');
+    });
+
+    /**
+     * get search() for a country using object languages query
+     */
+    it('should fetch country using object languages query', () => {
+        let countryData = obj.search({languages: 'IN'});
+        assert.deepEqual(countryData.result[0].languages[0], 'en-IN');
+    });
+
+    /**
+     * get search() for a country using object languages array query
+     */
+    it('should fetch country using object languages array query', () => {
+        let countryData = obj.search({languages: ['IN']});
+        assert.deepEqual(countryData.result[0].languages[0], 'en-IN');
+    });
+
 });

@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.6.3](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.3) - 2018-07-24
+
+### Added
+
+* `search` by phoneCode, currencies, languages
+
+---
+
 # [0.6.0](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.0) - 2018-07-23
 
 ### Added
