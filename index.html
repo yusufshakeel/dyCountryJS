@@ -567,12 +567,12 @@ var obj = new dyCountry(config);</code></pre>
                 <a class="btn btn-primary"
                    role="button"
                    data-toggle="collapse"
-                   href="#collapse-search-2"
+                   href="#collapse-search-name"
                    aria-expanded="false"
-                   aria-controls="collapse-search-2">Output</a>
+                   aria-controls="collapse-search-name">Output</a>
             </div>
-            <div class="collapse" id="collapse-search-2">
-                <pre><code id="search-2-output"></code></pre>
+            <div class="collapse" id="collapse-search-name">
+                <pre><code id="search-name-output"></code></pre>
             </div>
 
             <br>
@@ -586,12 +586,12 @@ var obj = new dyCountry(config);</code></pre>
                 <a class="btn btn-primary"
                    role="button"
                    data-toggle="collapse"
-                   href="#collapse-search-3"
+                   href="#collapse-search-capital"
                    aria-expanded="false"
-                   aria-controls="collapse-search-3">Output</a>
+                   aria-controls="collapse-search-capital">Output</a>
             </div>
-            <div class="collapse" id="collapse-search-3">
-                <pre><code id="search-3-output"></code></pre>
+            <div class="collapse" id="collapse-search-capital">
+                <pre><code id="search-capital-output"></code></pre>
             </div>
 
             <br>
@@ -605,12 +605,12 @@ var obj = new dyCountry(config);</code></pre>
                 <a class="btn btn-primary"
                    role="button"
                    data-toggle="collapse"
-                   href="#collapse-search-4"
+                   href="#collapse-search-topLevelDomain"
                    aria-expanded="false"
-                   aria-controls="collapse-search-4">Output</a>
+                   aria-controls="collapse-search-topLevelDomain">Output</a>
             </div>
-            <div class="collapse" id="collapse-search-4">
-                <pre><code id="search-4-output"></code></pre>
+            <div class="collapse" id="collapse-search-topLevelDomain">
+                <pre><code id="search-topLevelDomain-output"></code></pre>
             </div>
 
             <br>
@@ -624,12 +624,126 @@ var obj = new dyCountry(config);</code></pre>
                 <a class="btn btn-primary"
                    role="button"
                    data-toggle="collapse"
-                   href="#collapse-search-5"
+                   href="#collapse-search-fipsCode"
                    aria-expanded="false"
-                   aria-controls="collapse-search-5">Output</a>
+                   aria-controls="collapse-search-fipsCode">Output</a>
             </div>
-            <div class="collapse" id="collapse-search-5">
-                <pre><code id="search-5-output"></code></pre>
+            <div class="collapse" id="collapse-search-fipsCode">
+                <pre><code id="search-fipsCode-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>phoneCode</code> parameter query to the method and
+                it will return all the countries matching phone code.</p>
+
+            <pre><code>obj.search({ phoneCode: '91' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-phoneCode"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-phoneCode">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-phoneCode">
+                <pre><code id="search-phoneCode-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Passing an array of phone code and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ phoneCode: ['90', '91'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-phoneCode2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-phoneCode2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-phoneCode2">
+                <pre><code id="search-phoneCode2-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>currencies</code> parameter query to the method and
+                it will return all the countries matching currencies.</p>
+
+            <pre><code>obj.search({ currencies: 'INR' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-currencies"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-currencies">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-currencies">
+                <pre><code id="search-currencies-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Passing array of countries and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ currencies: ['INR', 'USD'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-currencies2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-currencies2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-currencies2">
+                <pre><code id="search-currencies2-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>languages</code> parameter query to the method and
+                it will return all the countries matching languages.</p>
+
+            <pre><code>obj.search({ languages: 'hi' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-languages"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-languages">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-languages">
+                <pre><code id="search-languages-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Passing array of languages and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ languages: ['hi', 'la'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-languages2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-languages2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-languages2">
+                <pre><code id="search-languages2-output"></code></pre>
             </div>
             <!-- search() ends here-->
 
@@ -779,17 +893,35 @@ var obj = new dyCountry(config);</code></pre>
         .getElementById('search-output')
         .innerHTML = JSON.stringify(dyCountryObj.search('India'), null, 2);
     document
-        .getElementById('search-2-output')
+        .getElementById('search-name-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({name: 'India'}), null, 2);
     document
-        .getElementById('search-3-output')
+        .getElementById('search-capital-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({capital: 'Delhi'}), null, 2);
     document
-        .getElementById('search-4-output')
+        .getElementById('search-topLevelDomain-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({topLevelDomain: 'in'}), null, 2);
     document
-        .getElementById('search-5-output')
+        .getElementById('search-fipsCode-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({fipsCode: 'in'}), null, 2);
+    document
+        .getElementById('search-phoneCode-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({phoneCode: '91'}), null, 2);
+    document
+        .getElementById('search-phoneCode2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({phoneCode: ['90', '91']}), null, 2);
+    document
+        .getElementById('search-currencies-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({currencies: 'INR'}), null, 2);
+    document
+        .getElementById('search-currencies2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({currencies: ['INR', 'USD']}), null, 2);
+    document
+        .getElementById('search-languages-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({languages: 'hi'}), null, 2);
+    document
+        .getElementById('search-languages2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({languages: ['hi', 'la']}), null, 2);
 
 </script>
 </body>

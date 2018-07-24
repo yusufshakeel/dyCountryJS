@@ -237,8 +237,8 @@ class dyCountry {
                 "topLevelDomain": "aq",
                 "fipsCode": "AY",
                 "phoneCode": [],
-                "currencies": [""],
-                "languages": [""]
+                "currencies": [],
+                "languages": []
             },
             "AG": {
                 "name": "Antigua and Barbuda",
@@ -766,7 +766,7 @@ class dyCountry {
                 "fipsCode": "BV",
                 "phoneCode": [],
                 "currencies": ["NOK"],
-                "languages": [""]
+                "languages": []
             },
             "BR": {
                 "name": "Brazil",
@@ -2350,7 +2350,7 @@ class dyCountry {
                 "fipsCode": "HM",
                 "phoneCode": [],
                 "currencies": ["AUD"],
-                "languages": [""]
+                "languages": []
             },
             "HN": {
                 "name": "Honduras",
@@ -6548,20 +6548,115 @@ class dyCountry {
             };
         }
 
-        searchResult = this.all().filter((elem) => {
-            let
-                haystack = elem[searchParam].split(' '),
-                match = [];
-            haystack.forEach((el) => {
-                if (el.toLowerCase().indexOf(searchQuery.toLowerCase()) > -1) {
-                    match.push(elem);
+        if (['name', 'capital', 'topLevelDomain', 'fipsCode'].indexOf(searchParam) > -1) {
+
+            searchResult = this.all().filter((elem) => {
+                let
+                    haystack = elem[searchParam].split(' '),
+                    match = [];
+                haystack.forEach((el) => {
+                    if (el.toLowerCase().indexOf(searchQuery.toLowerCase()) > -1) {
+                        match.push(elem);
+                    }
+                });
+
+                if (match.length > 0) {
+                    return match;
                 }
             });
 
-            if (match.length > 0) {
-                return match;
-            }
-        });
+        } else if (['phoneCode'].indexOf(searchParam) > -1) {
+
+            searchResult = this.all().filter((elem) => {
+                let
+                    haystack = elem[searchParam],
+                    match = [];
+
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        if (el.replace(/\D/g, '') === searchQuery.replace(/\D/g, '')) {
+                            match.push(elem);
+                        }
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            if (el.replace(/\D/g, '') === sqEl.replace(/\D/g, '')) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if (['currencies'].indexOf(searchParam) > -1) {
+
+            searchResult = this.all().filter((elem) => {
+                let
+                    haystack = elem[searchParam],
+                    match = [];
+
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        if (el.toLowerCase() === searchQuery.toLowerCase()) {
+                            match.push(elem);
+                        }
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            if (el.toLowerCase() === sqEl.toLowerCase()) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if (['languages'].indexOf(searchParam) > -1) {
+
+            searchResult = this.all().filter((elem) => {
+                let
+                    haystack = elem[searchParam],
+                    match = [];
+
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        el.replace(/\W/g, ' ').split(' ').forEach((lang) => {
+                            if (lang.toLowerCase() === searchQuery.toLowerCase()) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            el.replace(/\W/g, ' ').split(' ').forEach((lang) => {
+                                if (lang.toLowerCase() === sqEl.toLowerCase()) {
+                                    match.push(elem);
+                                }
+                            });
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        }
 
         return {
             match: searchResult.length,
