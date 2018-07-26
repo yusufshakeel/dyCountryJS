@@ -362,4 +362,36 @@ describe('Testing dyCountryJS', () => {
         assert.deepEqual(countryData.result[0].languages[0], 'en-IN');
     });
 
+    /**
+     * get search() for a country using object continentCode query
+     */
+    it('should fetch country using object continentCode query', () => {
+        let countryData = obj.search({continentCode: 'AS'});
+        assert.deepEqual(countryData.result[0].continent.code, 'AS');
+    });
+
+    /**
+     * get search() for a country using object continentCode array query
+     */
+    it('should fetch country using object continentCode query', () => {
+        let countryData = obj.search({continentCode: ['AS']});
+        assert.deepEqual(countryData.result[0].continent.code, 'AS');
+    });
+
+    /**
+     * get search() for a country using object continentName query
+     */
+    it('should fetch country using object continentName query', () => {
+        let countryData = obj.search({continentName: 'Asia'});
+        assert.deepEqual(countryData.result[0].continent.name, 'Asia');
+    });
+
+    /**
+     * get search() for a country using object continentName array query
+     */
+    it('should fetch country using object continentName array query', () => {
+        let countryData = obj.search({continentName: ['Asia']});
+        assert.deepEqual(countryData.result[0].continent.name, 'Asia');
+    });
+
 });
