@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.6.5](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.5) - 2018-07-26
+
+### Added
+
+* `search` by continentCode, continentName
+
+---
+
 # [0.6.3](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.3) - 2018-07-24
 
 ### Added

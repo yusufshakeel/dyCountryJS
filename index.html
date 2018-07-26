@@ -745,6 +745,82 @@ var obj = new dyCountry(config);</code></pre>
             <div class="collapse" id="collapse-search-languages2">
                 <pre><code id="search-languages2-output"></code></pre>
             </div>
+
+            <br>
+
+            <p>Pass object with <code>continentCode</code> parameter query to the method and
+                it will return all the countries having that continent code.</p>
+
+            <pre><code>obj.search({ continentCode: 'AS' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-continentCode"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-continentCode">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-continentCode">
+                <pre><code id="search-continentCode-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Passing array of continent code and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ continentCode: ['AS', 'AN'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-continentCode2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-continentCode2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-continentCode2">
+                <pre><code id="search-continentCode2-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass object with <code>continentName</code> parameter query to the method and
+                it will return all the countries having that continent name.</p>
+
+            <pre><code>obj.search({ continentName: 'Asia' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-continentName"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-continentName">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-continentName">
+                <pre><code id="search-continentName-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Passing array of continent names and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ continentName: ['Asia', 'Antarctica'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-continentName2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-continentName2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-continentName2">
+                <pre><code id="search-continentName2-output"></code></pre>
+            </div>
             <!-- search() ends here-->
 
 
@@ -922,6 +998,18 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('search-languages2-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({languages: ['hi', 'la']}), null, 2);
+    document
+        .getElementById('search-continentCode-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({continentCode: 'AS'}), null, 2);
+    document
+        .getElementById('search-continentCode2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({continentCode: ['AS', 'AN']}), null, 2);
+    document
+        .getElementById('search-continentName-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({continentName: 'Asia'}), null, 2);
+    document
+        .getElementById('search-continentName2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({continentName: ['Asia', 'Antarctica']}), null, 2);
 
 </script>
 </body>

@@ -6656,6 +6656,54 @@ class dyCountry {
 
             });
 
+        } else if ('continentCode' === searchParam) {
+
+            searchResult = this.all().filter((elem) => {
+
+                let match = [];
+
+                if (typeof searchQuery === 'string') {
+                    if (elem.continent.code.toLowerCase() === searchQuery.toLowerCase()) {
+                        return elem;
+                    }
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        if (elem.continent.code.toLowerCase() === sqEl.toLowerCase()) {
+                            match.push(elem);
+                        }
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if ('continentName' === searchParam) {
+
+            searchResult = this.all().filter((elem) => {
+
+                let match = [];
+
+                if (typeof searchQuery === 'string') {
+                    if (elem.continent.name.toLowerCase() === searchQuery.toLowerCase()) {
+                        return elem;
+                    }
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        if (elem.continent.name.toLowerCase() === sqEl.toLowerCase()) {
+                            match.push(elem);
+                        }
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
         }
 
         return {
