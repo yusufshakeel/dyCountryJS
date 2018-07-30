@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.6.7](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.7) - 2018-07-30
+
+### Added
+
+* getSelectHTML method to get HTML select element with configurable options.
+
+
+### Updated
+
+* README.md file - Added details of the methods.
+
+---
+
 # [0.6.5](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.5) - 2018-07-26
 
 ### Added

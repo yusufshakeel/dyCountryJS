@@ -373,7 +373,7 @@ describe('Testing dyCountryJS', () => {
     /**
      * get search() for a country using object continentCode array query
      */
-    it('should fetch country using object continentCode query', () => {
+    it('should fetch country using object continentCode array query', () => {
         let countryData = obj.search({continentCode: ['AS']});
         assert.deepEqual(countryData.result[0].continent.code, 'AS');
     });
