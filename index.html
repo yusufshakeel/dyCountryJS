@@ -120,7 +120,8 @@ var obj = new dyCountry(config);</code></pre>
                 <li><a href="#languages"><code>languages()</code></a> returns the country languages</li>
                 <li><a href="#all"><code>all()</code></a> returns all the countries detail</li>
                 <li><a href="#search"><code>search()</code></a> returns all the countries matching the search query</li>
-                <li><a href="#getSelectHTML"><code>getSelectHTML()</code></a> returns HTML select element of countries</li>
+                <li><a href="#getSelectHTML"><code>getSelectHTML()</code></a> returns HTML select element of countries
+                </li>
             </ul>
 
             <hr>
@@ -852,19 +853,6 @@ var obj = new dyCountry(config);</code></pre>
 
             <p>Pass the following optional configuration</p>
 
-            <pre><code>var config = {
-  id: 'my-country-list',
-  name: 'my-country-list',
-  required: true,
-  firstOptionElem: {
-    value: '-',
-    text: '--- Select ---'
-  },
-  optionValue: 'alpha2'
-};
-
-obj.getSelectHTML(config);</code></pre>
-
             <div class="table-responsive">
                 <table class="table table-striped table-bordered">
                     <tr>
@@ -898,7 +886,7 @@ obj.getSelectHTML(config);</code></pre>
                     </tr>
                     <tr>
                         <td><code>firstOptionElem</code></td>
-                        <td>Object</td>
+                        <td>object</td>
                         <td>
                             (Optional) This represents the first option HTML element
                             <br>
@@ -911,7 +899,8 @@ obj.getSelectHTML(config);</code></pre>
                         <td><code>optionValue</code></td>
                         <td>string</td>
                         <td>
-                            (Optional) This will be the value for the <code>value</code> attribute for the option HTML element.
+                            (Optional) This will be the value for the <code>value</code> attribute for the option HTML
+                            element.
                             <br>
                             If not set, then ISO-Alpha-2 value will be used.
                             <br>
@@ -922,8 +911,58 @@ obj.getSelectHTML(config);</code></pre>
                             </ul>
                         </td>
                     </tr>
+                    <tr>
+                        <td><code>countries</code></td>
+                        <td>object</td>
+                        <td>
+                            (Optional) This holds the ISO-Alpha-2 or ISO-Alpha-3 country code of all the countries to be
+                            included in the list.
+                            <br>
+                            <code>countries.list</code> array of country code
+                            <br>
+                            Example: <code>list: ['IN', 'JP']</code>
+                            <br>
+                            <code>countries.sort</code> (optional) sort the country name in ascending 'ASC' or
+                            descending 'DESC' order
+                            <br>
+                            Example: <code>sort: 'ASC'</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>selectDataAttr</code></td>
+                        <td>array</td>
+                        <td>
+                            (Optional) Array of data attributes for the select HTML element.
+                            <br>
+                            Each object contains name-value pair.
+                            <br>
+                            Example:
+                            <br>
+                            <code>{ name: 'data-hello', value: 'world' }</code>
+                        </td>
+                    </tr>
                 </table>
             </div>
+
+            <pre><code>var config = {
+  id: 'my-country-list',
+  name: 'my-country-list',
+  required: true,
+  firstOptionElem: {
+    value: '-',
+    text: '--- Select ---'
+  },
+  optionValue: 'alpha2',
+  countries: {
+    list: ['IN', 'JP', 'AU', 'CN', 'US', 'AE', 'GB', 'CA'],
+    sort: 'ASC'
+  },
+  selectDataAttr: [
+    { name: 'data-hello', value: 'world }
+  ]
+};
+
+obj.getSelectHTML(config);</code></pre>
 
             <p>Output</p>
 
@@ -1130,7 +1169,17 @@ obj.getSelectHTML(config);</code></pre>
                     value: '-',
                     text: '--- Select ---'
                 },
-                optionValue: 'alpha2'
+                optionValue: 'alpha2',
+                countries: {
+                    list: ['IN', 'JP', 'AU', 'CN', 'US', 'AE', 'GB', 'CA'],
+                    sort: 'ASC'
+                },
+                selectDataAttr: [
+                    {
+                        name: 'data-hello',
+                        value: 'world'
+                    }
+                ]
             });
 
 </script>
