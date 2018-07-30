@@ -102,7 +102,26 @@ var obj = new dyCountry(config);</code></pre>
 
         <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
 
-            <h3 class="text-center">Methods</h3>
+            <h3 class="text-center">List of Methods</h3>
+
+            <ul>
+                <li><a href="#get"><code>get()</code></a> returns the country detail</li>
+                <li><a href="#name"><code>name()</code></a> returns the country name</li>
+                <li><a href="#capital"><code>capital()</code></a> returns the country capital</li>
+                <li><a href="#flag"><code>flag()</code></a> returns the country flag image path</li>
+                <li><a href="#latlong"><code>latlong()</code></a> returns the country lat-long data</li>
+                <li><a href="#iso"><code>iso()</code></a> returns the country iso data</li>
+                <li><a href="#continent"><code>continent()</code></a> returns the country continent data</li>
+                <li><a href="#tld"><code>tld()</code></a> returns the country top level domain</li>
+                <li><a href="#timezone"><code>timezone()</code></a> returns the country timezone for capital</li>
+                <li><a href="#fipsCode"><code>fipsCode()</code></a> returns the country fips code</li>
+                <li><a href="#phoneCode"><code>phoneCode()</code></a> returns the country phone code</li>
+                <li><a href="#currencies"><code>currencies()</code></a> returns the country currencies</li>
+                <li><a href="#languages"><code>languages()</code></a> returns the country languages</li>
+                <li><a href="#all"><code>all()</code></a> returns all the countries detail</li>
+                <li><a href="#search"><code>search()</code></a> returns all the countries matching the search query</li>
+                <li><a href="#getSelectHTML"><code>getSelectHTML()</code></a> returns HTML select element of countries</li>
+            </ul>
 
             <hr>
 
@@ -823,6 +842,25 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <!-- search() ends here-->
 
+            <hr>
+
+            <!-- getSelectHTML() -->
+            <a name="getSelectHTML"></a>
+            <h4><a href="#getSelectHTML"><code>getSelectHTML()</code></a> returns HTML select element of countries</h4>
+
+            <p>Pass the following optional configuration</p>
+
+            <pre><code>var config = {
+  id: 'my-country-list',
+  name: 'my-country-list',
+  optionValue: 'alpha2'
+};
+obj.getSelectHTML(config);</code></pre>
+
+            <div id="getSelectHTML-output">
+            </div>
+            <!-- getSelectHTML() ends here-->
+
 
         </div>
 
@@ -1010,6 +1048,15 @@ var obj = new dyCountry(config);</code></pre>
     document
         .getElementById('search-continentName2-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({continentName: ['Asia', 'Antarctica']}), null, 2);
+    document
+        .getElementById('getSelectHTML-output')
+        .innerHTML =
+        dyCountryObj
+            .getSelectHTML({
+                id: 'my-country-list',
+                name: 'my-country-list',
+                optionValue: 'alpha2'
+            });
 
 </script>
 </body>

@@ -6713,4 +6713,31 @@ class dyCountry {
 
     }
 
+    /**
+     * This will return HTML select element with options.
+     *
+     * @param {object} config (optional)
+     * @returns {string}
+     */
+    getSelectHTML(config) {
+
+        let
+            html = "";
+
+        if (typeof config === 'undefined') {
+            config = {
+                id: '',
+                name: '',
+                optionValue: 'alpha2'
+            };
+        }
+
+        this.all().forEach((country) => {
+            html += '<option value="' + country.iso[config.optionValue] + '">' + country.name + '</option>';
+        });
+
+        return '<select id="' + config.id + '" name="' + config.name + '">' + html + '</select>';
+
+    }
+
 }
