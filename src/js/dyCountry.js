@@ -6722,7 +6722,8 @@ class dyCountry {
     getSelectHTML(config) {
 
         let
-            html = "";
+            html = "",
+            selectElemAttributes = "";
 
         if (typeof config === 'undefined') {
             config = {
@@ -6732,11 +6733,31 @@ class dyCountry {
             };
         }
 
+        if (typeof config.id !== 'undefined') {
+            selectElemAttributes += " id='" + config.id + "'";
+        }
+
+        if (typeof config.name !== 'undefined') {
+            selectElemAttributes += " name='" + config.name + "'";
+        }
+
+        if (typeof config.size !== 'undefined') {
+            selectElemAttributes += " size='" + config.size + "'";
+        }
+
+        if (typeof config.required !== 'undefined' && config.required === true) {
+            selectElemAttributes += " required ";
+        }
+
+        if (typeof config.firstOptionElem !== 'undefined') {
+            html += '<option value="' + config.firstOptionElem.value + '">' + config.firstOptionElem.text + '</option>';
+        }
+
         this.all().forEach((country) => {
             html += '<option value="' + country.iso[config.optionValue] + '">' + country.name + '</option>';
         });
 
-        return '<select id="' + config.id + '" name="' + config.name + '">' + html + '</select>';
+        return '<select ' + selectElemAttributes + '>' + html + '</select>';
 
     }
 
