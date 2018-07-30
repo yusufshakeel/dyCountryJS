@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.7.1](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.7.1) - 2018-07-30
+
+### Added
+
+* getSelectHTML method - Configuration to sort list of countries.
+* getSelectHTML method - Adding HTML data attribute.
+
+---
+
 # [0.6.9](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.9) - 2018-07-30
 
 ### Updated
