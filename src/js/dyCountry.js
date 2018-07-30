@@ -6753,9 +6753,48 @@ class dyCountry {
             html += '<option value="' + config.firstOptionElem.value + '">' + config.firstOptionElem.text + '</option>';
         }
 
-        this.all().forEach((country) => {
-            html += '<option value="' + country.iso[config.optionValue] + '">' + country.name + '</option>';
-        });
+        if (typeof config.selectDataAttr !== 'undefined') {
+            config.selectDataAttr.forEach((dataSettings) => {
+                selectElemAttributes += " " + dataSettings.name + "='" + dataSettings.value + "'";
+            });
+        }
+
+        if (typeof config.countries !== 'undefined') {
+
+            let countriesList = config.countries.list;
+            let countryArrData = [];
+
+            countriesList.forEach((code) => {
+
+                let country;
+                if (code.length === 2) {
+                    country = this._data[code];
+                } else if (code.length === 3) {
+                    country = this._data[this._isoAlpha3_to_isoAlpha2[code]];
+                }
+
+                countryArrData.push([country.name, code, country]);
+
+            });
+
+            if (typeof config.countries.sort !== 'undefined') {
+                if (config.countries.sort === 'ASC') {
+                    countryArrData.sort();
+                } else if (config.countries.sort === 'DESC') {
+                    countryArrData.sort().reverse();
+                }
+            }
+
+            countryArrData.forEach((countryArr) => {
+                let country = countryArr[2];
+                html += '<option value="' + country.iso[config.optionValue] + '">' + country.name + '</option>';
+            });
+
+        } else {
+            this.all().forEach((country) => {
+                html += '<option value="' + country.iso[config.optionValue] + '">' + country.name + '</option>';
+            });
+        }
 
         return '<select ' + selectElemAttributes + '>' + html + '</select>';
 
