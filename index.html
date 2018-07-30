@@ -848,14 +848,84 @@ var obj = new dyCountry(config);</code></pre>
             <a name="getSelectHTML"></a>
             <h4><a href="#getSelectHTML"><code>getSelectHTML()</code></a> returns HTML select element of countries</h4>
 
+            <p>This will return a HTML select element as a string that can be used in the web page.</p>
+
             <p>Pass the following optional configuration</p>
 
             <pre><code>var config = {
   id: 'my-country-list',
   name: 'my-country-list',
+  required: true,
+  firstOptionElem: {
+    value: '-',
+    text: '--- Select ---'
+  },
   optionValue: 'alpha2'
 };
+
 obj.getSelectHTML(config);</code></pre>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Property</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                    </tr>
+                    <tr>
+                        <td><code>id</code></td>
+                        <td>string</td>
+                        <td>(Optional) This will be the value for the <code>id</code> attribute.</td>
+                    </tr>
+                    <tr>
+                        <td><code>name</code></td>
+                        <td>string</td>
+                        <td>(Optional) This will be the value for the <code>name</code> attribute.</td>
+                    </tr>
+                    <tr>
+                        <td><code>required</code></td>
+                        <td>boolean</td>
+                        <td>(Optional) If true, then the required attribute will be added to the select element.</td>
+                    </tr>
+                    <tr>
+                        <td><code>size</code></td>
+                        <td>integer</td>
+                        <td>
+                            (Optional) This will control the total number of visible options.
+                            <br>
+                            Value like: 1, 2, 3...
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>firstOptionElem</code></td>
+                        <td>Object</td>
+                        <td>
+                            (Optional) This represents the first option HTML element
+                            <br>
+                            <code>firstOptionElem.value</code> is the value of the first option element.
+                            <br>
+                            <code>firstOptionElem.text</code> is the text of the first option element.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><code>optionValue</code></td>
+                        <td>string</td>
+                        <td>
+                            (Optional) This will be the value for the <code>value</code> attribute for the option HTML element.
+                            <br>
+                            If not set, then ISO-Alpha-2 value will be used.
+                            <br>
+                            Allowed values:
+                            <ul>
+                                <li><code>alpha2</code></li>
+                                <li><code>alpha3</code></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <p>Output</p>
 
             <div id="getSelectHTML-output">
             </div>
@@ -1055,6 +1125,11 @@ obj.getSelectHTML(config);</code></pre>
             .getSelectHTML({
                 id: 'my-country-list',
                 name: 'my-country-list',
+                required: true,
+                firstOptionElem: {
+                    value: '-',
+                    text: '--- Select ---'
+                },
                 optionValue: 'alpha2'
             });
 

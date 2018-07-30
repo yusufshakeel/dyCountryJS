@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.6.9](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.9) - 2018-07-30
+
+### Updated
+
+* getSelectHTML method.
+
+---
+
 # [0.6.7](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.6.7) - 2018-07-30
 
 ### Added
