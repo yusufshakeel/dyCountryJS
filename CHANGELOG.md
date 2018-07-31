@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+# [0.8.1](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.8.1) - 2018-07-31
+
+### Added
+
+* search countries by multiple queries using `search()` method.
+
+### Update
+
+* search countries by
+  * `name` array like ['ind', 'aus']
+  * `capital` array like ['delhi', 'tokyo']
+  * `topLevelDomain` array like ['in', 'us']
+  * `fipsCode` array like ['in', 'us']
+
+* index.html - Methods doc update.
+* README.md - Methods doc update.
+
+---
+
 # [0.7.2](https://github.com/yusufshakeel/dyCountryJS/releases/tag/v0.7.2) - 2018-07-31
 
 ### Update
