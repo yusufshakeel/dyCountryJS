@@ -5,7 +5,7 @@ Dictionary to get country info.
 ## Status
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yusufshakeel/dyCountryJS)
-[![npm version](https://img.shields.io/badge/npm-0.7.1-blue.svg)](https://www.npmjs.com/package/dycountryjs)
+[![npm version](https://img.shields.io/badge/npm-0.7.2-blue.svg)](https://www.npmjs.com/package/dycountryjs)
 [![Build Status](https://travis-ci.org/yusufshakeel/dyCountryJS.svg?branch=master)](https://travis-ci.org/yusufshakeel/dyCountryJS)
 [![](https://data.jsdelivr.com/v1/package/npm/dycountryjs/badge)](https://www.jsdelivr.com/package/npm/dycountryjs)
 
@@ -32,7 +32,7 @@ You will get the minified file inside `dist/js` directory.
 
 ## How to use?
 
-1. Include dyCountry.min.js file.
+Step 1: Include dyCountry.min.js file.
 
 ```HTML
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ You will get the minified file inside `dist/js` directory.
 ```
 
 
-2. Create an instance of dyCountry class and pass an optional config.
+Step 2: Create an instance of dyCountry class and pass an optional config.
 
 ```JavaScript
 var config = {
@@ -61,7 +61,7 @@ var obj = new dyCountry(config);
 ```
 
 
-3. Call methods like ```get``` to fetch data of a country based on ISO-Alpha-2 or ISO-Alpha-3 code.
+Step 3: Call methods like ```get``` to fetch data of a country based on ISO-Alpha-2 or ISO-Alpha-3 code.
 
 ```
 var data = obj.get('IN');
@@ -436,9 +436,140 @@ obj.all();
 ]
 ```
 
-## More methods...
 
-* ```search()``` returns all the countries matching the search query
+## ```search()``` returns all the countries matching the search query
+
+Pass string query to the method and it will return all the countries matching the country name.
+
+```JavaScript
+obj.search('India');
+```
+
+### Result
+
+```JavaScript
+{
+  "match": N,
+  "result": [
+    { country-data },
+    { country-data }
+    ...
+    ...
+  ]
+}
+```
+
+Where, `match` is the total number of matching result. If no match is found then `N` will be 0 and `result` will be an empty array [].
+
+### Search by name
+
+Pass object with `name` parameter query to the method and it will return all the countries matching country name.
+
+```JavaScript
+obj.search({ name: 'India' });
+```
+
+### Search by capital
+
+Pass object with `capital` parameter query to the method and it will return all the countries matching country capital.
+
+```JavaScript
+obj.search({ capital: 'Delhi' });
+```
+
+### Search by topLevelDomain
+
+Pass object with `topLevelDomain` parameter query to the method and it will return all the countries matching Top Level Domain.
+
+```JavaScript
+obj.search({ topLevelDomain: 'in' });
+```
+
+### Search by fipsCode
+
+Pass object with `fipsCode` parameter query to the method and it will return all the countries matching FIPS code.
+
+```JavaScript
+obj.search({ fipsCode: 'in' });
+```
+
+### Search by phoneCode
+
+Pass object with `phoneCode` parameter query to the method and it will return all the countries matching phone code.
+
+```JavaScript
+obj.search({ phoneCode: '91' });
+```
+
+
+Pass an array of phone code and it will return all the matching countries.
+
+```JavaScript
+obj.search({ phoneCode: ['90', '91'] });
+```
+
+### Search by currencies
+
+Pass object with `currencies` parameter query to the method and it will return all the countries matching currencies.
+
+```JavaScript
+obj.search({ currencies: 'INR' });
+```
+
+
+Pass array of currencies and it will return all the matching countries.
+
+```JavaScript
+obj.search({ currencies: ['INR', 'USD'] });
+```
+
+### Search by languages
+
+Pass object with `languages` parameter query to the method and it will return all the countries matching languages.
+
+```JavaScript
+obj.search({ languages: 'hi' });
+```
+
+
+Pass array of languages and it will return all the matching countries.
+
+```JavaScript
+obj.search({ languages: ['hi', 'la'] });
+```
+
+### Search by continentCode
+
+Pass object with `continentCode` parameter query to the method and it will return all the countries having that continent code.
+
+```JavaScript
+obj.search({ continentCode: 'AS' });
+```
+
+
+Pass array of continent code and it will return all the matching countries.
+
+```JavaScript
+obj.search({ continentCode: ['AS', 'AN'] });
+```
+
+### Search by continentName
+
+Pass object with `continentName` parameter query to the method and it will return all the countries having that continent name.
+
+```JavaScript
+obj.search({ continentName: 'Asia' });
+```
+
+Pass array of continent names and it will return all the matching countries.
+
+```JavaScript
+obj.search({ continentName: ['Asia', 'Antarctica'] });
+```
+
+
+
+## More methods...
 
 * ```getSelectHTML()``` returns HTML select element of countries
 
