@@ -532,8 +532,7 @@ var obj = new dyCountry(config);</code></pre>
             <a name="all"></a>
             <h4><a href="#all"><code>all()</code></a> returns all the countries detail</h4>
 
-            <p>Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and
-                it will return all the countries detail.</p>
+            <p>It will return all the countries detail.</p>
 
             <pre><code>obj.all();</code></pre>
 
@@ -599,6 +598,25 @@ var obj = new dyCountry(config);</code></pre>
 
             <br>
 
+            <p>Pass array of names and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ name: ['ind', 'aus'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-name2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-name2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-name2">
+                <pre><code id="search-name2-output"></code></pre>
+            </div>
+
+            <br>
+
             <h4>Search by capital</h4>
 
             <p>Pass object with <code>capital</code> parameter query to the method and
@@ -616,6 +634,25 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <div class="collapse" id="collapse-search-capital">
                 <pre><code id="search-capital-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass array of capitals and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ capital: ['delhi', 'tokyo'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-capital2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-capital2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-capital2">
+                <pre><code id="search-capital2-output"></code></pre>
             </div>
 
             <br>
@@ -641,6 +678,25 @@ var obj = new dyCountry(config);</code></pre>
 
             <br>
 
+            <p>Pass array of topLevelDomain and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ topLevelDomain: ['in', 'au'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-topLevelDomain2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-topLevelDomain2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-topLevelDomain2">
+                <pre><code id="search-topLevelDomain2-output"></code></pre>
+            </div>
+
+            <br>
+
             <h4>Search by fipsCode</h4>
 
             <p>Pass object with <code>fipsCode</code> parameter query to the method and
@@ -658,6 +714,25 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <div class="collapse" id="collapse-search-fipsCode">
                 <pre><code id="search-fipsCode-output"></code></pre>
+            </div>
+
+            <br>
+
+            <p>Pass array of fipsCode and it will return all the matching
+                countries.</p>
+
+            <pre><code>obj.search({ fipsCode: ['in', 'us'] });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-fipsCode2"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-fipsCode2">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-fipsCode2">
+                <pre><code id="search-fipsCode2-output"></code></pre>
             </div>
 
             <br>
@@ -858,6 +933,31 @@ var obj = new dyCountry(config);</code></pre>
             </div>
             <div class="collapse" id="collapse-search-continentName2">
                 <pre><code id="search-continentName2-output"></code></pre>
+            </div>
+
+            <br>
+
+            <h4>Search by multi query</h4>
+
+            <p>Pass object with multiple parameter query to the method and
+                it will return all the matching countries.</p>
+
+            <p>Following example will fetch all contries having string
+                <code>in</code> in its name <strong>AND</strong> string <code>del</code>
+                in its capital name.</p>
+
+            <pre><code>obj.search({ name: 'in', capital: 'del' });</code></pre>
+
+            <div>
+                <a class="btn btn-primary"
+                   role="button"
+                   data-toggle="collapse"
+                   href="#collapse-search-multiquery"
+                   aria-expanded="false"
+                   aria-controls="collapse-search-multiquery">Output</a>
+            </div>
+            <div class="collapse" id="collapse-search-multiquery">
+                <pre><code id="search-multiquery-output"></code></pre>
             </div>
             <!-- search() ends here-->
 
@@ -1137,14 +1237,26 @@ obj.getSelectHTML(config);</code></pre>
         .getElementById('search-name-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({name: 'India'}), null, 2);
     document
+        .getElementById('search-name2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({name: ['ind', 'aus']}), null, 2);
+    document
         .getElementById('search-capital-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({capital: 'Delhi'}), null, 2);
+    document
+        .getElementById('search-capital2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({capital: ['delhi', 'tokyo']}), null, 2);
     document
         .getElementById('search-topLevelDomain-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({topLevelDomain: 'in'}), null, 2);
     document
+        .getElementById('search-topLevelDomain2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({topLevelDomain: ['in', 'au']}), null, 2);
+    document
         .getElementById('search-fipsCode-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({fipsCode: 'in'}), null, 2);
+    document
+        .getElementById('search-fipsCode2-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({fipsCode: ['in', 'us']}), null, 2);
     document
         .getElementById('search-phoneCode-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({phoneCode: '91'}), null, 2);
@@ -1175,6 +1287,9 @@ obj.getSelectHTML(config);</code></pre>
     document
         .getElementById('search-continentName2-output')
         .innerHTML = JSON.stringify(dyCountryObj.search({continentName: ['Asia', 'Antarctica']}), null, 2);
+    document
+        .getElementById('search-multiquery-output')
+        .innerHTML = JSON.stringify(dyCountryObj.search({name: 'in', capital: 'del'}), null, 2);
     document
         .getElementById('getSelectHTML-output')
         .innerHTML =
