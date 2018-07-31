@@ -284,11 +284,29 @@ describe('Testing dyCountryJS', () => {
     });
 
     /**
+     * get search() for a country using object name array query
+     */
+    it('should fetch country using object name query', () => {
+        let countryData = obj.search({name: ['India', 'Japan']});
+        assert.equal(countryData.match, 3);
+        assert.deepEqual(countryData.result[1].name, 'India');
+    });
+
+    /**
      * get search() for a country using object capital query
      */
     it('should fetch country using object capital query', () => {
         let countryData = obj.search({capital: 'delhi'});
         assert.equal(countryData.match, 1);
+        assert.deepEqual(countryData.result[0].capital, 'New Delhi');
+    });
+
+    /**
+     * get search() for a country using object capital array query
+     */
+    it('should fetch country using object capital array query', () => {
+        let countryData = obj.search({capital: ['delhi', 'tokyo']});
+        assert.equal(countryData.match, 2);
         assert.deepEqual(countryData.result[0].capital, 'New Delhi');
     });
 
@@ -302,11 +320,29 @@ describe('Testing dyCountryJS', () => {
     });
 
     /**
+     * get search() for a country using object topLevelDomain array query
+     */
+    it('should fetch country using object topLevelDomain query', () => {
+        let countryData = obj.search({topLevelDomain: ['in', 'au']});
+        assert.equal(countryData.match, 2);
+        assert.deepEqual(countryData.result[1].topLevelDomain, 'in');
+    });
+
+    /**
      * get search() for a country using object fipsCode query
      */
     it('should fetch country using object fipsCode query', () => {
         let countryData = obj.search({fipsCode: 'in'});
         assert.equal(countryData.match, 1);
+        assert.deepEqual(countryData.result[0].fipsCode, 'IN');
+    });
+
+    /**
+     * get search() for a country using object fipsCode array query
+     */
+    it('should fetch country using object fipsCode array query', () => {
+        let countryData = obj.search({fipsCode: ['in', 'us']});
+        assert.equal(countryData.match, 2);
         assert.deepEqual(countryData.result[0].fipsCode, 'IN');
     });
 
@@ -392,6 +428,14 @@ describe('Testing dyCountryJS', () => {
     it('should fetch country using object continentName array query', () => {
         let countryData = obj.search({continentName: ['Asia']});
         assert.deepEqual(countryData.result[0].continent.name, 'Asia');
+    });
+
+    /**
+     * get search() for multi query parameters
+     */
+    it('should fetch country using object having multi query parameters', () => {
+        let countryData = obj.search({name: 'In', capital: 'del'});
+        assert.deepEqual(countryData.result[0].name, 'India');
     });
 
 });

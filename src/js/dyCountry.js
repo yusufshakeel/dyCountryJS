@@ -6328,6 +6328,206 @@ class dyCountry {
     }
 
     /**
+     * This will return result based on query.
+     *
+     * @param array data
+     * @param string|object query
+     * @returns {*}
+     * @private
+     */
+    _getSearchData(data, query) {
+
+        let
+            searchParam = 'name',
+            searchQuery = '',
+            searchResult = [];
+
+        if (typeof query === 'object') {
+            searchParam = Object.keys(query)[0];
+            searchQuery = query[searchParam];
+        } else if (typeof query === 'string') {
+            searchParam = 'name';
+            searchQuery = query;
+        } else {
+            searchResult = data;
+            return {
+                match: searchResult.length,
+                result: searchResult
+            };
+        }
+
+        if (['name', 'capital', 'topLevelDomain', 'fipsCode'].indexOf(searchParam) > -1) {
+
+            searchResult = data.filter((elem) => {
+                let
+                    haystack = elem[searchParam].split(' '),
+                    match = [];
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        if (el.toLowerCase().indexOf(searchQuery.toLowerCase()) > -1) {
+                            match.push(elem);
+                        }
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            if (el.toLowerCase().indexOf(sqEl.toLowerCase()) > -1) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+            });
+
+        } else if (['phoneCode'].indexOf(searchParam) > -1) {
+
+            searchResult = data.filter((elem) => {
+                let
+                    haystack = elem[searchParam],
+                    match = [];
+
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        if (el.replace(/\D/g, '') === searchQuery.replace(/\D/g, '')) {
+                            match.push(elem);
+                        }
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            if (el.replace(/\D/g, '') === sqEl.replace(/\D/g, '')) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if (['currencies'].indexOf(searchParam) > -1) {
+
+            searchResult = data.filter((elem) => {
+                let
+                    haystack = elem[searchParam],
+                    match = [];
+
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        if (el.toLowerCase() === searchQuery.toLowerCase()) {
+                            match.push(elem);
+                        }
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            if (el.toLowerCase() === sqEl.toLowerCase()) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if (['languages'].indexOf(searchParam) > -1) {
+
+            searchResult = data.filter((elem) => {
+                let
+                    haystack = elem[searchParam],
+                    match = [];
+
+                if (typeof searchQuery === 'string') {
+                    haystack.forEach((el) => {
+                        el.replace(/\W/g, ' ').split(' ').forEach((lang) => {
+                            if (lang.toLowerCase() === searchQuery.toLowerCase()) {
+                                match.push(elem);
+                            }
+                        });
+                    });
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        haystack.forEach((el) => {
+                            el.replace(/\W/g, ' ').split(' ').forEach((lang) => {
+                                if (lang.toLowerCase() === sqEl.toLowerCase()) {
+                                    match.push(elem);
+                                }
+                            });
+                        });
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if ('continentCode' === searchParam) {
+
+            searchResult = data.filter((elem) => {
+
+                let match = [];
+
+                if (typeof searchQuery === 'string') {
+                    if (elem.continent.code.toLowerCase() === searchQuery.toLowerCase()) {
+                        return elem;
+                    }
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        if (elem.continent.code.toLowerCase() === sqEl.toLowerCase()) {
+                            match.push(elem);
+                        }
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        } else if ('continentName' === searchParam) {
+
+            searchResult = data.filter((elem) => {
+
+                let match = [];
+
+                if (typeof searchQuery === 'string') {
+                    if (elem.continent.name.toLowerCase() === searchQuery.toLowerCase()) {
+                        return elem;
+                    }
+                } else {
+                    searchQuery.forEach((sqEl) => {
+                        if (elem.continent.name.toLowerCase() === sqEl.toLowerCase()) {
+                            match.push(elem);
+                        }
+                    });
+                }
+
+                if (match.length > 0) {
+                    return match;
+                }
+
+            });
+
+        }
+
+        return searchResult;
+    }
+
+    /**
      * This will return country detail by country
      * iso-alpha-2 and iso-alpha-3 code.
      *
@@ -6529,181 +6729,23 @@ class dyCountry {
      */
     search(query) {
 
-        let
-            searchParam = 'name',
-            searchQuery = '',
-            searchResult = [];
+        let searchResult = [];
 
         if (typeof query === 'object') {
-            searchParam = Object.keys(query)[0];
-            searchQuery = query[searchParam];
-        } else if (typeof query === 'string') {
-            searchParam = 'name';
-            searchQuery = query;
-        } else {
+
+            let searchParams = Object.keys(query);
+
             searchResult = this.all();
-            return {
-                match: searchResult.length,
-                result: searchResult
-            };
-        }
 
-        if (['name', 'capital', 'topLevelDomain', 'fipsCode'].indexOf(searchParam) > -1) {
-
-            searchResult = this.all().filter((elem) => {
-                let
-                    haystack = elem[searchParam].split(' '),
-                    match = [];
-                haystack.forEach((el) => {
-                    if (el.toLowerCase().indexOf(searchQuery.toLowerCase()) > -1) {
-                        match.push(elem);
-                    }
-                });
-
-                if (match.length > 0) {
-                    return match;
-                }
+            searchParams.forEach((searchParam) => {
+                // query
+                let q = {};
+                q[searchParam] = query[searchParam];
+                searchResult = this._getSearchData(searchResult, q);
             });
 
-        } else if (['phoneCode'].indexOf(searchParam) > -1) {
-
-            searchResult = this.all().filter((elem) => {
-                let
-                    haystack = elem[searchParam],
-                    match = [];
-
-                if (typeof searchQuery === 'string') {
-                    haystack.forEach((el) => {
-                        if (el.replace(/\D/g, '') === searchQuery.replace(/\D/g, '')) {
-                            match.push(elem);
-                        }
-                    });
-                } else {
-                    searchQuery.forEach((sqEl) => {
-                        haystack.forEach((el) => {
-                            if (el.replace(/\D/g, '') === sqEl.replace(/\D/g, '')) {
-                                match.push(elem);
-                            }
-                        });
-                    });
-                }
-
-                if (match.length > 0) {
-                    return match;
-                }
-
-            });
-
-        } else if (['currencies'].indexOf(searchParam) > -1) {
-
-            searchResult = this.all().filter((elem) => {
-                let
-                    haystack = elem[searchParam],
-                    match = [];
-
-                if (typeof searchQuery === 'string') {
-                    haystack.forEach((el) => {
-                        if (el.toLowerCase() === searchQuery.toLowerCase()) {
-                            match.push(elem);
-                        }
-                    });
-                } else {
-                    searchQuery.forEach((sqEl) => {
-                        haystack.forEach((el) => {
-                            if (el.toLowerCase() === sqEl.toLowerCase()) {
-                                match.push(elem);
-                            }
-                        });
-                    });
-                }
-
-                if (match.length > 0) {
-                    return match;
-                }
-
-            });
-
-        } else if (['languages'].indexOf(searchParam) > -1) {
-
-            searchResult = this.all().filter((elem) => {
-                let
-                    haystack = elem[searchParam],
-                    match = [];
-
-                if (typeof searchQuery === 'string') {
-                    haystack.forEach((el) => {
-                        el.replace(/\W/g, ' ').split(' ').forEach((lang) => {
-                            if (lang.toLowerCase() === searchQuery.toLowerCase()) {
-                                match.push(elem);
-                            }
-                        });
-                    });
-                } else {
-                    searchQuery.forEach((sqEl) => {
-                        haystack.forEach((el) => {
-                            el.replace(/\W/g, ' ').split(' ').forEach((lang) => {
-                                if (lang.toLowerCase() === sqEl.toLowerCase()) {
-                                    match.push(elem);
-                                }
-                            });
-                        });
-                    });
-                }
-
-                if (match.length > 0) {
-                    return match;
-                }
-
-            });
-
-        } else if ('continentCode' === searchParam) {
-
-            searchResult = this.all().filter((elem) => {
-
-                let match = [];
-
-                if (typeof searchQuery === 'string') {
-                    if (elem.continent.code.toLowerCase() === searchQuery.toLowerCase()) {
-                        return elem;
-                    }
-                } else {
-                    searchQuery.forEach((sqEl) => {
-                        if (elem.continent.code.toLowerCase() === sqEl.toLowerCase()) {
-                            match.push(elem);
-                        }
-                    });
-                }
-
-                if (match.length > 0) {
-                    return match;
-                }
-
-            });
-
-        } else if ('continentName' === searchParam) {
-
-            searchResult = this.all().filter((elem) => {
-
-                let match = [];
-
-                if (typeof searchQuery === 'string') {
-                    if (elem.continent.name.toLowerCase() === searchQuery.toLowerCase()) {
-                        return elem;
-                    }
-                } else {
-                    searchQuery.forEach((sqEl) => {
-                        if (elem.continent.name.toLowerCase() === sqEl.toLowerCase()) {
-                            match.push(elem);
-                        }
-                    });
-                }
-
-                if (match.length > 0) {
-                    return match;
-                }
-
-            });
-
+        } else {
+            searchResult = this._getSearchData(this.all(), query);
         }
 
         return {
