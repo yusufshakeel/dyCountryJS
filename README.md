@@ -5,7 +5,7 @@ Dictionary to get country info.
 ## Status
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yusufshakeel/dyCountryJS)
-[![npm version](https://img.shields.io/badge/npm-0.7.2-blue.svg)](https://www.npmjs.com/package/dycountryjs)
+[![npm version](https://img.shields.io/badge/npm-0.8.1-blue.svg)](https://www.npmjs.com/package/dycountryjs)
 [![Build Status](https://travis-ci.org/yusufshakeel/dyCountryJS.svg?branch=master)](https://travis-ci.org/yusufshakeel/dyCountryJS)
 [![](https://data.jsdelivr.com/v1/package/npm/dycountryjs/badge)](https://www.jsdelivr.com/package/npm/dycountryjs)
 
@@ -419,7 +419,7 @@ obj.languages('IND');
 
 ## ```all()``` returns all the countries detail
 
-Pass ISO-Alpha-2 or ISO-Alpha-3 country code to the method and it will return all the countries detail.
+It will return all the countries detail.
 
 ```JavaScript
 obj.all();
@@ -429,8 +429,8 @@ obj.all();
 
 ```
 [
-  { country-detail },
-  { country-detail },
+  { countryData },
+  { countryData },
   ...
   ...
 ]
@@ -451,8 +451,8 @@ obj.search('India');
 {
   "match": N,
   "result": [
-    { country-data },
-    { country-data }
+    { countryData },
+    { countryData }
     ...
     ...
   ]
@@ -469,6 +469,13 @@ Pass object with `name` parameter query to the method and it will return all the
 obj.search({ name: 'India' });
 ```
 
+Pass array of names and it will return all the matching countries.
+
+```JavaScript
+obj.search({ name: ['ind', 'aus'] });
+```
+
+
 ### Search by capital
 
 Pass object with `capital` parameter query to the method and it will return all the countries matching country capital.
@@ -476,6 +483,13 @@ Pass object with `capital` parameter query to the method and it will return all 
 ```JavaScript
 obj.search({ capital: 'Delhi' });
 ```
+
+Pass array of capitals and it will return all the matching countries.
+
+```JavaScript
+obj.search({ capital: ['delhi', 'tokyo'] });
+```
+
 
 ### Search by topLevelDomain
 
@@ -485,6 +499,13 @@ Pass object with `topLevelDomain` parameter query to the method and it will retu
 obj.search({ topLevelDomain: 'in' });
 ```
 
+Pass array of topLevelDomain and it will return all the matching countries.
+
+```JavaScript
+obj.search({ topLevelDomain: ['in', 'au'] });
+```
+
+
 ### Search by fipsCode
 
 Pass object with `fipsCode` parameter query to the method and it will return all the countries matching FIPS code.
@@ -492,6 +513,13 @@ Pass object with `fipsCode` parameter query to the method and it will return all
 ```JavaScript
 obj.search({ fipsCode: 'in' });
 ```
+
+Pass array of fipsCode and it will return all the matching countries.
+
+```JavaScript
+obj.search({ fipsCode: ['in', 'us'] });
+```
+
 
 ### Search by phoneCode
 
@@ -565,6 +593,16 @@ Pass array of continent names and it will return all the matching countries.
 
 ```JavaScript
 obj.search({ continentName: ['Asia', 'Antarctica'] });
+```
+
+### Search by multi parameters
+
+Pass object with multiple query parameters to the method and it will return all the matching countries.
+
+Following example will fetch all contries having string `in` in its `name` AND string `del` in its `capital`.
+
+```JavaScript
+obj.search({ name: 'in', capital: 'del' });
 ```
 
 
